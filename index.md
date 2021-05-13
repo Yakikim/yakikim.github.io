@@ -9,3 +9,4 @@ Other pages on this zettelkasten:
 
 - [[faq]]#
 - [[K8s]]#
+- [[DEVOPS/K8s]]
