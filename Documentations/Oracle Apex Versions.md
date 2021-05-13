@@ -3,7 +3,7 @@ tags: [APEX, op, Infrastractures]
 ---
 #  גרסאות  Oracle APEX
 ----- 
-<div dir="rtl">
+<div id="pdfdiv" dir="rtl">
 ##  המלצה נכון ליום [[10/05/2021]] 
 
 * המלצתי הינה המשך מעקב אחרי ה-[Known Issues](https://apex.oracle.com/pls/apex/apex_pm/r/apex211/known-issues) של גרסת 21.1 ובמדה והם לא יהיו קריטיים עבור צרכי הארגון, להתקין בסביבת ה-DB האפליקטיבי המוקמת, את הגרסה 21.1  ולא להמתין לגרסה 21.2.
@@ -198,3 +198,24 @@ This new Color Picker replaces the old one and adds new configuration options. I
 -   Monaco Editor 0.22.3
 
 ### For [[Older APEX Versions]]
+
+
+<script type="text/javascript">  
+$(window).on('load', function() {  
+var doc = new jsPDF();  
+var specialElementHandlers = {  
+    '#editor': function (element, renderer) {  
+        return true;  
+    }  
+};  
+$('#pdfview').click(function () {  
+    doc.fromHTML($('#pdfdiv').html(), 15, 15, {  
+        'width': 700,  
+            'elementHandlers': specialElementHandlers  
+    });  
+    doc.save('file.pdf');  
+});  
+});  
+</script>
+  
+<button id="pdfview">Download PDF</button>
