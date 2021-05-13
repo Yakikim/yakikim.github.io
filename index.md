@@ -2,7 +2,8 @@
 -----
 
 
-![[static/DSC_1723_1.jpg]]
+![](static/DSC_1723_1.jpg)
+
 <div dir="rtl">
 
 ברוכים הבאים לאתר שלי.
