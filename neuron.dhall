@@ -6,5 +6,5 @@
 , theme = "grey"
 -- This is used in the "edit" button
 , editUrl = Some "https://github.com/Yakikim/yakikim.github.io/edit/master"
-, plugins = [ "neuronignore", "links", "uptree", "feed" ,"dirtree" ,"tags"]
+, plugins = [ "neuronignore", "links", "uptree", "feed" ,"tags"]
 }
