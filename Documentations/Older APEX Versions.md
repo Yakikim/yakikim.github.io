@@ -1,12 +1,10 @@
 ---
 tags: [APEX, op, Infrastractures]
+Published: [[13/05/2021]]
 --- 
 
 # Older APEX Versions 
-
-Published: [[13/05/2021]]
-
-------
+-----
 
 ## Version 20.2
 
