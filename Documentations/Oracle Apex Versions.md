@@ -200,22 +200,3 @@ This new Color Picker replaces the old one and adds new configuration options. I
 ### For [[Older APEX Versions]]
 
 
-<script type="text/javascript">  
-$(window).on('load', function() {  
-var doc = new jsPDF();  
-var specialElementHandlers = {  
-    '#editor': function (element, renderer) {  
-        return true;  
-    }  
-};  
-$('#pdfview').click(function () {  
-    doc.fromHTML($('#pdfdiv').html(), 15, 15, {  
-        'width': 700,  
-            'elementHandlers': specialElementHandlers  
-    });  
-    doc.save('file.pdf');  
-});  
-});  
-</script>
-  
-<button id="pdfview">Download PDF</button>
