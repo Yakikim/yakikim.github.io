@@ -1,6 +1,8 @@
-# Yaki's Documentation Site
+# דף הבית - יקי קמחי
 
-You are viewing a template site that is generated from [neuron-template](https://github.com/srid/neuron-template) and published by [neuron](https://neuron.zettel.page/). [GitHub Pages](https://pages.github.com/) is used to automatically publish this site every time the underlying Git repository gets updated.
+ברוכים הבאים לאתר שלי.
+כאן ניתן למצוא מסמכים ומאמרים בנושאים שאותם ארצה לשתף.
+
 
 
 Get started by reading [[README]]#.
@@ -8,4 +10,4 @@ Get started by reading [[README]]#.
 Other pages on this zettelkasten:
 
 - [[faq]]#
-- [[Oracle Apex Versions]]#
+- [[Documentations/index]]
