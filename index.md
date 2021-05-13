@@ -10,4 +10,4 @@ Get started by reading [[README]]#.
 Other pages on this zettelkasten:
 
 - [[faq]]#
-- [[Documentations/index]]
+- [[Documentations/Dindex]]
