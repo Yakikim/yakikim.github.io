@@ -5,7 +5,7 @@
 <div dir = "rtl"> 
 	
 - [[Oracle Apex Versions]]#
-- [[Current state]]#
+- [[Initiate System]]#
 	
 
 </div>
