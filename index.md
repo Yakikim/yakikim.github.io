@@ -1,8 +1,8 @@
 # Yaki's Knowledge Base
 -----
 
+<img src="static/DSC_1723_1.jpg" alt="mypic" style= "width: 100px" />
 
-![](static/DSC_1723_1.jpg)
 
 <div dir="rtl">
 
@@ -10,12 +10,9 @@
 כאן ניתן למצוא מסמכים ומאמרים בנושאים שאותם ארצה לשתף.
 
 
+## רשימת הנושאים:
 
-Get started by reading [[README]]#.
-
-Other pages on this zettelkasten:
-
-- [[faq]]#
 - [[Documentations]]#
+- [[faq]]#
 	
 	</div>
