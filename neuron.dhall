@@ -3,7 +3,7 @@
 , author = Some "Yaki Kimhi"
 , siteBaseUrl = Some "https://yakikim.github.io/yaki/"
 -- List of color names: https://semantic-ui.com/usage/theming.html#sitewide-defaults
-, theme = "gray"
+, theme = "grey"
 -- This is used in the "edit" button
-, editUrl = Some "https://github.com/Yakikim/yaki/"
+, editUrl = Some "https://github.com/Yakikim/yaki/edit/master"
 }
