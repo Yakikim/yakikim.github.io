@@ -10,7 +10,7 @@
 
 		// Graph view 
 		// Disabled until https://github.com/tchayen/markdown-links/issues/28 is done
-		// "tchayen.markdown-links",
+		"tchayen.markdown-links",
 
 		// For expanding title in daily note
 		"gruntfuggly.auto-snippet",
