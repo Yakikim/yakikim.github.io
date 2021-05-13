@@ -8,5 +8,4 @@ Get started by reading [[README]]#.
 Other pages on this zettelkasten:
 
 - [[faq]]#
-- [[K8s]]#
-- [[גרסאות Oracle Apex 1]]
+- [[Oracle Apex Versions]]#
