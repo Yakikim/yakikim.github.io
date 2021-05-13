@@ -1,12 +1,9 @@
 ---
 tags: [APEX, op, Infrastractures]
 ---
-
-<div dir="rtl">
-
 #  גרסאות  Oracle APEX
 ----- 
-
+<div dir="rtl">
 ##  המלצה נכון ליום [[10/05/2021]] 
 
 * המלצתי הינה המשך מעקב אחרי ה-[Known Issues](https://apex.oracle.com/pls/apex/apex_pm/r/apex211/known-issues) של גרסת 21.1 ובמדה והם לא יהיו קריטיים עבור צרכי הארגון, להתקין בסביבת ה-DB האפליקטיבי המוקמת, את הגרסה 21.1  ולא להמתין לגרסה 21.2.

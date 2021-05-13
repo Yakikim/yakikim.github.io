@@ -1,4 +1,4 @@
-# Yaki's Homepage
+# Yaki's Knowledge Base
 -----
 
 ![[https://avatars.githubusercontent.com/u/60339558?s=400&u=5541cfd55eaace4637af422f9b04f9aa40f782a9&v=4]]
@@ -15,6 +15,6 @@ Get started by reading [[README]]#.
 Other pages on this zettelkasten:
 
 - [[faq]]#
-- [[Dindex]]#
+- [[Documentations/Documentations]]#
 	
 	</div>
