@@ -5,6 +5,8 @@ modified: 2021-06-14 10:04
 type: Document
 title: PO Personalization - HHM
 ---
+<div dir="rtl">
+
 [[2021-06-13]]
 # PO Personalization - HHM
 [[index]]/[[Open University]]/[[ERP]]/[[Purchasing]]
@@ -24,15 +26,15 @@ title: PO Personalization - HHM
 
 
 2. PO Approve Form Personalization:   
-יש לעדכן פה גם את ה-Action ![](PERSONALIZATION1.PNG)  
-![](PERSONALIZATION3.PNG)   
+יש לעדכן פה גם את ה-Action ![[PERSONALIZATION1.PNG]] 
+![[PERSONALIZATION3.PNG]]   
 
 
 3. RELEASE Approve Form Personalization:  
 
-![](PERSONALIZATION2.PNG) 
-![](PERSONALIZATION5.PNG)
-![](PERSONALIZATION6.PNG)
+![[PERSONALIZATION2.PNG]]
+![[PERSONALIZATION5.PNG]]
+![[PERSONALIZATION6.PNG]]
 
 4. Compiling xxpo_po_wf_notif_pkg.op_set_approver_att   
 
@@ -172,7 +174,7 @@ END op_set_approver_att;
 ```
 
 
-
+</dir>
 
 #op/apex/infrastractures
 #op/erp/po

@@ -5,15 +5,15 @@ link: [[Purchasing|רכש - דף הבית]]
 [[index]]/[[Open University]]/[[ERP]]
 
 ```dataview
-list from [[HOME]] and [[Open University]] and [[ERP]]  and  [[Purchasing]] and ![[Supplier Assessment]] and ![[Initiate System]]
+list from [[index]] and [[Open University]] and [[ERP]]  and  [[Purchasing]] and ![[Supplier Assessment]] and ![[טופס ייזום]]
 ```
 
 ###  [[Supplier Assessment | הערכת ספקים]] 
 ```dataview
-list from [[HOME]] and [[Open University]] and [[ERP]]  and  [[Purchasing]] and [[Supplier Assessment]]  
+list from [[index]] and [[Open University]] and [[ERP]]  and  [[Purchasing]] and [[Supplier Assessment]]  
 ```
 
 ###  מסמך ייזום/טופס ייזום
 ```dataview
-list from [[HOME]] and [[Open University]] and ([[ERP]] or [[APEX]]) and [[טופס ייזום]] 
+list from [[index]] and [[Open University]] and ([[ERP]] or [[APEX]]) and [[טופס ייזום]] 
 ```
