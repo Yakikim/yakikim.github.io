@@ -15,7 +15,7 @@ title: PO Personalization - HHM
 
 1. Value Set: OP_ORDER_LAW_TYPE
 
-![[LOV1.png]]
+![[Attachments/LOV1.png]]
 ### כל הסעיפים הבאים אוחזרו מאוחר יותר לבקשת המשתמשים (21/03)
 2. Changing the vales at the "Position Hierarchy":  
 
@@ -26,15 +26,15 @@ title: PO Personalization - HHM
 
 
 2. PO Approve Form Personalization:   
-יש לעדכן פה גם את ה-Action ![[PERSONALIZATION1.PNG]] 
-![[PERSONALIZATION3.PNG]]   
+יש לעדכן פה גם את ה-Action ![[Attachments/PERSONALIZATION1.PNG]] 
+![[Attachments/PERSONALIZATION3.PNG]]   
 
 
 3. RELEASE Approve Form Personalization:  
 
-![[PERSONALIZATION2.PNG]]
-![[PERSONALIZATION5.PNG]]
-![[PERSONALIZATION6.PNG]]
+![[Attachments/PERSONALIZATION2.PNG]]
+![[Attachments/PERSONALIZATION5.PNG]]
+![[Attachments/PERSONALIZATION6.PNG]]
 
 4. Compiling xxpo_po_wf_notif_pkg.op_set_approver_att   
 
