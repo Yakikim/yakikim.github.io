@@ -2,7 +2,7 @@
 link: [[Purchasing|רכש - דף הבית]]
 ---
 # Purchasing
-[[index.html]]/[[Open University]]/[[ERP]]
+[[index]]/[[Open University]]/[[ERP]]
 
 ```dataview
 list from [[HOME]] and [[Open University]] and [[ERP]]  and  [[Purchasing]] and ![[Supplier Assessment]] and ![[Initiate System]]

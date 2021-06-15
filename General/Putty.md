@@ -8,7 +8,7 @@ title: Putty
 [[2021-05-23]]
 # PuTTY
 
-[[index.html]]/[[Professional]]
+[[index]]/[[Professional]]
 
 
 

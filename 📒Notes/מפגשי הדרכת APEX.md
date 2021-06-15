@@ -8,7 +8,7 @@ title: מפגשי הדרכת APEX
 ---
 [[2021-05-23]]
 # מפגשי הדרכת APEX
-[[index.html]]/[[Open University]]/[[APEX]]/[[Management]]
+[[index]]/[[Open University]]/[[APEX]]/[[Management]]
 
 
 ## דיווחי העדרות

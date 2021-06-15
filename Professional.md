@@ -1,5 +1,5 @@
 # Professional 
-[[index.html]]
+[[index]]
 
 ## DEVOPS
 ```dataview

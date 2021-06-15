@@ -7,7 +7,7 @@ title: PO Personalization - HHM
 ---
 [[2021-06-13]]
 # PO Personalization - HHM
-[[index.html]]/[[Open University]]/[[ERP]]/[[Purchasing]]
+[[index]]/[[Open University]]/[[ERP]]/[[Purchasing]]
 
 # הוספת ערך סטטוס חוק חובת המכרזים  
 

@@ -3,7 +3,7 @@ tags: devops, helm, install, k8s
 ---
 [[16/05/2021]]
 # Helm
-[[index.html]]/ [[Professional]]
+[[index]]/ [[Professional]]
 
 ## Installation
 Installing via [[Scoop]]

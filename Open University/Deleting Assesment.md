@@ -9,7 +9,7 @@ title: Deleting Assesment
 [[2021-05-23]]
 # Deleting Assesment
  
-[[index.html]]/[[Open University]]/[[ERP]]/[[Purchasing]]/[[Supplier Assessment]]
+[[index]]/[[Open University]]/[[ERP]]/[[Purchasing]]/[[Supplier Assessment]]
 
  ## רקע
 >*  מסמך איפיון מערכת הערכת ספקים - עסקי: [[Main - Supplier Assessment.htm]] - בו אופיינה המערכת בהיבט המשתמשים

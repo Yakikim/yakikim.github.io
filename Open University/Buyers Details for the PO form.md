@@ -7,7 +7,7 @@ title: Buyers Details for the PO form
 ---
 [[2021-05-30]]
 # Buyers Details for the PO form
-[[index.html]]/[[Open University]]/[[ERP]]/[[Purchasing]]
+[[index]]/[[Open University]]/[[ERP]]/[[Purchasing]]
 
 
 

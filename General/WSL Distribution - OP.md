@@ -8,7 +8,7 @@ title: WSL Distribution - OP
 [[2021-05-23]]
 # WSL Distribution - OP
 
-[[index.html]]/ [[Professional]]
+[[index]]/ [[Professional]]
 
 
 

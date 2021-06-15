@@ -1,5 +1,5 @@
 # ERP
-[[index.html]]/[[Open University]]
+[[index]]/[[Open University]]
 
 ###  [[Purchasing]] 
 

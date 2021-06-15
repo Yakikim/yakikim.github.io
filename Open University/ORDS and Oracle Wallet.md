@@ -7,7 +7,7 @@ title: ORDS and Oracle Wallet
 ---
 [[2021-06-06]]
 # ORDS and Oracle Wallet
-[[index.html]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
+[[index]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
 
 
 

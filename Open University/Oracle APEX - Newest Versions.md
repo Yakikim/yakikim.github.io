@@ -13,7 +13,7 @@ link: [[Oracle APEX - Newest Versions | סקירת הגרסה החדשה והמ�
  # Apex Versions: Newest APEX Versions
 
 
-[[index.html]]/[[Open University]]/[[APEX]]/[[Management]]
+[[index]]/[[Open University]]/[[APEX]]/[[Management]]
 
 
 

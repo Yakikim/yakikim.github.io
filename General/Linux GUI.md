@@ -8,7 +8,7 @@ title: Linux GUI
 [[2021-05-23]]
 # Linux GUI
 
-[[index.html]]/ [[Professional]]/[[Linux]]
+[[index]]/ [[Professional]]/[[Linux]]
 
 
 **If you want to administer locally**

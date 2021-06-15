@@ -4,7 +4,7 @@ tags: markdown, commands, devops, notes
 [[2021-05-23]]
 
 # Markdown Basics
-[[index.html]]/ [[Professional]]
+[[index]]/ [[Professional]]
 
 
 

@@ -4,7 +4,7 @@ tags: devops, scoop, install
 
 [[2021-05-23]]
 # Scoop
-[[index.html]]/ [[Professional]]
+[[index]]/ [[Professional]]
 
 ## Installation
 from Power Shell window run:   

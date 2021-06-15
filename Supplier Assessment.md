@@ -1,5 +1,5 @@
 # Supplier Assessment
-[[index.html]]/[[Open University]]/[[ERP]]/[[Purchasing]]
+[[index]]/[[Open University]]/[[ERP]]/[[Purchasing]]
 
 ## Supplier Assessment
 

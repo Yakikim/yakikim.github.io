@@ -10,7 +10,7 @@ title: RBAC
 
 # ממשק להפעלת מודל ניהול הרשאות – RBAC מתוך האורקל
 
-[[index.html]]/[[Open University]]
+[[index]]/[[Open University]]
 
 # הקדמה
 

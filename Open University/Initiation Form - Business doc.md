@@ -10,8 +10,8 @@ link: [[Initiation Form - Business doc | איפיון טופס ייזום - אי
 	
 [[2021-05-19]]
 # חידוש מערכת טופס ייזום
-[[index.html]]/[[Open University]]/[[ERP]]/[[טופס ייזום]]
-[[index.html]]/[[Open University]]/[[APEX]]/[[טופס ייזום]]
+[[index]]/[[Open University]]/[[ERP]]/[[טופס ייזום]]
+[[index]]/[[Open University]]/[[APEX]]/[[טופס ייזום]]
 	
 	
 	

@@ -9,7 +9,7 @@ title: OP APEX Update Scheduler
 #  APEX Update Scheduler
 
 
-[[index.html]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
+[[index]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
 
 # Abstract 
 Concurrent program based on op\_apex\_update\_scheduler\_pkg.update\_scheduler procedure.

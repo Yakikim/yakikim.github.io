@@ -12,7 +12,7 @@ title: Handling Mails
 
 # איסוף מידע וחילול הודעות MAIL
 	
-[[index.html]]/[[Open University]]/[[ERP]]/[[Purchasing]]/[[Supplier Assessment]]
+[[index]]/[[Open University]]/[[ERP]]/[[Purchasing]]/[[Supplier Assessment]]
 ## אובייקטים ותוכניות עזר
 ### עדכונים באובייקטים קיימים
 

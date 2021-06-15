@@ -5,7 +5,7 @@ tags: [devops, chartmuseum, helm, k8s]
 [[2021-04-25]]
 # ChartMuseum
 
-[[index.html]]/ [[Professional]]
+[[index]]/ [[Professional]]
 
 
 

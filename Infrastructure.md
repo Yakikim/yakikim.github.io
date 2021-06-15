@@ -1,5 +1,5 @@
 # Infrastructure
-[[index.html]]/[[Open University]]/[[APEX]]
+[[index]]/[[Open University]]/[[APEX]]
 
 ###  Infrastructure 
 ```dataview

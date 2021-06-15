@@ -7,7 +7,7 @@ title: PO Item Category
 ---
 [[2021-05-23]]
 # PO Item Category
-[[index.html]]/[[Open University]]/[[ERP]]
+[[index]]/[[Open University]]/[[ERP]]
 
 ## New Category Definition
 

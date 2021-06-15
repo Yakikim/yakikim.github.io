@@ -10,7 +10,7 @@ title: consumption of Web Services
 # consumption of Web Services
 
 
-[[index.html]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
+[[index]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
 
 ## Consumption a ERPDEV WebService within an APX Instance
 >NOTE: the next stages will be done at APX instance unless specified otherwise

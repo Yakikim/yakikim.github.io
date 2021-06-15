@@ -7,7 +7,7 @@ title: TFS Basic Auth
 ---
 [[2021-05-30]]
 # TFS Basic Auth
-[[index.html]]/[[Open University]]
+[[index]]/[[Open University]]
 
 
 

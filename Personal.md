@@ -1,5 +1,5 @@
 # Personal
-[[index.html]]
+[[index]]
 
 ###  [[Personal]] 
 ```dataview

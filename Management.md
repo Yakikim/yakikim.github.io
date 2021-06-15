@@ -1,5 +1,5 @@
 # APEX Management 
-[[index.html]]/[[Open University]]/[[APEX]]
+[[index]]/[[Open University]]/[[APEX]]
 
 ###  Management 
 ```dataview
