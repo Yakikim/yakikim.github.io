@@ -3,10 +3,10 @@
 
 Hey, This is my home.
 Contents:
-> ##### [[Professional | ידע מקצועי וכללי]]
-> ##### [[Open University | OP - האוניברסיטה הפתוחה]]
+> ##### [[Professional| ידע מקצועי וכללי]]
+> ##### [[Open University| OP - האוניברסיטה הפתוחה]]
 > ##### [[Tasks| שולחן עבודה - משימות]]
-> ##### [[Personal | אישי]]
+> ##### [[Personal| אישי]]
 
 
 
