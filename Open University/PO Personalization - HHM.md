@@ -15,7 +15,7 @@ title: PO Personalization - HHM
 
 1. Value Set: OP_ORDER_LAW_TYPE
 
-[[LOV1.png]]
+![[LOV1.png]]
 ### כל הסעיפים הבאים אוחזרו מאוחר יותר לבקשת המשתמשים (21/03)
 2. Changing the vales at the "Position Hierarchy":  
 
