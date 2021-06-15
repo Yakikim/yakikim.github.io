@@ -7,7 +7,7 @@ title: PL-SQL
 ---
 [[2021-06-06]]
 # PL-SQL
-[[HOME]]/[[Professional]]
+[[index.html]]/[[Professional]]
 
 ## Grant and Synonym
 ```sql  

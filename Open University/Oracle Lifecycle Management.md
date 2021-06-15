@@ -11,7 +11,7 @@ link: [[Oracle Lifecycle Management | סיכום המלצות Oracle ]]
 
 #  עקרונות ניהול Lifecycle APEX 
 
-[[HOME]]/[[Open University]]/[[APEX]]/[[Management]]
+[[index.html]]/[[Open University]]/[[APEX]]/[[Management]]
 
  
 

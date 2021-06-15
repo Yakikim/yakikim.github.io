@@ -11,8 +11,8 @@ link: [[Initiation Form - Queries|איפיון טופס ייזום - שליפו�
 
 #   שליפות נתונים בשימוש מסמך הייזום כיום	
 
-[[HOME]]/[[Open University]]/[[ERP]]/[[טופס ייזום]]
-[[HOME]]/[[Open University]]/[[APEX]]/[[טופס ייזום]]
+[[index.html]]/[[Open University]]/[[ERP]]/[[טופס ייזום]]
+[[index.html]]/[[Open University]]/[[APEX]]/[[טופס ייזום]]
 
 ## 5.1                פרטי היוזם –  שליפה בטופס קיים
 

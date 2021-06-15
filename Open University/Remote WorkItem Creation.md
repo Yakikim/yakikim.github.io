@@ -5,7 +5,7 @@ title: Remote TFS WorkItem Creation
 ---
 [[2021-06-06]]
 # Remote TFS WorkItem Creation
-[[HOME]]/[[Professional]]
+[[index.html]]/[[Professional]]
 
 POST URL:
 ``` 

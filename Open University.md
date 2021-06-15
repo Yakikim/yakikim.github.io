@@ -1,5 +1,5 @@
 # Open University
-[[HOME]]
+[[index.html]]
 
 ###  [[APEX]]
 ### [[ERP]]

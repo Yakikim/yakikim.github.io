@@ -16,7 +16,7 @@ link: [[Oracle APEX - Older Versions | סקירת גרסאות ישנות]]
  # Apex Versions: Older APEX Versions
 
 
-[[HOME]]/[[Open University]]/[[APEX]]/[[Management]]
+[[index.html]]/[[Open University]]/[[APEX]]/[[Management]]
 
 
 

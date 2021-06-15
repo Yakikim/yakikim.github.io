@@ -1,5 +1,5 @@
 # Notes Overview
-[[HOME]]
+[[index.html]]
 
 ## משימות	
 ###  עבר הזמן ולא הושלם

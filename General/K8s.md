@@ -7,7 +7,7 @@ title: K8s
 ---
  [[2021-04-25]]
 # K8s
-[[HOME]]/[[Professional]]  
+[[index.html]]/[[Professional]]  
 
 
 ## [[../Scoop]]

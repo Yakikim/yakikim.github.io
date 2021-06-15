@@ -7,7 +7,7 @@ title: Mermaid
 ---
 [[2021-05-23]]
 # Mermaid
-[[HOME]]/ [[Professional]]
+[[index.html]]/ [[Professional]]
 
 
 ## Examples

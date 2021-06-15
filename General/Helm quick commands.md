@@ -2,7 +2,7 @@
 tags: helm, devops, commands
 ---
 # Helm
-[[HOME]]/ [[Professional]]
+[[index.html]]/ [[Professional]]
 ----
 [[2021-04-25]]
 

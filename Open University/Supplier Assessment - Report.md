@@ -8,7 +8,7 @@ link: [[Supplier Assessment - Report | דוח היררכיות הערכת ספק
 ---
 [[2021-05-30]]
 # דוח היררכיות - הערכת ספקים
-[[HOME]]/[[Open University]]/[[ERP]]/[[Purchasing]]/[[Supplier Assessment]]
+[[index.html]]/[[Open University]]/[[ERP]]/[[Purchasing]]/[[Supplier Assessment]]
 ## רקע
 אפליקציה 141 - הערכת ספקים
 

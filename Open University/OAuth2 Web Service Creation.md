@@ -10,7 +10,7 @@ title: OAuth2 Web Service Creation
 
 # OAuth2 Web Service Creation
 
-[[HOME]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
+[[index.html]]/[[Open University]]/[[APEX]]/[[Infrastructure]]
 
 > Note: Guide for consumption of service is available here: [[OP/consumption of Web Services]]
 ## Enable Schema ORDS

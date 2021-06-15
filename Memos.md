@@ -1,5 +1,5 @@
 # Memos
-[[HOME]]/[[Open University]]
+[[index.html]]/[[Open University]]
 
 ### תזכירי עבודה
 

@@ -1,5 +1,5 @@
 # APEX
-[[HOME]]/[[Open University]]
+[[index.html]]/[[Open University]]
 
 ###   General
 ```dataview

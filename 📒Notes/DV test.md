@@ -1,7 +1,7 @@
 ---
 datey: '2021-05-23' 
 ---
-[[HOME]]/[[Obsidian]]/[[Plugins]]
+[[index.html]]/[[Obsidian]]/[[Plugins]]
 # Dataview tests
 ```dataview
 list where file.day

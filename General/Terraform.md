@@ -8,7 +8,7 @@ title: Terraform
 [[2021-05-23]]
 # Terraform
 
-[[HOME]]/[[Professional]]
+[[index.html]]/[[Professional]]
 
 
 
