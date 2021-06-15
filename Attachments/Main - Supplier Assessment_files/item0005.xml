@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><ct:contentTypeSchema ct:_="" ma:_="" ma:contentTypeName="מסמך" ma:contentTypeID="0x010100020C6A4FBB25B945AEEA972B02023ED0" ma:contentTypeVersion="4" ma:contentTypeDescription="צור מסמך חדש." ma:contentTypeScope="" ma:versionID="26f34279ad692fe1e760712c2731a47a" xmlns:ct="http://schemas.microsoft.com/office/2006/metadata/contentType" xmlns:ma="http://schemas.microsoft.com/office/2006/metadata/properties/metaAttributes">
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/2006/metadata/properties" ma:root="true" ma:fieldsID="b7ce54634e4771f69b5dc499627a6e31" ns2:_="" ns3:_="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/office/2006/metadata/properties" xmlns:ns2="http://schemas.microsoft.com/sharepoint/v3/fields" xmlns:ns3="b5ea1f2f-a81e-423f-9b71-218fa1fa13fb">
+<xsd:import namespace="http://schemas.microsoft.com/sharepoint/v3/fields"/>
+<xsd:import namespace="b5ea1f2f-a81e-423f-9b71-218fa1fa13fb"/>
+<xsd:element name="properties">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="documentManagement">
+<xsd:complexType>
+<xsd:all>
+<xsd:element ref="ns2:_Version" minOccurs="0"/>
+<xsd:element ref="ns3:_x05ea__x05d0__x05d5__x05e8__x0020__x05de__x05e1__x05de__x05da_"/>
+</xsd:all>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/sharepoint/v3/fields" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2006/documentManagement/types">
+<xsd:import namespace="http://schemas.microsoft.com/office/2006/documentManagement/types"/>
+<xsd:element name="_Version" ma:index="8" nillable="true" ma:displayName="גירסה" ma:internalName="_Version">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text"/>
+</xsd:simpleType>
+</xsd:element>
+</xsd:schema>
+<xsd:schema targetNamespace="b5ea1f2f-a81e-423f-9b71-218fa1fa13fb" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2006/documentManagement/types">
+<xsd:import namespace="http://schemas.microsoft.com/office/2006/documentManagement/types"/>
+<xsd:element name="_x05ea__x05d0__x05d5__x05e8__x0020__x05de__x05e1__x05de__x05da_" ma:index="9" ma:displayName="תאור מסמך" ma:internalName="_x05ea__x05d0__x05d5__x05e8__x0020__x05de__x05e1__x05de__x05da_">
+<xsd:simpleType>
+<xsd:restriction base="dms:Text">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+</xsd:schema>
+<xsd:schema targetNamespace="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" elementFormDefault="qualified" attributeFormDefault="unqualified" blockDefault="#all" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:odoc="http://schemas.microsoft.com/office/internal/2005/internalDocumentation">
+<xsd:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"/>
+<xsd:import namespace="http://purl.org/dc/terms/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dcterms.xsd"/>
+<xsd:element name="coreProperties" type="CT_coreProperties"/>
+<xsd:complexType name="CT_coreProperties">
+<xsd:all>
+<xsd:element ref="dc:creator" minOccurs="0" maxOccurs="1"/>
+<xsd:element ref="dcterms:created" minOccurs="0" maxOccurs="1"/>
+<xsd:element ref="dc:identifier" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="contentType" minOccurs="0" maxOccurs="1" type="xsd:string" ma:index="0" ma:displayName="סוג תוכן" ma:readOnly="true"/>
+<xsd:element ref="dc:title" minOccurs="0" maxOccurs="1" ma:index="4" ma:displayName="כותרת"/>
+<xsd:element ref="dc:subject" minOccurs="0" maxOccurs="1"/>
+<xsd:element ref="dc:description" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="keywords" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element ref="dc:language" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="category" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element name="revision" minOccurs="0" maxOccurs="1" type="xsd:string">
+<xsd:annotation>
+<xsd:documentation>
+                        This value indicates the number of saves or revisions. The application is responsible for updating this value after each revision.
+                    </xsd:documentation>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="lastModifiedBy" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+<xsd:element ref="dcterms:modified" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="lastPrinted" minOccurs="0" maxOccurs="1" type="xsd:dateTime"/>
+<xsd:element name="contentStatus" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+</xsd:all>
+</xsd:complexType>
+</xsd:schema>
+</ct:contentTypeSchema>
