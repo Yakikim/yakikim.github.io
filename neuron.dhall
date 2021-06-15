@@ -5,6 +5,6 @@
 -- List of color names: https://semantic-ui.com/usage/theming.html#sitewide-defaults
 , theme = "grey"
 -- This is used in the "edit" button
-, editUrl = Some "https://github.com/Yakikim/yakikim.github.io/edit/master"
+, editUrl = Some "https://github.com/Yakikim/yakikim.github.io/edit/master/"
 , plugins = [ "neuronignore", "links", "uptree", "feed" ,"tags"]
 }
