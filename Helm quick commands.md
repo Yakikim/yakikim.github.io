@@ -55,7 +55,7 @@ delete a chart
 helm delete <chart name> 
 ```
 
-[[../ChertMuseum]] install as docker container
+[[YakisSite/ChertMuseum]] install as docker container
 ```bash
 docker run --rm -it \
    -p 8080:8080 \

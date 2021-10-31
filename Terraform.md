@@ -29,20 +29,20 @@ Any response other than “terraform is not recognized” is good
 
 ## AWS Configuration
 ### Login as Yakikim2
-![[Pasted image 20210419100244.png]]
+![[Attachments/Pasted image 20210419100244.png]]
 
 
 ### Lunch instance at EC2
-![[Pasted image 20210419100627.png]]
+![[Attachments/Pasted image 20210419100627.png]]
 ### Define user at IAM
 you should define user with the proper credentials as well as "AWS Identity and Access Management"  credential.
 
-![[Pasted image 20210419101516.png]]
+![[Attachments/Pasted image 20210419101516.png]]
 then you will generate and backup the access+secret key at the "Security credentials" tab
 
 ### Generate the SSH Key pair
-At EC2 you should create a "Key pair" that latly you will use it in VNC tool like [[Putty]]
-![[Pasted image 20210419102127.png]]
+At EC2 you should create a "Key pair" that latly you will use it in VNC tool like [[YakisSite/Putty]]
+![[Attachments/Pasted image 20210419102127.png]]
 
 
 ### Edis the file https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf 

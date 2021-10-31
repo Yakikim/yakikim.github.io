@@ -10,12 +10,12 @@ title: K8s
 [[index]]/[[Professional]]  
 
 
-## [[../Scoop]]
+## [[General/Scoop]]
 A tool for pckage installation
 
-## [[Helm]]
+## [[YakisSite/Helm]]
 Helm is a package manager for Kubernetes that allows developers
 and operators to more easily package, configure, and deploy
 applications and services onto Kubernetes clusters
 
-[[../Mermaid]]>)
+[[General/Mermaid]]>)

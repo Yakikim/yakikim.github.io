@@ -34,7 +34,7 @@ Add-AppxPackage .\ubuntu-1604.appx                                             `
 
 ```
 
-4. (Optional) Install your preferred GUI  -[[../Linux GUI]]
+4. (Optional) Install your preferred GUI  -[[YakisSite/Linux GUI]]
 5. The root folder of the Linux system is here : ` \\wsl$ `
 
 ## Problem with the `apt install` 

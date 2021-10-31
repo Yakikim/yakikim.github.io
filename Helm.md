@@ -6,7 +6,7 @@ tags: devops, helm, install, k8s
 [[index]]/ [[Professional]]
 
 ## Installation
-Installing via [[Scoop]]
+Installing via [[YakisSite/Scoop]]
 ```cmd
 scoop install helm
 ```
@@ -84,4 +84,4 @@ You can reach the Helm community and developers via the following channels:
   - [Helm Mailing List](https://lists.cncf.io/g/cncf-helm)
 - Developer Call: Thursdays at 9:30-10:00 Pacific ([meeting details](https://github.com/helm/community/blob/master/communication.md#meetings))
 
-## [[../Helm quick commands]]
+## [[General/Helm quick commands]]

@@ -18,4 +18,4 @@ sudo dockerd &
 sudo systemctl status xrdp
 ```
 
->If you want you can install [[Linux GUI]]
+>If you want you can install [[YakisSite/Linux GUI]]
