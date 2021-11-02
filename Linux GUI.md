@@ -8,8 +8,7 @@ title: Linux GUI
 [[2021-05-23]]
 # Linux GUI
 
-[[index]]/ [[Professional]]/[[YakisSite/Linux]]
-
+[[index | דף הבית]]/[[אחר]] 
 
 **If you want to administer locally**
 

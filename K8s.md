@@ -7,7 +7,7 @@ title: K8s
 ---
  [[2021-04-25]]
 # K8s
-[[index]]/[[Professional]]  
+[[index | דף הבית]]/[[אחר]] 
 
 
 ## [[General/Scoop]]

@@ -3,7 +3,7 @@ tags: [devops, linux, commands]
 ---
 [[2021-05-23]]
 # Linux
-[[index]]/ [[Professional]]
+[[index | דף הבית]]/[[אחר]] 
 
 
 ## Common Commands

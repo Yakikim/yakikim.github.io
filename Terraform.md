@@ -7,8 +7,7 @@ title: Terraform
 ---
 [[2021-05-23]]
 # Terraform
-
-[[index]]/[[Professional]]
+[[index | דף הבית]]/[[אחר]] 
 
 
 

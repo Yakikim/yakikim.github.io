@@ -2,7 +2,8 @@
 tags: helm, devops, commands
 ---
 # Helm
-[[index]]/ [[Professional]]
+[[index | דף הבית]]/[[אחר]] 
+
 ----
 [[2021-04-25]]
 

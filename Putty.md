@@ -8,8 +8,7 @@ title: Putty
 [[2021-05-23]]
 # PuTTY
 
-[[index]]/[[Professional]]
-
+[[index | דף הבית]]/[[אחר]] 
 
 
 

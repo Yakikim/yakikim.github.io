@@ -7,8 +7,7 @@ title: Mermaid
 ---
 [[2021-05-23]]
 # Mermaid
-[[index]]/ [[Professional]]
-
+[[index | דף הבית]]/[[אחר]] 
 
 ## Examples
 

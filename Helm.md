@@ -3,7 +3,7 @@ tags: devops, helm, install, k8s
 ---
 [[16/05/2021]]
 # Helm
-[[index]]/ [[Professional]]
+[[index | דף הבית]]/[[אחר]] 
 
 ## Installation
 Installing via [[YakisSite/Scoop]]
