@@ -1,3 +1,0 @@
-# APEX
-[[index]]/[[Open University]]
-
