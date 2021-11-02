@@ -1,4 +1,4 @@
-# Home
+# דף הבית
 <img src="static/DSC_1723_1.jpg" alt="mypic" style= "width: 100px" />
 
 Hey, This is my home.
