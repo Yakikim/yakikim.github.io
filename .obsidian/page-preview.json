@@ -1,1 +1,5 @@
-{"search":false}
+{
+  "editor": false,
+  "git-view": false,
+  "preview": true
+}

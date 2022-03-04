@@ -1,1 +1,29 @@
-{"outputFileName":"unlinked files output","disableWorkingLinks":false,"directoriesToIgnore":["General/Notes/"],"filesToIgnore":[""],"fileTypesToIgnore":["md"],"linksToIgnore":[],"tagsToIgnore":[""],"fileTypesToDelete":[],"ignoreFileTypes":true,"ignoreDirectories":false,"unresolvedLinksOutputFileName":"unresolved links output","unresolvedLinksDirectoriesToIgnore":[],"unresolvedLinksFilesToIgnore":[],"unresolvedLinksFileTypesToIgnore":[],"unresolvedLinksLinksToIgnore":[],"unresolvedLinksTagsToIgnore":[]}
+{
+  "outputFileName": "unlinked files output",
+  "disableWorkingLinks": false,
+  "directoriesToIgnore": [
+    "General/Notes/"
+  ],
+  "filesToIgnore": [
+    ""
+  ],
+  "fileTypesToIgnore": [
+    "md"
+  ],
+  "linksToIgnore": [],
+  "tagsToIgnore": [
+    ""
+  ],
+  "fileTypesToDelete": [],
+  "ignoreFileTypes": true,
+  "ignoreDirectories": false,
+  "unresolvedLinksOutputFileName": "unresolved links output",
+  "unresolvedLinksDirectoriesToIgnore": [],
+  "unresolvedLinksFilesToIgnore": [],
+  "unresolvedLinksFileTypesToIgnore": [],
+  "unresolvedLinksLinksToIgnore": [],
+  "unresolvedLinksTagsToIgnore": [],
+  "withoutTagsDirectoriesToIgnore": [],
+  "withoutTagsFilesToIgnore": [],
+  "withoutTagsOutputFileName": "files without tags"
+}

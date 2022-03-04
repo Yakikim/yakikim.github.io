@@ -1,0 +1,7 @@
+<p>[[2021-06-06]]</p>
+<h1 id="pl-sql" tabindex="-1">PL-SQL <a class="direct-link" href="#pl-sql" aria-hidden="true">#</a></h1>
+<p>[[index | דף הבית]]/[[אחר]]</p>
+<h2 id="grant-and-synonym" tabindex="-1">Grant and Synonym <a class="direct-link" href="#grant-and-synonym" aria-hidden="true">#</a></h2>
+<pre class="language-sql"><code class="language-sql"><span class="token comment">-- Synonym</span><br><span class="token keyword">CREATE</span> <span class="token operator">OR</span> <span class="token keyword">REPLACE</span> SYNONYM apexrest<span class="token punctuation">.</span>OP_APEX_BAKASHA_TRANSPORT  <span class="token keyword">FOR</span> apps<span class="token punctuation">.</span>op_bakasha_transport<span class="token punctuation">;</span><br><span class="token comment">-- Grant</span><br><span class="token keyword">GRANT</span> <span class="token keyword">ALL</span> <span class="token keyword">ON</span> OP_APEX_BAKASHA_TRANSPORT <span class="token keyword">TO</span> apexrest<span class="token punctuation">;</span><br><br><br><span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> dba_objects<br><span class="token keyword">where</span> object_name <span class="token operator">=</span> <span class="token string">'OP_APEX_BAKASHA_TRANSPORT'</span><span class="token punctuation">;</span><br></code></pre>
+<p>#plsql<br>
+#professional</p>

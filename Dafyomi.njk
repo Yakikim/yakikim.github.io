@@ -1,0 +1,19 @@
+---
+layout: layouts/home.njk
+permalink: /dafyomi/
+eleventyNavigation:
+  key: Daf Yomi
+  order: 2
+    key: Hagigah
+	parent: Daf Yomi
+---
+<div dir="rtl">
+<h1>דף יומי</h1>
+{% include "Dafyomi-Hagigah.njk" %}
+
+<h2>כללי</h2>
+
+{% set postslist = collections.dafyomi %}
+{% include "postslist.njk" %}
+
+</div>

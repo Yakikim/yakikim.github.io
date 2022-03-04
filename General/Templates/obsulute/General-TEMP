@@ -1,0 +1,18 @@
+---
+tags: [documents, spec, op, po]  
+created: <% tp.file.creation_date() %>
+modified: <% tp.file.last_modified_date() %>
+type: Document
+title: <% tp.file.title %>
+---
+[[<% tp.date.weekday("YYYY-MM-DD" ,0) %>]]
+# <% tp.file.title %>
+[[HOME]]/
+
+
+
+
+#op/apex/infrastractures
+#op/erp/po
+#op/erp/apex
+#op/apex/management

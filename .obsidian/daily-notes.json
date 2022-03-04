@@ -1,1 +1,5 @@
-{"folder":"📒Notes","template":"General/Other/Templates/DNote-TEMP","format":"YYYY-MM-DD"}
+{
+  "folder": "posts/dafyomi/",
+  "template": "General/Templates/Active/7 DafYomi",
+  "format": "YYYY-MM-DD"
+}

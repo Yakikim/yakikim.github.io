@@ -1,0 +1,72 @@
+<p>[[2021-05-23]]</p>
+<h1 id="putty" tabindex="-1">PuTTY <a class="direct-link" href="#putty" aria-hidden="true">#</a></h1>
+<p>[[index | דף הבית]]/[[אחר]]</p>
+<p><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-what">PuTTY</a> is a client program for the SSH on Windows OS.</p>
+<h2 id="windows-putty-installer" tabindex="-1">Windows PuTTY Installer <a class="direct-link" href="#windows-putty-installer" aria-hidden="true">#</a></h2>
+<p>We recommend to download <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">Windows Installer</a> with PuTTY utilities as:</p>
+<ul>
+<li>Pageant (SSH authentication agent) - store private key in memory without need to retype a passphrase on every login</li>
+<li>PuTTYgen (PuTTY key generator) - convert OpenSSH format of id_rsa to PuTTY ppk private key and so on and so forth</li>
+</ul>
+<h2 id="putty-connect-to-the-instance" tabindex="-1">PuTTY - Connect to the Instance <a class="direct-link" href="#putty-connect-to-the-instance" aria-hidden="true">#</a></h2>
+<ul>
+<li>Run PuTTY and enter Host name in format &quot;login@Floating IP address&quot; where <a href="/quick-start#create-virtual-machine-instance">login</a> is for example debian for Debian OS and Floating IP is <a href="/quick-start/#associate-floating-ip">IP address</a> to access instance from internet.</li>
+<li>In Category -&gt; Connection -&gt; SSH -&gt; Auth:
+<ul>
+<li>Select <strong>Attempt authentication using Pageant</strong></li>
+<li>Select <strong>Allow agent forwarding</strong></li>
+<li>Browse and select your private key file (if needed <a href="#convert-openssh-format-to-putty-ppk-format">convert OpenSSH format id_rsa to Putty ppk</a>)</li>
+</ul>
+</li>
+<li>Return to <em>Session page</em> and Save selected configuration with <strong>Save</strong> button</li>
+<li>Now you can log in using <strong>Open</strong> button</li>
+<li>Enter passphrase for selected private key file if <a href="#pageant-ssh-agent">Pageant SSH authentication agent</a> is not used
+<ul>
+<li>We recomend using Pageant SSH Agent to store private key in memory without need to retype a passphrase on every login</li>
+</ul>
+</li>
+</ul>
+<p><img src="putty-connect2instance.png.md" alt=""></p>
+<h2 id="pageant-ssh-agent" tabindex="-1">Pageant SSH Agent <a class="direct-link" href="#pageant-ssh-agent" aria-hidden="true">#</a></h2>
+<ul>
+<li>Run Pageant from Windows menu</li>
+<li>Locate Pageant icon in the Notification Area and double click on it</li>
+<li>Use <strong>Add Key</strong> button</li>
+<li>Browse files and select your PuTTY Private Key File in format ppk</li>
+<li>Use <strong>Open</strong> buton</li>
+<li>Eter passphrase and confirm <strong>OK</strong> button</li>
+<li>Your private key is now located in the memory without need to retype a passphrase on every login</li>
+</ul>
+<p><img src="/putty/images/pageant-add-key.png" alt=""></p>
+<h2 id="putty-key-generator" tabindex="-1">PuTTY key Generator <a class="direct-link" href="#putty-key-generator" aria-hidden="true">#</a></h2>
+<p>PuTTYgen is the PuTTY key generator. You can load in an existing private key and change your passphrase or generate a new public/private key pair or convert to/from OpenSSH/PuTTY ppk formats.</p>
+<h2 id="convert-openssh-format-to-putty-ppk-format" tabindex="-1">Convert OpenSSH format to PuTTY ppk format <a class="direct-link" href="#convert-openssh-format-to-putty-ppk-format" aria-hidden="true">#</a></h2>
+<ul>
+<li>Run PuTTYgen, in the menu Conversion -&gt; Import key browse and load your OpenSSH format id_rsa private key using your passphrase</li>
+<li>Save PuTTY ppk private key using button <strong>Save private key</strong>, browse destination for PuTTY format id_rsa.ppk and save file</li>
+</ul>
+<p><img src="/putty/images/puttygen-openssh2ppk.png" alt=""></p>
+<h2 id="convert-putty-ppk-private-key-to-openssh-format" tabindex="-1">Convert PuTTY ppk private key to OpenSSH format <a class="direct-link" href="#convert-putty-ppk-private-key-to-openssh-format" aria-hidden="true">#</a></h2>
+<ul>
+<li>Run PuTTYgen, in the menu File -&gt; Load private key browse and open your private key in format PuTTY ppk using your passphrase</li>
+<li>In the menu Conversion -&gt; Export OpenSSH key browse destination for OpenSSH format id_rsa and save file</li>
+</ul>
+<p><img src="/putty/images/puttygen-ppk2openssh.png" alt=""></p>
+<h2 id="change-password-for-existing-private-key-pair" tabindex="-1">Change Password for Existing Private Key Pair <a class="direct-link" href="#change-password-for-existing-private-key-pair" aria-hidden="true">#</a></h2>
+<ul>
+<li>Load your existing private key using button <strong>Load</strong>, confirm opening using your passphrase</li>
+<li>Enter new passphrase in field <em>Key passphrase</em> and confirm again in field <em>Confirm passphrase</em></li>
+<li>Save changes using button <strong>Save private key</strong></li>
+</ul>
+<p><img src="/putty/images/puttygen-passphrase.png" alt=""></p>
+<h2 id="generate-a-new-key-pair" tabindex="-1">Generate a New Key Pair <a class="direct-link" href="#generate-a-new-key-pair" aria-hidden="true">#</a></h2>
+<ul>
+<li>Start with <strong>Generate button</strong></li>
+<li>Generate some randomness by moving your mouse over dialog</li>
+<li>Wait while the key is generated</li>
+<li>Enter a comment for your key using &quot;your-email@address&quot;</li>
+<li>Enter key passphrase, confirm key passphrase</li>
+<li>Save your new private key in the &quot;id_rsa.ppk&quot; format using the <strong>Save private key</strong> button</li>
+<li>Save the public key with the <strong>Save public key</strong> button</li>
+</ul>
+<p><img src="/putty/images/puttygen_new_key.png" alt=""></p>

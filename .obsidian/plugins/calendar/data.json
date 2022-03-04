@@ -1,1 +1,10 @@
-{"shouldConfirmBeforeCreate":true,"weekStart":"sunday","wordsPerDot":250,"showWeeklyNote":true,"weeklyNoteFormat":"YYYY-MM-DD","weeklyNoteTemplate":"General/Other/Templates/WNote-TEMP","weeklyNoteFolder":"📒Notes","localeOverride":"en"}
+{
+  "shouldConfirmBeforeCreate": true,
+  "weekStart": "sunday",
+  "wordsPerDot": 250,
+  "showWeeklyNote": true,
+  "weeklyNoteFormat": "YYYY-MM-DD",
+  "weeklyNoteTemplate": "General\\Templates\\active\\5 WNote",
+  "weeklyNoteFolder": "📒Notes/Weekly",
+  "localeOverride": "system-default"
+}
