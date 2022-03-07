@@ -1141,7 +1141,7 @@ chartmuseum --debug --port=8080 --storage=&amp;quot;local&amp;quot; --storage-lo
 		<link href="https://example.com/posts/dafyomi/2022-03-07/"/>
 		<updated>2022-03-07T00:00:00Z</updated>
 		<id>https://example.com/posts/dafyomi/2022-03-07/</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-07/2022-03-06&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-06&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;hagigah-26&quot; tabindex=&quot;-1&quot;&gt;סיכום דף Hagigah 26 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-07/#hagigah-26&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;משנה &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-07/#&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;הקילו חכמים בלקיחת כלים מעם הארץ לצורכי קודש רק מקו מודיעין לכיון ירושלים (היה מרוחק 15 מיל מירושלים) שאז היו קדרים עמי הארץ היו נאמנים על כלי חרס שעשאוהם בטהרה, אבל לא אם היו ממודיעים והלאה.&lt;br /&gt;
@@ -1246,11 +1246,51 @@ chartmuseum --debug --port=8080 --storage=&amp;quot;local&amp;quot; --storage-lo
 	</entry>
 	
 	<entry>
+		<title>Hagigah 25</title>
+		<link href="https://example.com/posts/dafyomi/2022-03-06/"/>
+		<updated>2022-03-06T00:00:00Z</updated>
+		<id>https://example.com/posts/dafyomi/2022-03-06/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-05&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;hagigah-25&quot; tabindex=&quot;-1&quot;&gt;סיכום דף Hagigah 25 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#hagigah-25&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;משנה &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;שלשה דרגות בטהרת התרומה והקודש ביהודה:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;היו נאמנים על טהרת יין ושמן שמסקו בזמן הגתות והבדים, כל השנה כולה רק אם הקדישו למנחות ולזבחים.&lt;/li&gt;
+&lt;li&gt;היו נאמנים רק בזמן הגתות והבדים גם על התרומה&lt;/li&gt;
+&lt;li&gt;היו נאמנים על הכדים שיש בהם תרומה גם שבעים יום קודם זמן הגתות והבדים&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;בנוסף לעיל,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;נאמנים גם לומר הפרשתי קצת יותר מרביעית של קודש  לתוך התרומה - מתוך שנאמן לומר כולה קודש.&lt;/li&gt;
+&lt;li&gt;ניתן לשמור חבית של תרומה לזמן הגת הבאה&lt;/li&gt;
+&lt;li&gt;נאמנים גם על הכדים שיש בתוכם חלק תרומה, בזמן הגתות.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-1&quot; tabindex=&quot;-1&quot;&gt;גמרא &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;-2&quot; tabindex=&quot;-1&quot;&gt;מדוע בגליל לא נאמנים &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;כי היתה רצועה של כותים מפסקת וגזרו על הכותים את טומאת ארץ העמים ומאחר ולא ניתן לעבור ללא מעבר ברצועה הזו, אין נאמנים.&lt;/p&gt;
+&lt;h4 id=&quot;-3&quot; tabindex=&quot;-1&quot;&gt;ומדוע לא יכלו להעביר באופן אחר &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#-3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;לא ניתן להעביר בתוך שידה תיבה ומגדל - כי המשנה כרבי שאמר שאוהל המיטלטל אינו אוהל לחציצת הטומאה.&lt;/li&gt;
+&lt;li&gt;לא ניתן לכסות בצמיד פתיל - כי הקודש לא ניצל מן הטומאה בכך.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-4&quot; tabindex=&quot;-1&quot;&gt;בזיתים המאחרים להבשיל &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;והבשילו לאחר זמן הבדים, לא נאמנים למרות שזה זמן הבד שלהם. כיון שלכולי עלמא עבר הזמן.&lt;/p&gt;
+&lt;h3 id=&quot;-5&quot; tabindex=&quot;-1&quot;&gt;אם עבר הכהן וקבל את החבית &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#-5&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;שלא בזמן הגת והבד. אם זה דבר שאינו משתמש ישרפנו ולא יאכלנו. ואם משתמר, יניחנה לזמן הגת הבאה.&lt;/p&gt;
+&lt;h3 id=&quot;-6&quot; tabindex=&quot;-1&quot;&gt;נאמנות בדיקה בשדה בית הפרס &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#-6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;הסתפקה הגמרא בענין שדה בית הפרס שניתן לבדוק אותה עבור אדם שמעוניין לעלות לירושלים לאכול פסח ולא עבור אוכלי תרומה. האם במדה ונבדק לאוכל פסח, ניתן להסתמך על זה גם לאוכלי תרומה? מזה שהמשנה אמרה על אדם שהפריש רביעית של קודש לתוך תרומה, נאמן גם על התרומה, כך גם לגבי בית הפרס- הבדיקה תועיל גם לאוכלי תרומה.&lt;/p&gt;
+&lt;h3 id=&quot;-7&quot; tabindex=&quot;-1&quot;&gt;נאמנות על הקנקנים &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-06/#-7&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;אינו נאמן על הקנקנים שכעת אין בהם קודש אף שהיה בהם קודם קודש.&lt;br /&gt;
+כנל אינו נאמן על קנקני תרומה שיש בתוכם תרומה בשעת הגיתות- שנאמן רק על התרומה ולא על הקנקנן שלה.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Hagigah 24</title>
 		<link href="https://example.com/posts/dafyomi/2022-03-05/"/>
 		<updated>2022-03-05T00:00:00Z</updated>
 		<id>https://example.com/posts/dafyomi/2022-03-05/</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-05/2022-03-04&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-04&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;hagigah-24&quot; tabindex=&quot;-1&quot;&gt;סיכום הדף - Hagigah 24 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-05/#hagigah-24&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;h3 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;הכלי מצרף את מה שבתוכו לקודש &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-05/#&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;לפי ר חנין, משום שנאמר &amp;quot;כף &lt;strong&gt;אחת&lt;/strong&gt; עשרה זהב&amp;quot; כל מה שבכף -אחת.&lt;br /&gt;
@@ -1338,10 +1378,31 @@ Contents:&lt;/p&gt;
 		<link href="https://example.com/posts/dafyomi/2022-03-03/"/>
 		<updated>2022-03-03T00:00:00Z</updated>
 		<id>https://example.com/posts/dafyomi/2022-03-03/</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-03/2022-03-02&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-02&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;hagigah-22&quot; tabindex=&quot;-1&quot;&gt;סיכום דף Hagigah 22 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#hagigah-22&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;[[2022-03-05]]&lt;/p&gt;
-&lt;h2 id=&quot;&quot; tabindex=&quot;-1&quot;&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;סייג לאיסור טבילת כלי בתוך כלי &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;רק כאשר הכלי החיצוני טהור והפנימיים טמאים. אבל אם גם החיצוני טמא, מיגו שעלתה לו טבילה לכולו כך גם לכלים שבתוכו.&lt;br /&gt;
+אבל זה רק בכלי שיש בו פתח כשפופרת הנוד- כפי שראינו בדף קודם.&lt;/p&gt;
+&lt;h3 id=&quot;-1&quot; tabindex=&quot;-1&quot;&gt;מדוע נאמנים עמי ארצות על הקודש &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;לומר שעשאוהום בטהרה? ר יוסי אומר שכדי שלא ידחו אותם ותיווצר איבה וכל אחד יקים מזבח לעצמו ושורף פרה אדומה לעצמו..&lt;/p&gt;
+&lt;h3 id=&quot;-2&quot; tabindex=&quot;-1&quot;&gt;מקבלים עדות מעם הארץ &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;משום איבה, כמו בנאמנותם על הקודש. וזה דווקא עם הארץ כשר.&lt;/p&gt;
+&lt;h3 id=&quot;-3&quot; tabindex=&quot;-1&quot;&gt;לא חוששים לשאלת כלים &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#-3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;שישאלם החבר מעם הארץ, כי החבר מטביל אותם לפני השימוש. אבל לטומאת מת חוששים שמא ישאלם החבר מעם הארץ ולא טיהרם כיאות.&lt;/p&gt;
+&lt;h3 id=&quot;-4&quot; tabindex=&quot;-1&quot;&gt;כלי חרס מוקף צמיד פתיל שנגע בו עם הארץ &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;האם הכלים והאוכל שבתוכו נטמא? נחלקו בית שמאי ובית הלל.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;לבית הלל, שום דבר שבתוכו נטמא&lt;/li&gt;
+&lt;li&gt;לבית שמאי, נטמאו רק הכלים שיש להם טהרה במקווה. אבל כלי חרס ואוכלים ומשקים לא. הסיבה שלהם, שמא לא ישמע לנו עם הארץ שנפסול את כליו. אבל אם לא מפסידים אותו, הוא יעשה את המאמץ ויטהר אותם.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-5&quot; tabindex=&quot;-1&quot;&gt;נאמנות עם הארץ בטבילת כלי &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#-5&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;לאביי נאמן רק בטבילת גופו אבל לא כליו&lt;br /&gt;
+לרבא, נאמן אילו אומר מעולם לא הטבלתי כלי בתוך כלי. אבל לא נאמן לומר טבלתי בכלי שיש בו פתח כשפופרת.&lt;/p&gt;
+&lt;h3 id=&quot;-6&quot; tabindex=&quot;-1&quot;&gt;טומאת כלי שנטמא אחוריו &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#-6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;בקודש - עשו מעלה וטמא גם תוכו&lt;br /&gt;
+בתרומה - רק אחוריו טמאים אבל לא תוכו, אוגניו וכו. אבל אם נטמא תוכו - כולו טמא.&lt;/p&gt;
+&lt;h3 id=&quot;-7&quot; tabindex=&quot;-1&quot;&gt;מהו בית הצביטה &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-03/#-7&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;זהו מקום שצובט את הכלי ומושיט לאחרים - מקום אחיזת הכלי. כמו ויצבוט לה קלי - שהושיט לה קלי.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -1606,6 +1667,23 @@ $$&lt;/p&gt;
 &lt;pre class=&quot;language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;sequenceDiagram&lt;/span&gt;&lt;br /&gt;Alice &lt;span class=&quot;token arrow operator&quot;&gt;-&gt;&gt;&lt;/span&gt; Bob&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Hello Bob, how are you?&lt;br /&gt;Bob&lt;span class=&quot;token arrow operator&quot;&gt;--&gt;&gt;&lt;/span&gt;John&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; How about you John?&lt;br /&gt;Bob&lt;span class=&quot;token arrow operator&quot;&gt;--x&lt;/span&gt; Alice&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; I am good thanks!&lt;br /&gt;Bob&lt;span class=&quot;token arrow operator&quot;&gt;-x&lt;/span&gt; John&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; I am good thanks!&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;Note right of&lt;/span&gt; John&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Bob thinks a long&amp;lt;br/&gt;long time, so long&amp;lt;br/&gt;that the text does&amp;lt;br/&gt;not fit on a row.&lt;br /&gt;&lt;br /&gt;Bob&lt;span class=&quot;token arrow operator&quot;&gt;--&gt;&lt;/span&gt;Alice&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Checking with John...&lt;br /&gt;Alice&lt;span class=&quot;token arrow operator&quot;&gt;-&gt;&lt;/span&gt;John&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Yes... John, how are you?&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And this will produce a flow chart:&lt;/p&gt;
 &lt;pre class=&quot;language-mermaid&quot;&gt;&lt;code class=&quot;language-mermaid&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;graph&lt;/span&gt; LR&lt;br /&gt;A&lt;span class=&quot;token text string&quot;&gt;[Square Rect]&lt;/span&gt; &lt;span class=&quot;token inter-arrow-label&quot;&gt;&lt;span class=&quot;token arrow-head arrow operator&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;token label property&quot;&gt;לא יודע מה כותבים פה&lt;/span&gt; &lt;span class=&quot;token arrow operator&quot;&gt;--&gt;&lt;/span&gt;&lt;/span&gt; B&lt;span class=&quot;token text string&quot;&gt;((Circle))&lt;/span&gt;&lt;br /&gt;A &lt;span class=&quot;token arrow operator&quot;&gt;--&gt;&lt;/span&gt; C&lt;span class=&quot;token text string&quot;&gt;(Round Rect)&lt;/span&gt;&lt;br /&gt;B &lt;span class=&quot;token arrow operator&quot;&gt;--&gt;&lt;/span&gt; D&lt;span class=&quot;token text string&quot;&gt;{Rhombus}&lt;/span&gt;&lt;br /&gt;C &lt;span class=&quot;token arrow operator&quot;&gt;--&gt;&lt;/span&gt; D&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hagigah 21</title>
+		<link href="https://example.com/posts/dafyomi/2022-03-02/"/>
+		<updated>2022-03-02T00:00:00Z</updated>
+		<id>https://example.com/posts/dafyomi/2022-03-02/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://example.com/posts/dafyomi/2022-03-02&quot;&gt;הדף הקודם&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;hagigah-21&quot; tabindex=&quot;-1&quot;&gt;סיכום דף Hagigah 21 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-02/#hagigah-21&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;מדוע לא מטבילים כלי בתוך כלי בקודש &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-02/#&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;לר אילא, כי הכובד של הכלי הפנימי חוצץ מן המים להגיע לכל הכלי.&lt;/li&gt;
+&lt;li&gt;לרבא, גזירה שמא יטביל בכלי שאין בו שפה עם נקב ברוחב שפופרת הנוד - שתי אצבעות.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-1&quot; tabindex=&quot;-1&quot;&gt;מתי ההבדל בין רבא לר אילא &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/dafyomi/2022-03-02/#-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;במקרה שמילא כלים קטנים בתוך סל וגרגותי שתמיד יהיה בהם רווח מספק. שלרבא יהיה כשר ולר אילא יהיא פסול.&lt;/p&gt;
 </content>
 	</entry>
 	
