@@ -22,21 +22,6 @@
   </url>
   
   <url>
-    <loc>https://example.com/posts/Markdown%20Basics/</loc>
-    <lastmod>2021-04-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Mermaid/</loc>
-    <lastmod>2021-04-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/terraform/</loc>
-    <lastmod>2021-04-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/posts/dafyomi/2021-11-14DY%20-%20Taanit%202/</loc>
     <lastmod>2021-11-14</lastmod>
   </url>
@@ -637,42 +622,17 @@
   </url>
   
   <url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/commands/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/devops/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/op/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/tags/number-2/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/terraform/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/virtual/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/tags/posts-with-two-tags/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/devops/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
@@ -692,12 +652,12 @@
   </url>
   
   <url>
-    <loc>https://example.com/tags/helm-devops-commands/</loc>
+    <loc>https://example.com/tags/devops-helm-install-k8s/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/devops-helm-install-k8s/</loc>
+    <loc>https://example.com/tags/helm-devops-commands/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
@@ -712,6 +672,11 @@
   </url>
   
   <url>
+    <loc>https://example.com/tags/op/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/tags/po/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
@@ -722,7 +687,17 @@
   </url>
   
   <url>
+    <loc>https://example.com/tags/commands/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/tags/markdown-commands-devops-notes/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/markdown/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
@@ -757,7 +732,27 @@
   </url>
   
   <url>
-    <loc>https://example.com/posts/dafyomi/2022-03-03DY%20-%20Hagigah%2022/</loc>
+    <loc>https://example.com/tags/terraform/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/virtual/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Markdown%20Basics/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/terraform/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/dafyomi/2022-03-03/</loc>
     <lastmod>2022-03-03</lastmod>
   </url>
   
@@ -767,97 +762,97 @@
   </url>
   
   <url>
-    <loc>https://example.com/posts/Notes/ChertMuseum/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Helm%20quick%20commands/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Helm/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/K8s/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Linux%20GUI/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Linux/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Markdown%20Basics/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Mermaid/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/PL-SQL/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Putty/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Scoop/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/Terraform/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/WSL%20Distribution%20-%20OP/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/posts/indexs/</loc>
     <lastmod>2022-03-04</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/Notes/%D7%90%D7%97%D7%A8/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D%20%D7%95%D7%9E%D7%99%D7%93%D7%A2%20%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/%D7%9E%D7%99%D7%A7%D7%95%D7%9D%20%D7%A2%D7%91%D7%95%D7%93%D7%AA%20%D7%9B%D7%95%D7%94%D7%9F%20%D7%92%D7%93%D7%95%D7%9C%20%D7%91%D7%99%D7%95%D7%9D%20%D7%9B%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D/</loc>
-    <lastmod>2022-03-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/Notes/%D7%A7%D7%95%D7%A8%D7%95%D7%AA%20%D7%97%D7%99%D7%99%D7%9D/</loc>
-    <lastmod>2022-03-04</lastmod>
+    <loc>https://example.com/posts/dafyomi/2022-03-05/</loc>
+    <lastmod>2022-03-05</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/dafyomi/</loc>
-    <lastmod>2022-03-04</lastmod>
+    <lastmod>2022-03-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Mermaid/</loc>
+    <lastmod>2022-03-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/dafyomi/2022-03-07/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/ChertMuseum/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Helm%20quick%20commands/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Helm/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/K8s/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Linux%20GUI/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Linux/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/PL-SQL/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Putty/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/Scoop/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/WSL%20Distribution%20-%20OP/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/%D7%90%D7%97%D7%A8/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D%20%D7%95%D7%9E%D7%99%D7%93%D7%A2%20%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/%D7%9E%D7%99%D7%A7%D7%95%D7%9D%20%D7%A2%D7%91%D7%95%D7%93%D7%AA%20%D7%9B%D7%95%D7%94%D7%9F%20%D7%92%D7%93%D7%95%D7%9C%20%D7%91%D7%99%D7%95%D7%9D%20%D7%9B%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D/</loc>
+    <lastmod>2022-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/%D7%A7%D7%95%D7%A8%D7%95%D7%AA%20%D7%97%D7%99%D7%99%D7%9D/</loc>
+    <lastmod>2022-03-07</lastmod>
   </url>
 </urlset>

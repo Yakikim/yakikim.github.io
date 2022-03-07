@@ -1,0 +1,28 @@
+<h1 id="helm" tabindex="-1">Helm <a class="direct-link" href="#helm" aria-hidden="true">#</a></h1>
+<p>[[index | דף הבית]]/[[אחר]]</p>
+<hr>
+<p>[[2021-04-25]]</p>
+<h2 id="common-commands" tabindex="-1">Common Commands <a class="direct-link" href="#common-commands" aria-hidden="true">#</a></h2>
+<p>Add repo</p>
+<pre><code>helm repo add stable https://charts.helm.sh/stable
+</code></pre>
+<p>Updating repo. sync all helm charts info.</p>
+<pre><code>helm repo update
+</code></pre>
+<p>show you a list of all deployed releases.</p>
+<pre><code>helm list
+</code></pre>
+<p>setup helm with our cluster.</p>
+<pre class="language-bash"><code class="language-bash"> helm init</code></pre>
+<pre class="language-bash"><code class="language-bash">helm repo update </code></pre>
+<p>By default helm uses stable repo, we can see<br>
+which repos are available using list.</p>
+<pre class="language-bash"><code class="language-bash">helm repo list </code></pre>
+<p>Create a chart</p>
+<pre class="language-bash"><code class="language-bash">helm create <span class="token operator">&lt;</span>chart name<span class="token operator">></span> <br>$ helm package <span class="token operator">&lt;</span>chart name<span class="token operator">></span> - package a chart into tar.gz</code></pre>
+<p>install a chart</p>
+<pre class="language-bash"><code class="language-bash">helm <span class="token function">install</span> <span class="token operator">&lt;</span>name<span class="token operator">></span> <span class="token operator">&lt;</span>chart<span class="token operator">></span></code></pre>
+<p>delete a chart</p>
+<pre class="language-bash"><code class="language-bash">helm delete <span class="token operator">&lt;</span>chart name<span class="token operator">></span> </code></pre>
+<p>[[YakisSite/ChertMuseum]] install as docker container</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">docker</span> run --rm -it <span class="token punctuation">\</span><br>   -p <span class="token number">8080</span>:8080 <span class="token punctuation">\</span><br>   -e <span class="token assign-left variable">DEBUG</span><span class="token operator">=</span><span class="token number">1</span> <span class="token punctuation">\</span><br>   -e <span class="token assign-left variable">STORAGE</span><span class="token operator">=</span>local <span class="token punctuation">\</span><br>   -e <span class="token assign-left variable">STORAGE_LOCAL_ROOTDIR</span><span class="token operator">=</span>/charts <span class="token punctuation">\</span><br>   -v <span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">pwd</span><span class="token variable">)</span></span>/charts:/charts <span class="token punctuation">\</span><br>   ghcr.io/helm/chartmuseum:v0.13.1</code></pre>

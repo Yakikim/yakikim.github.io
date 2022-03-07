@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>terraform</title>
-    <meta name="description" content="some">
+    <title>Terraform</title>
+    <meta name="description" content="Docs, Guides and specs">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Yaki Kimhi&#39;s Site">
@@ -12,7 +12,7 @@
 	<script src="mermaid.js"></script>
 <script src="mermaid.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script> </head>
-  <body dir=>
+  <body dir=ltr>
     <header>
       <h1 class="home"><a href="/">Yaki Kimhi&#39;s Site</a></h1>
       <ul class="nav">
@@ -27,15 +27,18 @@
     <main class="tmpl-post">
 
       <!-- Delete this message -->
-      <div class="warning">
-       
+      <div class="warning"  style="text-align: center;">
+       <h1> Yaki Kimhi&#39;s Site </h1>
       </div>
       <!-- Stop deleting -->
 
-      <h1>terraform</h1>
+      <h1>Terraform</h1>
 
-<time datetime="2021-04-22">22 Apr 2021</time><a href="/tags/terraform/" class="post-tag">terraform</a><a href="/tags/devops/" class="post-tag">devops</a><a href="/tags/commands/" class="post-tag">commands</a><a href="/tags/virtual/" class="post-tag">virtual</a>
+<time datetime="2022-03-02">02 Mar 2022</time><a href="/tags/terraform/" class="post-tag">terraform</a><a href="/tags/devops/" class="post-tag">devops</a><a href="/tags/commands/" class="post-tag">commands</a><a href="/tags/virtual/" class="post-tag">virtual</a>
 
+<p>[[2021-05-23]]</p>
+<h1 id="terraform" tabindex="-1">Terraform <a class="direct-link" href="#terraform" aria-hidden="true">#</a></h1>
+<p>[[index | דף הבית]] / [[אחר]]</p>
 <h2 id="installing" tabindex="-1">Installing <a class="direct-link" href="#installing" aria-hidden="true">#</a></h2>
 <p>Windows users:</p>
 <ol>
@@ -50,20 +53,19 @@ Open a CMD / Terminal and run:</p>
 <p>Any response other than “terraform is not recognized” is good</p>
 <h2 id="aws-configuration" tabindex="-1">AWS Configuration <a class="direct-link" href="#aws-configuration" aria-hidden="true">#</a></h2>
 <h3 id="login-as-yakikim2" tabindex="-1">Login as Yakikim2 <a class="direct-link" href="#login-as-yakikim2" aria-hidden="true">#</a></h3>
-<p>![[Pasted image 20210419100244.png]]</p>
+<p>![[Attachments/Pasted image 20210419100244.png]]</p>
 <h3 id="lunch-instance-at-ec2" tabindex="-1">Lunch instance at EC2 <a class="direct-link" href="#lunch-instance-at-ec2" aria-hidden="true">#</a></h3>
-<p>![[Pasted image 20210419100627.png]]</p>
+<p>![[Attachments/Pasted image 20210419100627.png]]</p>
 <h3 id="define-user-at-iam" tabindex="-1">Define user at IAM <a class="direct-link" href="#define-user-at-iam" aria-hidden="true">#</a></h3>
 <p>you should define user with the proper credentials as well as &quot;AWS Identity and Access Management&quot;  credential.</p>
-<p>![[Pasted image 20210419101516.png]]<br>
+<p>![[Attachments/Pasted image 20210419101516.png]]<br>
 then you will generate and backup the access+secret key at the &quot;Security credentials&quot; tab</p>
 <h3 id="generate-the-ssh-key-pair" tabindex="-1">Generate the SSH Key pair <a class="direct-link" href="#generate-the-ssh-key-pair" aria-hidden="true">#</a></h3>
-<p>At EC2 you should create a &quot;Key pair&quot; that latly you will use it in VNC tool like [[Putty]]<br>
-![[Pasted image 20210419102127.png]]</p>
+<p>At EC2 you should create a &quot;Key pair&quot; that latly you will use it in VNC tool like [[YakisSite/Putty]]<br>
+![[Attachments/Pasted image 20210419102127.png]]</p>
 <h3 id="edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" tabindex="-1">Edis the file <a href="https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf">https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf</a> <a class="direct-link" href="#edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" aria-hidden="true">#</a></h3>
 <p>finally it looks (In MY case) as:</p>
-<pre><code>Terraform: Main.tf
-provider &quot;aws&quot; {
+<pre><code>provider &quot;aws&quot; {
   region = &quot;us-west-2&quot;
   access_key = &quot;AKIA3H4ALTA4AI57N7OC&quot;
   secret_key = &quot;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&quot;
@@ -169,7 +171,7 @@ when we wnat to use the IP for the SSH connection, we can send the command</p>
 <p><a href="https://github.com/hashicorp/terraform/blob/main/LICENSE">Mozilla Public License v2.0</a></p>
 
 <hr>
-<ul><li>Next: <a href="/posts/dafyomi/2021-11-14DY - Taanit 2/">Taanit 2</a></li><li>Previous: <a href="/posts/Mermaid/">Mermaid</a></li>
+<ul><li>Next: <a href="/posts/dafyomi/2022-03-03/">Hagigah 22</a></li><li>Previous: <a href="/posts/Markdown Basics/"></a></li>
 </ul>
 
     </main>

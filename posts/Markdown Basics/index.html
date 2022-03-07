@@ -1,44 +1,6 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Basics</title>
-    <meta name="description" content="Docs, Guides and specs">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Yaki Kimhi&#39;s Site">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Yaki Kimhi&#39;s Site">
-	<script src="mermaid.js"></script>
-<script src="mermaid.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script> </head>
-  <body dir=>
-    <header>
-      <h1 class="home"><a href="/">Yaki Kimhi&#39;s Site</a></h1>
-      <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/dafyomi/">Daf Yomi</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
-      </ul>
-	      <!--  <div></div> -->
-    </header>
-
-    <main class="tmpl-post">
-
-      <!-- Delete this message -->
-      <div class="warning">
-       
-      </div>
-      <!-- Stop deleting -->
-
-      <h1>Markdown Basics</h1>
-
-<time datetime="2021-04-22">22 Apr 2021</time><a href="/tags/markdown/" class="post-tag">markdown</a><a href="/tags/commands/" class="post-tag">commands</a><a href="/tags/devops/" class="post-tag">devops</a><a href="/tags/notes/" class="post-tag">notes</a>
-
 <p>[[2021-05-23]]</p>
 <h1 id="markdown-basics" tabindex="-1">Markdown Basics <a class="direct-link" href="#markdown-basics" aria-hidden="true">#</a></h1>
-<p>[[index]]/ [[Professional]]</p>
+<p>[[index | דף הבית]]/[[אחר]]</p>
 <h2 id="pip-install-using-proxy" tabindex="-1">PIP Install using proxy <a class="direct-link" href="#pip-install-using-proxy" aria-hidden="true">#</a></h2>
 <pre class="language-shell"><code class="language-shell">pip <span class="token function">install</span> --proxy <span class="token number">147.233</span>.250.10:80 PyGithub 	</code></pre>
 <pre class="language-bash"><code class="language-bash">pip <span class="token function">install</span> --proxy <span class="token number">147.233</span>.250.10:80 dohq-tfs</code></pre>
@@ -151,16 +113,3 @@ $$</p>
 <pre class="language-mermaid"><code class="language-mermaid"><span class="token keyword">sequenceDiagram</span><br>Alice <span class="token arrow operator">->></span> Bob<span class="token operator">:</span> Hello Bob, how are you?<br>Bob<span class="token arrow operator">-->></span>John<span class="token operator">:</span> How about you John?<br>Bob<span class="token arrow operator">--x</span> Alice<span class="token operator">:</span> I am good thanks!<br>Bob<span class="token arrow operator">-x</span> John<span class="token operator">:</span> I am good thanks!<br><span class="token keyword">Note right of</span> John<span class="token operator">:</span> Bob thinks a long&lt;br/>long time, so long&lt;br/>that the text does&lt;br/>not fit on a row.<br><br>Bob<span class="token arrow operator">--></span>Alice<span class="token operator">:</span> Checking with John...<br>Alice<span class="token arrow operator">-></span>John<span class="token operator">:</span> Yes... John, how are you?</code></pre>
 <p>And this will produce a flow chart:</p>
 <pre class="language-mermaid"><code class="language-mermaid"><span class="token keyword">graph</span> LR<br>A<span class="token text string">[Square Rect]</span> <span class="token inter-arrow-label"><span class="token arrow-head arrow operator">--</span> <span class="token label property">לא יודע מה כותבים פה</span> <span class="token arrow operator">--></span></span> B<span class="token text string">((Circle))</span><br>A <span class="token arrow operator">--></span> C<span class="token text string">(Round Rect)</span><br>B <span class="token arrow operator">--></span> D<span class="token text string">{Rhombus}</span><br>C <span class="token arrow operator">--></span> D</code></pre>
-
-<hr>
-<ul><li>Next: <a href="/posts/Mermaid/">Mermaid</a></li><li>Previous: <a href="/posts/fourthpost/">This is my fourth post.</a></li>
-</ul>
-
-    </main>
-
-    <footer></footer>
-
-    <!-- Current page: /posts/Markdown Basics/ -->
-
-  </body>
-</html>
