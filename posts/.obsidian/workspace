@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6ff4263cbbddc578",
+        "id": "53f5dcadc839d0ce",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -154,9 +154,10 @@
     "direction": "horizontal",
     "width": 299
   },
-  "active": "6ff4263cbbddc578",
+  "active": "53f5dcadc839d0ce",
   "lastOpenFiles": [
     "dafyomi/2022-03-09.md",
+    "dafyomi/2022-03-10.md",
     "dafyomi/2022-03-08.md",
     "dafyomi/2022-02-11DY - Hagigah 2.md",
     "dafyomi/2022-03-02.md",
@@ -164,7 +165,6 @@
     "K8s.md",
     "terraform.md",
     "Helm quick commands.md",
-    "Helm.md",
-    "קורות חיים.md"
+    "Helm.md"
   ]
 }
