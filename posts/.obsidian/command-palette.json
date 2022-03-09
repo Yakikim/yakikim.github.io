@@ -1,0 +1,7 @@
+{
+  "pinned": [
+    "obsidian-tasks-plugin:edit-task",
+    "app:delete-file",
+    "templater-obsidian:insert-templater"
+  ]
+}
