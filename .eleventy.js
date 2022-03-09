@@ -5,7 +5,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
+//const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
 
 module.exports = function(eleventyConfig) {
 	
@@ -17,11 +17,11 @@ module.exports = function(eleventyConfig) {
     }
     return highlighter(str, language);
   });
-  eleventyConfig.addPlugin(pluginMermaid, {
+  //eleventyConfig.addPlugin(pluginMermaid, {
     // load mermaid from local assets directory
-    mermaid_js_src: 'https://unpkg.com/mermaid/dist/mermaid.min.js',
-    html_tag: 'pre'
-	});
+  //  mermaid_js_src: 'https://unpkg.com/mermaid/dist/mermaid.min.js',
+  //  html_tag: 'pre'
+//	});
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
