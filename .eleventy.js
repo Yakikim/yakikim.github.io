@@ -5,6 +5,8 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const toIgnore = process.env.NODE_ENV === 'ignore' ? true : false;
+
 //const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
 
 module.exports = function(eleventyConfig) {
@@ -12,7 +14,7 @@ module.exports = function(eleventyConfig) {
  const highlighter = eleventyConfig.markdownHighlighter;
   
   eleventyConfig.addMarkdownHighlighter((str, language) => {
-    if (language === "language-mermaid") {
+    if (language === "mermaid") {
       return `<pre class="mermaid">${str}</pre>`;
     }
     return highlighter(str, language);
@@ -22,6 +24,17 @@ module.exports = function(eleventyConfig) {
   //  mermaid_js_src: 'https://unpkg.com/mermaid/dist/mermaid.min.js',
   //  html_tag: 'pre'
 //	});
+eleventyConfig.addCollection("posts", collection => {
+	return collection.getFilteredByGlob("_posts/*.md").filter(p => {
+		if (toIgnore) {
+			if (!p.data.draft) return true;
+			else return false;
+		}
+		return true;
+	}).reverse();
+});
+//-------------------------------------------
+
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
