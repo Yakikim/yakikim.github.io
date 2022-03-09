@@ -667,12 +667,12 @@
   </url>
   
   <url>
-    <loc>https://example.com/tags/another-tag/</loc>
+    <loc>https://example.com/tags/install/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/install/</loc>
+    <loc>https://example.com/tags/another-tag/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
@@ -682,7 +682,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/tags/linux/</loc>
+    <loc>https://example.com/tags/markdown/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
@@ -692,12 +692,27 @@
   </url>
   
   <url>
-    <loc>https://example.com/tags/markdown/</loc>
+    <loc>https://example.com/tags/linux/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/scoop/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/tags/number-2/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/posts-with-two-tags/</loc>
+    <lastmod>2022-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/hagigah/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
@@ -708,21 +723,6 @@
   
   <url>
     <loc>https://example.com/tags/about/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/hagigah/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/scoop/</loc>
-    <lastmod>2022-03-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/posts-with-two-tags/</loc>
     <lastmod>2022-03-02</lastmod>
   </url>
   
@@ -808,11 +808,6 @@
   
   <url>
     <loc>https://example.com/posts/dafyomi/2022-03-06/</loc>
-    <lastmod>2022-03-06</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/dafyomi/</loc>
     <lastmod>2022-03-06</lastmod>
   </url>
   
