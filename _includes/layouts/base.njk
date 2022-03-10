@@ -21,8 +21,7 @@
     <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
-{% set navPages = collections.all | eleventyNavigation %}
-{{ navPages | dump | safe }}
+
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
@@ -44,8 +43,11 @@
        <h1> {{ header or metadata.header}} </h1>
       </div>
       <!-- Stop deleting -->
-
+	  {% if draft|length %}
+	  <a> back to home </a>
+	  {% else %}
       {{ content | safe }}
+	  {% endif %}
     </main>
 
     <footer></footer>

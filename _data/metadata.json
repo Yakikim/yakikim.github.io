@@ -1,11 +1,11 @@
 {
   "title": "Yaki Kimhi's Site",
   "header": "Yaki Kimhi's Site",
-  "url": "https://example.com/",
+  "url": "https://yakikim.github.io/",
   "language": "iw",
   "description": "Docs, Guides and specs",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "All about my special things I want to share with the world",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -16,7 +16,7 @@
   },
     "author": {
     "name": "Yaki Kimhi",
-    "email": "yakiki@openu.ac.il",
+    "email": "Yakikim@gmail.com",
 	"url": "/about-me/"
   }
 

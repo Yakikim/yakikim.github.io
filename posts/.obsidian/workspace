@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "53f5dcadc839d0ce",
+        "id": "75196c49340a5073",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "dafyomi/2022-03-08.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -84,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dafyomi/2022-03-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dafyomi/2022-03-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +114,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "dafyomi/2022-03-08.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:📃Menu/TopLevel",
@@ -154,17 +148,17 @@
     "direction": "horizontal",
     "width": 299
   },
-  "active": "53f5dcadc839d0ce",
+  "active": "75196c49340a5073",
   "lastOpenFiles": [
+    "dafyomi/2022-03-10.md",
+    "dafyomi/2022-03-07.md",
     "dafyomi/2022-03-08.md",
     "dafyomi/2022-03-09.md",
-    "dafyomi/2022-03-10.md",
     "dafyomi/2022-02-11DY - Hagigah 2.md",
     "dafyomi/2022-03-02.md",
     "dafyomi/2022-03-03.md",
     "K8s.md",
     "terraform.md",
-    "Helm quick commands.md",
-    "Helm.md"
+    "Helm quick commands.md"
   ]
 }
