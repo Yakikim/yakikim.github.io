@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "75196c49340a5073",
+        "id": "e14f4ca092e9489d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "dafyomi/2022-03-09.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -81,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dafyomi/2022-03-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dafyomi/2022-03-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "dafyomi/2022-03-09.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:📃Menu/TopLevel",
@@ -148,17 +154,17 @@
     "direction": "horizontal",
     "width": 299
   },
-  "active": "75196c49340a5073",
+  "active": "e14f4ca092e9489d",
   "lastOpenFiles": [
-    "dafyomi/2022-03-10.md",
-    "dafyomi/2022-03-07.md",
-    "dafyomi/2022-03-08.md",
     "dafyomi/2022-03-09.md",
+    "dafyomi/static/Pasted image 20220309202534.png",
+    "dafyomi/2022-03-10.md",
+    "dafyomi/2022-03-08.md",
+    "dafyomi/2022-03-07.md",
     "dafyomi/2022-02-11DY - Hagigah 2.md",
     "dafyomi/2022-03-02.md",
     "dafyomi/2022-03-03.md",
     "K8s.md",
-    "terraform.md",
-    "Helm quick commands.md"
+    "terraform.md"
   ]
 }
