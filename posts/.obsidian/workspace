@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dafyomi/2022-03-10.md",
-            "mode": "source"
+            "file": "dafyomi/2022-03-09.md",
+            "mode": "preview"
           }
         }
       }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dafyomi/2022-03-10.md",
+                "file": "dafyomi/2022-03-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dafyomi/2022-03-10.md",
+                "file": "dafyomi/2022-03-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "dafyomi/2022-03-10.md",
+                "file": "dafyomi/2022-03-09.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:📃Menu/TopLevel",
@@ -156,8 +156,8 @@
   },
   "active": "e14f4ca092e9489d",
   "lastOpenFiles": [
-    "dafyomi/2022-03-10.md",
     "dafyomi/2022-03-09.md",
+    "dafyomi/2022-03-10.md",
     "dafyomi/static/Pasted image 20220309202534.png",
     "dafyomi/2022-03-08.md",
     "dafyomi/2022-03-07.md",
