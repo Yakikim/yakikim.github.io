@@ -1,0 +1,26 @@
+---
+cssclasses: rtl
+tags: [document, personal, c130 , mba, maman] 
+created: <% tp.file.creation_date() %>
+modified: <% tp.file.last_modified_date() %>
+type: Document
+title:  <% tp.file.title.substring(14, 200) %> 
+link: [[<% tp.file.title %> | <% tp.file.title.substring(14, 200) %> ]]
+---
+Week Of: <% "[[" + tp.date.weekday("YYYY-MM-DD" ,0)  + "]]" %>
+[[<% tp.date.now() %>]]
+
+#  <% tp.file.title.substring(14, 200) %> 
+
+[[HOME]]/[[Professional]]/[[Studies]]
+
+מגיש: יעקב קמחי
+מ.ז. 038820676
+---
+
+## שאלה 1
+
+
+---
+#maman 
+#personal
