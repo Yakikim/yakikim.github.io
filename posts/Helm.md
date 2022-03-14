@@ -4,8 +4,8 @@ date: 2022-02-11
 title: helm 
 description:
 header: Devop notes 
-layout: layouts/post.njk
-tags: [devops, helm, install, k8s]
+tags: [devops, helm, install, k8s, versionednote]
+layout: post
 ---
 [[16/05/2021]]
 # Helm
@@ -16,9 +16,6 @@ Installing via [[YakisSite/Scoop]]
 ```
 scoop install helm
 ```
-
-
-
 
 ## About helm
 

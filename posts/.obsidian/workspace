@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a0f55cda75543840",
+        "id": "e14f4ca092e9489d",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -154,17 +154,17 @@
     "direction": "horizontal",
     "width": 299
   },
-  "active": "a0f55cda75543840",
+  "active": "e14f4ca092e9489d",
   "lastOpenFiles": [
     "dafyomi/2022-03-13.md",
-    "dafyomi/2022-03-12.md",
-    "dafyomi/2022-03-11.md",
+    "Helm.md",
     "dafyomi/2022-03-09.md",
     "dafyomi/2022-03-10.md",
     "dafyomi/static/Pasted image 20220309202534.png",
     "dafyomi/2022-03-08.md",
     "dafyomi/2022-03-07.md",
     "dafyomi/2022-02-11DY - Hagigah 2.md",
-    "dafyomi/2022-03-02.md"
+    "dafyomi/2022-03-02.md",
+    "dafyomi/2022-03-03.md"
   ]
 }

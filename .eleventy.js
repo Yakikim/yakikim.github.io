@@ -1,31 +1,134 @@
 const { DateTime } = require("luxon");
+const slugify = require("@sindresorhus/slugify");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const markdownItx = require("markdown-it");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
+const matter = require('gray-matter');
 //const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
 
 module.exports = function(eleventyConfig) {
 	
- const highlighter = eleventyConfig.markdownHighlighter;
-  
-  eleventyConfig.addMarkdownHighlighter((str, language) => {
-    if (language === "mermaid") {
-      return `<pre class="mermaid">${str}</pre>`;
-    }
-    return highlighter(str, language);
-  });
-  //eleventyConfig.addPlugin(pluginMermaid, {
-    // load mermaid from local assets directory
-  //  mermaid_js_src: 'https://unpkg.com/mermaid/dist/mermaid.min.js',
-  //  html_tag: 'pre'
-//	});
+ eleventyConfig.addLayoutAlias("dafyomi", "layouts/dafyomi.njk");
 
-  // Alias `layout: dafyomi` to `layout: layouts/dafyomi.njk`
-  eleventyConfig.addLayoutAlias("dafyomi", "layouts/dafyomi.njk");
+
+    let markdownLib = markdownIt({
+            breaks: true,
+            html: true,
+			linkify: true
+        })
+		.use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "after",
+      class: "direct-link",
+      symbol: "#",
+      level: [1,2,3,4],
+    }),
+    slugify: eleventyConfig.getFilter("slug")
+  })
+        .use(require("markdown-it-footnote"))
+        .use(function(md) {
+            //https://github.com/DCsunset/markdown-it-mermaid-plugin
+            const origFenceRule = md.renderer.rules.fence || function(tokens, idx, options, env, self) {
+                return self.renderToken(tokens, idx, options, env, self);
+            };
+            md.renderer.rules.fence = (tokens, idx, options, env, slf) => {
+                const token = tokens[idx];
+                if (token.info === 'mermaid') {
+                    const code = token.content.trim();
+                    return `<pre class="mermaid">${code}</pre>`;
+                }
+                if (token.info === 'transclusion') {
+                    const code = token.content.trim();
+                    return `<div class="transclusion">${md.render(code)}</div>`;
+                }
+                if (token.info.startsWith("ad-")) {
+                    const code = token.content.trim();
+                    return `<pre class="language-${token.info}">${md.render(code)}</pre>`;
+                }
+
+                // Other languages
+                return origFenceRule(tokens, idx, options, env, slf);
+            };
+
+
+
+            const defaultImageRule = md.renderer.rules.image || function(tokens, idx, options, env, self) {
+                return self.renderToken(tokens, idx, options, env, self);
+            };
+            md.renderer.rules.image = (tokens, idx, options, env, self) => {
+                const imageName = tokens[idx].content;
+                const [fileName, width] = imageName.split("|");
+                if (width) {
+                    const widthIndex = tokens[idx].attrIndex('width');
+                    const widthAttr = `${width}px`;
+                    if (widthIndex < 0) {
+                        tokens[idx].attrPush(['width', widthAttr]);
+                    } else {
+                        tokens[idx].attrs[widthIndex][1] = widthAttr;
+                    }
+                }
+
+                return defaultImageRule(tokens, idx, options, env, self);
+            };
+
+
+            const defaultLinkRule = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {
+                return self.renderToken(tokens, idx, options, env, self);
+            };
+            md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
+                const aIndex = tokens[idx].attrIndex('target');
+                const classIndex = tokens[idx].attrIndex('class');
+
+                if (aIndex < 0) {
+                    tokens[idx].attrPush(['target', '_blank']);
+                } else {
+                    tokens[idx].attrs[aIndex][1] = '_blank';
+                }
+
+                if (classIndex < 0) {
+                    tokens[idx].attrPush(['class', 'external-link']);
+                } else {
+                    tokens[idx].attrs[classIndex][1] = 'external-link';
+                }
+
+                return defaultLinkRule(tokens, idx, options, env, self);
+            };
+        });
+    eleventyConfig.setLibrary("md", markdownLib);
+
+    eleventyConfig.addTransform('link', function(str) {
+        return str && str.replace(/\[\[(.*?)\]\]/g, function(match, p1) {
+            const [fileName, linkTitle] = p1.split("|");
+
+            let permalink = `/posts/${slugify(fileName)}`;
+            const title = linkTitle ? linkTitle : fileName;
+
+            try {
+                const file = fs.readFileSync(`./posts/${fileName}.md`, 'utf8');
+                const frontMatter = matter(file);
+                if (frontMatter.data.permalink) {
+                    permalink = frontMatter.data.permalink;
+                }
+            } catch {
+                //Ignore if file doesn't exist
+            }
+
+            return `<a class="internal-link" href="${permalink}">${title}</a>`;
+        });
+    })
+
+    eleventyConfig.addTransform('highlight', function(str) {
+        //replace ==random text== with <mark>random text</mark>
+        return str && str.replace(/\=\=(.*?)\=\=/g, function(match, p1) {
+            return `<mark>${p1}</mark>`;
+        });
+    });
+
 
 //-------------------------------------------
 
@@ -83,21 +186,6 @@ module.exports = function(eleventyConfig) {
     return filterTagList([...tagSet]);
   });
 
-  // Customize Markdown library and settings:
-  let markdownLibrary = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true
-  }).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.ariaHidden({
-      placement: "after",
-      class: "direct-link",
-      symbol: "#",
-      level: [1,2,3,4],
-    }),
-    slugify: eleventyConfig.getFilter("slug")
-  });
-  eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)
   eleventyConfig.setBrowserSyncConfig({
@@ -124,7 +212,8 @@ module.exports = function(eleventyConfig) {
       "md",
       "njk",
       "html",
-      "liquid"
+      "liquid", 
+	  "11ty.js"
     ],
 
     // Pre-process *.md files with: (default: `liquid`)
@@ -147,6 +236,7 @@ module.exports = function(eleventyConfig) {
     pathPrefix: "/",
     // -----------------------------------------------------------------
 
+    passthroughFileCopy: true,
     // These are all optional (defaults are shown):
     dir: {
       input: ".",
