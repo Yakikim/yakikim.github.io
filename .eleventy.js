@@ -13,7 +13,6 @@ const matter = require('gray-matter');
 
 module.exports = function(eleventyConfig) {
 	
- eleventyConfig.addLayoutAlias("dafyomi", "layouts/dafyomi.njk");
 
 
     let markdownLib = markdownIt({
@@ -129,6 +128,12 @@ module.exports = function(eleventyConfig) {
         });
     });
 
+  // Alias so just put `layout: post` and no need to write the full path `layout: layouts/post.njk` 
+ eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+// Aliases for the personal notes 
+ eleventyConfig.addLayoutAlias("dafyomi", "notes/dafyomi.njk");
+ 
+ eleventyConfig.addLayoutAlias("dafyomi", "notes/hebrew.njk");
 
 //-------------------------------------------
 
@@ -141,8 +146,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
 
-  // Alias `layout: post` to `layout: layouts/post.njk`
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -238,11 +242,11 @@ module.exports = function(eleventyConfig) {
 
     passthroughFileCopy: true,
     // These are all optional (defaults are shown):
-    dir: {
-      input: ".",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
+    dir: {	  
+	  input: 'src',
+      includes: '_includes',
+      data: '_data',
+      output: '_site',
     }
   };
 };

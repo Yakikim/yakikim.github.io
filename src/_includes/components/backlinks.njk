@@ -1,0 +1,59 @@
+
+
+<!-- Add backlinks to the current page --> 
+{% set linkcount = 0 %}
+{% set wikilinktitle = '[' + page.title + ']' %}
+{% for note in site.notes %}
+        {% if note.url != page.url %}
+            {% if note.content in wikilinktitle %}
+                {% set linkcount = linkcount + 1 %}
+            {% endif %}
+    {% endif %}
+{% endfor %}
+{% for note in site.posts %}
+        {% if note.url != page.url %}
+            {% if note.content in wikilinktitle %}
+                {% set linkcount = linkcount +1 %}
+            {% endif %}
+    {% endif %}
+{% endfor %}
+{% for note in site.pages %}
+        {% if note.url != page.url %}
+            {% if note.content in wikilinktitle %}
+                {% set linkcount = linkcount + 1 %}
+            {% endif %}
+    {% endif %}
+{% endfor %}
+{% if linkcount > 0 %}
+{% set wikilinktitle = '[' + page.title + ']' %}
+{% set displayclass = 'hide' %}
+{% if site.preferences.backlinks.enabled %}
+{% set displayclass = 'show' %}
+{% endif %}
+<div class="related {{display_class}}" id="jekyll-seamless-backlinks">
+    <h5 class="block-title">Links to this note</h5>
+    <div class="related-wrapper">
+        {% for note in site.notes %}
+        {% if note.url != page.url %}
+            {% if note.content in wikilinktitle %}
+            <div class="related-group"><a href="{{note.url}}">
+                <h4>{{ note.title }}</h4>
+                <p class="related-excerpt" style="margin: 0px;">{{ note.content + markdownify + striphtml  }}</p>
+            </a></div>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% for note in site.pages %}
+        {% if note.url != page.url %}
+            {% if note.content in wikilinktitle %}
+            <div class="related-group"><a href="{{note.url}}">
+                <h4>{{ note.title }}</h4>
+                <p class="related-excerpt" style="margin: 0px;">{{ note.content + markdownify + striphtml }}</p>
+            </a></div>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    <br/>
+</div>
+{% endif %}

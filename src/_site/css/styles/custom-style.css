@@ -1,0 +1,397 @@
+@charset "UTF-8";
+body {
+  /***
+     ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
+     IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+  ***/
+  /***
+  * DO NOT ADD/MODIFY STYLING HERE. IT WILL BE OVERWRITTEN IF YOU UPDATE THE TEMPLATE VERSION.
+  * MODIFY THE custom-style.scss FILE INSTEAD.
+  ***/
+  /* Colors */
+  /* Global stylesheet */
+  /* allow highlighting empty lines */
+  /* avoid double line breaks when using display: block; */
+  /* Header */
+  /* Nav */
+  /* Posts list */
+  /* Tags */
+  /* Warning */
+  /* Direct Links / Markdown Headers */
+}
+@media only screen and (max-width: 468px) {
+  body .page-header {
+    flex-direction: column;
+  }
+}
+body .page-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+body .page-header nav a:not(:hover):not(:focus) {
+  color: currentColor;
+  text-decoration: none;
+}
+body .content {
+  max-width: 900px;
+  margin: auto;
+  font-size: 22px;
+  line-height: 1.5;
+}
+body .mermaid svg {
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+}
+body .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body body {
+  background-color: #201f1f;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+body a {
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #61baf5;
+  color: #61baf5;
+}
+body .font-bg {
+  font-size: 92px;
+}
+body blockquote {
+  background: #ffffff17;
+  border-left: 10px solid #C1DBE3;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”" "‘" "’";
+}
+body blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+body blockquote p {
+  display: inline;
+}
+body .external-link {
+  padding-right: 10px;
+  position: relative;
+}
+body div.translusion {
+  border-left: 4px solid gray;
+  padding-left: 10px;
+}
+body pre[class*=language-ad-]::before {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+body code[class*=language-ad-] {
+  font-family: "Roboto", sans-serif;
+  white-space: normal !important;
+}
+body pre[class*=language-ad-] {
+  font-family: "Roboto", sans-serif;
+  word-wrap: break-word;
+  background-color: #3b2e58;
+  border: 1px solid #3b2e58;
+  border-radius: 6px;
+  color: #e6e6e6;
+  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  outline-color: #e6e6e6;
+  padding: 1rem;
+  position: relative;
+  transition: height 0.5s ease-in, opacity 0.5s ease-in;
+  word-break: break-word;
+  white-space: normal !important;
+}
+body pre.language-ad-note::before {
+  content: "🖊️ Note";
+}
+body pre.language-ad-tip::before {
+  content: "💡 Tip";
+}
+body pre.language-ad-warning::before {
+  content: "⚠️ Warning";
+}
+body pre.language-ad-important::before {
+  content: "❗️ Important";
+}
+body pre.language-ad-caution::before {
+  content: "⚠️ Caution";
+}
+body pre.language-ad-info::before {
+  content: "ℹ Info";
+}
+body pre.language-ad-tip {
+  background-color: #054b16;
+  border-color: #054b16;
+}
+body pre.language-ad-warning {
+  background-color: #6a4b16;
+  border-color: #6a4b16;
+}
+body pre.language-ad-important {
+  background-color: #004173;
+  border-color: #004173;
+}
+body pre.language-ad-caution {
+  background-color: #630001;
+  border-color: #630001;
+}
+body pre.language-ad-info {
+  background-color: #2e5854;
+  border: 1px solid #2e5854;
+}
+body :root {
+  --lightgray: #e0e0e0;
+  --gray: #C0C0C0;
+  --darkgray: #333;
+  --navy: #17050F;
+  --blue: #082840;
+  --white: #fff;
+}
+body * {
+  box-sizing: border-box;
+}
+body html,
+body body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, system-ui, sans-serif;
+  color: var(--darkgray);
+  background-color: var(--white);
+}
+body p:last-child {
+  margin-bottom: 0;
+}
+body p,
+body .tmpl-post li,
+body img {
+  max-width: 37.5em;
+  /* 600px /16 */
+}
+body p,
+body .tmpl-post li {
+  line-height: 1.45;
+}
+body nav a {
+  margin: 0 12px;
+  font-size: 1.25em;
+}
+body main {
+  padding: 1rem;
+}
+body main :first-child {
+  margin-top: 0;
+}
+body header {
+  border-bottom: 1px dashed var(--lightgray);
+}
+body header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body table {
+  margin: 1em 0;
+}
+body table td,
+body table th {
+  padding-right: 1em;
+}
+body pre,
+body code {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+body pre {
+  font-size: 14px;
+  line-height: 1.375;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  padding: 1em;
+  margin: 0.5em 0;
+  background-color: #f6f6f6;
+}
+body code {
+  word-break: break-all;
+}
+body .highlight-line {
+  display: block;
+  padding: 0.125em 1em;
+  text-decoration: none;
+  /* override del, ins, mark defaults */
+  color: inherit;
+  /* override del, ins, mark defaults */
+}
+body .highlight-line:empty:before {
+  content: " ";
+}
+body .highlight-line + br {
+  display: none;
+}
+body .highlight-line-isdir {
+  color: #b0b0b0;
+  background-color: #222;
+}
+body .highlight-line-active {
+  background-color: #444;
+  background-color: rgba(69, 69, 69, 0.8);
+}
+body .highlight-line-add {
+  background-color: #45844b;
+}
+body .highlight-line-remove {
+  background-color: #902f2f;
+}
+body .home {
+  padding: 0 1rem;
+  float: left;
+  margin: 1rem 0;
+  /* 16px /16 */
+  font-size: 1em;
+  /* 16px /16 */
+}
+body .home :link:not(:hover) {
+  text-decoration: none;
+}
+body .nav {
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+}
+body .nav-item {
+  display: inline-block;
+  margin-right: 1em;
+}
+body .nav-item a[href]:not(:hover) {
+  text-decoration: none;
+}
+body .nav-item-active {
+  font-weight: 700;
+}
+body .postlist {
+  list-style: none;
+  padding: 0;
+}
+body .postlist-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  counter-increment: start-from -1;
+  line-height: 1.8;
+}
+body .postlist-item:before {
+  display: inline-block;
+  pointer-events: none;
+  content: "" counter(start-from, decimal-leading-zero) ". ";
+  line-height: 100%;
+  text-align: right;
+}
+body .postlist-date,
+body .postlist-item:before {
+  font-size: 0.8125em;
+  /* 13px /16 */
+  color: var(--darkgray);
+}
+body .postlist-date {
+  word-spacing: -0.5px;
+}
+body .postlist-link {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  text-underline-position: from-font;
+  text-underline-offset: 0;
+  text-decoration-thickness: 1px;
+}
+body .postlist-item-active .postlist-link {
+  font-weight: bold;
+}
+body .tmpl-home .postlist-link {
+  font-size: 1.1875em;
+  /* 19px /16 */
+  font-weight: 700;
+}
+body .post-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  /* 12px /16 */
+  padding: 0.0833333333em 0.3333333333em;
+  /* 1px 4px /12 */
+  margin-left: 0.6666666667em;
+  /* 8px /12 */
+  margin-top: 0.5em;
+  /* 6px /12 */
+  margin-bottom: 0.5em;
+  /* 6px /12 */
+  color: var(--darkgray);
+  border: 1px solid var(--gray);
+  border-radius: 0.25em;
+  /* 3px /12 */
+  text-decoration: none;
+  line-height: 1.8;
+}
+body a[href].post-tag,
+body a[href].post-tag:visited {
+  color: inherit;
+}
+body a[href].post-tag:hover,
+body a[href].post-tag:focus {
+  background-color: var(--lightgray);
+}
+body .postlist-item > .post-tag {
+  align-self: center;
+}
+body .warning {
+  background-color: #ffc;
+  padding: 1em 0.625em;
+  /* 16px 10px /16 */
+}
+body .warning ol:only-child {
+  margin: 0;
+}
+body .direct-link {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 0.1em;
+}
+body a[href].direct-link,
+body a[href].direct-link:visited {
+  color: #97aebd;
+}
+body a[href].direct-link:focus,
+body a[href].direct-link:focus:visited,
+body :hover > a[href].direct-link,
+body :hover > a[href].direct-link:visited {
+  color: #d2dadf;
+}
+
+/*# sourceMappingURL=custom-style.css.map */
