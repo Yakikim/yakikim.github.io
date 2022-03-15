@@ -11,9 +11,9 @@ pagination:
     - tagList
   addAllPagesToCollections: true
 layout: layouts/home.njk
-header: Tagged “{{ tag }}”
 eleventyComputed:
   title: Tagged “{{ tag }}”
+  header: 'Tagged: “#{{ tag }}”'
 permalink: /tags/{{ tag | slug }}/
 ---
 
