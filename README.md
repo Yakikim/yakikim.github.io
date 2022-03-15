@@ -8,6 +8,6 @@ docker build -t mysite .
 ## Docker run
 From **PowerSell** cli run:
 ```
-docker run -v ${pwd}:/app --name eleventizy -p 8080:8080 -p 8081:3001 mysite
+docker run -v ${pwd}:/app --name eleventizy -p 8080:8080 mysite
 ```
 
