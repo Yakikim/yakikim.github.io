@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dafyomi/2022-03-16.md",
-            "mode": "preview"
+            "file": "dafyomi/2022-03-17.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mermaid",
+                "query": "tag:#Hagigah",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,12 +56,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "19ad3fb4c43bfdcc",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dafyomi/2022-03-16.md",
+                "file": "dafyomi/2022-03-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dafyomi/2022-03-16.md",
+                "file": "dafyomi/2022-03-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "dafyomi/2022-03-16.md",
+                "file": "dafyomi/2022-03-17.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:📃Menu/TopLevel",
@@ -157,8 +157,8 @@
   },
   "active": "7be2b67a26c690f3",
   "lastOpenFiles": [
+    "dafyomi/2022-03-17.md",
     "dafyomi/2022-03-16.md",
-    "Mermaid.md",
     "dafyomi/2022-03-15.md",
     "dafyomi/2022-03-14.md",
     "dafyomi/2022-03-11.md",
