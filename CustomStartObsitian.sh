@@ -3,7 +3,7 @@ pulltext=$(git pull);
 uptodate="Already up to date.";
 ppwd=$(pwd);
 if [[ "$pulltext" == *"$uptodate"* ]]; then 
- if [[ "$ppwd" == *"c/Users/yakik/MySite"* ]];#is my private computer
+ if [[ "$ppwd" == *"c/Users/yakik/Obsidian complex/MySite"* ]];#is my private computer
  then
   echo "$(tput setaf 2)$(tput setab 7)Done!$(tput sgr 0)";
  "C:\Users\yakik\AppData\Local\Obsidian\Obsidian.exe";
