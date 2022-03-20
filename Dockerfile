@@ -7,5 +7,5 @@ RUN npm install && mv /app/node_modules /node_modules
 COPY . /app
 EXPOSE 8080
 EXPOSE 8081
-CMD [ "nodemon", "--legacy-watch" , "--ext", "js,mjs,json,md", "--delay", "3600", "--watch", "posts", "--watch", "_includes"]
+CMD [ "nodemon", "--legacy-watch" , "--ext", "js,mjs,json,md", "--delay", "300", "--watch", "posts", "--watch", "_includes"]
 
