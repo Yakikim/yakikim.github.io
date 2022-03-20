@@ -132,7 +132,7 @@ module.exports = function(eleventyConfig) {
  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 // Aliases for the personal notes 
  eleventyConfig.addLayoutAlias("dafyomi", "notes/dafyomi.njk");
- 
+ eleventyConfig.addLayoutAlias("mynote", "mynote.njk");
  eleventyConfig.addLayoutAlias("dafyomi", "notes/hebrew.njk");
 
 //-------------------------------------------
