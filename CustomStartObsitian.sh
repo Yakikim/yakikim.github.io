@@ -8,7 +8,6 @@ if [[ "$pulltext" == *"$uptodate"* ]]; then
   echo "$(tput setaf 2)$(tput setab 7)Done!$(tput sgr 0)";
  "C:\Users\yakik\AppData\Local\Obsidian\Obsidian.exe";
  else #The other computer
- cd MySiteGithub;
   echo "$(tput setaf 2)$(tput setab 7)Done!$(tput sgr 0)";
  "C:\Users\yakiki\AppData\Local\Obsidian\Obsidian.exe";
  fi

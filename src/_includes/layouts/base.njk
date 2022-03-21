@@ -9,6 +9,7 @@
 	 {%include "componnents/pageheader.njk"%}
 	 
 	 
+
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
@@ -72,6 +73,7 @@
 	<div dir={{ cssclasses or metadate.cssclasses }} >
 	{%include "componnents/megatitle.njk"%}
 </div>
+
 	  {% if draft|length %}
 	  <a href="/" > back to home </a>
 	  {% else %}
@@ -84,5 +86,6 @@
 	</footer>
 
     <!-- Current page: {{ page.url | url }} -->
+
   </body>
 </html>

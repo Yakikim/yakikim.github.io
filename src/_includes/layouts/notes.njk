@@ -24,9 +24,9 @@ layout: layouts/base.njk
 
   <aside class="post__aside">
     <div class="post__tags">
-      {% for notag in notags | filterNotesTagList %}
-        {% set tagUrl %}/notags/{{ notag | slug }}/{% endset %}
-        <a href="{{ tagUrl | url }}">#{{ notag }}</a>
+      {% for tag in tags | filterTagList %}
+        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
       {% endfor %}
     </div>
 
