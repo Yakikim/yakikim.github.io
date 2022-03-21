@@ -12,6 +12,7 @@ eleventyNavigation:
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
+
 <div dir="rtl">
 {% set maxPosts = collections.dafyomi.length | min(3) %}
 <h3> {% if maxPosts == 1 %}הדף האחרון{% else %}{{ maxPosts }} הדפים האחרונים{% endif %}</h3>
