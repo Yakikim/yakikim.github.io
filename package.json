@@ -22,6 +22,7 @@
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "cross-env": "^7.0.3",
+    "eleventy-plugin-reading-time": "^0.0.1",
     "luxon": "^2.3.0",
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.4.1",

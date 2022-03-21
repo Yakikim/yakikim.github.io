@@ -1,0 +1,56 @@
+---
+cssclasses: rtl
+layout: layouts/base.njk
+---
+
+
+
+
+<article class="post" dir={{ cssclasses or metadate.cssclasses }}>
+  <header   class="post__header">
+    <h1>{{ title }}</h1>
+    <div class="post__details">
+      <time datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | readableDate }}
+      </time>
+      <span> | </span>
+     <span>{{ content | readingTime }} read</span>
+	</div>
+  </header>
+
+  <main class="post__content">
+    {{ content | safe }}
+  </main>
+
+  <aside class="post__aside">
+    <div class="post__tags">
+      {% for notag in notags | filterNotesTagList %}
+        {% set tagUrl %}/notags/{{ notag | slug }}/{% endset %}
+        <a href="{{ tagUrl | url }}">#{{ notag }}</a>
+      {% endfor %}
+    </div>
+
+    <nav class="post__pagination">
+      {%- set nextPost = collections.notes | getNextCollectionItem(page) %}
+      {%- if nextPost %}
+
+        <a href="{{ nextPost.url | url }}">
+          <span>←</span>
+          <span>{{ nextPost.data.title }}</span>
+        </a>
+
+      {% endif %}
+
+      {%- set previousPost = collections.notes | getPreviousCollectionItem(page) %}
+      {%- if previousPost %}
+
+        <a href="{{ previousPost.url | url }}">
+          <span>{{ previousPost.data.title }}</span>
+          <span>→</span>
+        </a>
+
+      {% endif %}
+    </nav>
+  </aside>
+
+</article>

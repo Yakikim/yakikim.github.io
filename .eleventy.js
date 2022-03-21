@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const slugify = require("@sindresorhus/slugify");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const readingTime = require('eleventy-plugin-reading-time');
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownItx = require("markdown-it");
@@ -25,7 +26,7 @@ module.exports = function(eleventyConfig) {
       placement: "after",
       class: "small-link",
       symbol: "#",
-      level: [1,2,3,4],
+      level: [1,2,3],
     }),
     slugify: eleventyConfig.getFilter("slug")
   })
@@ -120,6 +121,27 @@ module.exports = function(eleventyConfig) {
             return `<a class="internal-link" href="${permalink}">${title}</a>`;
         });
     })
+	
+	    eleventyConfig.addTransform('link', function(str) {
+        return str && str.replace(/\[\[(.*?)\]\]/g, function(match, p1) {
+            const [fileName, linkTitle] = p1.split("|");
+
+            let permalink = `/notes/${slugify(fileName)}`;
+            const title = linkTitle ? linkTitle : fileName;
+
+            try {
+                const file = fs.readFileSync(`./notes/${fileName}.md`, 'utf8');
+                const frontMatter = matter(file);
+                if (frontMatter.data.permalink) {
+                    permalink = frontMatter.data.permalink;
+                }
+            } catch {
+                //Ignore if file doesn't exist
+            }
+
+            return `<a class="internal-link" href="${permalink}">${title}</a>`;
+        });
+    })
 
     eleventyConfig.addTransform('highlight', function(str) {
         //replace ==random text== with <mark>random text</mark>
@@ -129,12 +151,17 @@ module.exports = function(eleventyConfig) {
     });
 
   // Alias so just put `layout: post` and no need to write the full path `layout: layouts/post.njk` 
- eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+ eleventyConfig.addLayoutAlias("post", "layouts/post.njk"); 
+ eleventyConfig.addLayoutAlias("notes", "layouts/notes.njk");
 // Aliases for the personal notes 
  eleventyConfig.addLayoutAlias("dafyomi", "notes/dafyomi.njk");
- eleventyConfig.addLayoutAlias("mynote", "mynote.njk");
  eleventyConfig.addLayoutAlias("dafyomi", "notes/hebrew.njk");
-
+  eleventyConfig.addFilter('excerpt', (post) => {
+    const content = post.replace(/(<([^>]+)>)/gi, '');
+    return content.substr(0, content.lastIndexOf(' ', 200)) + '...';
+  });
+  
+  eleventyConfig.addPlugin(readingTime);
 //-------------------------------------------
 
   // Copy the `img` and `css` folders to the output
@@ -174,8 +201,11 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
+
+
+  
   function filterTagList(tags) {
-    return (tags || []).filter(tag => ["all", "nav","john", "John", "post", "posts"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["all", "nav","john", "John", "post", "APEX"].indexOf(tag) === -1);
   }
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
@@ -189,6 +219,25 @@ module.exports = function(eleventyConfig) {
 
     return filterTagList([...tagSet]);
   });
+
+/*
+  function filterNotesTagList(tags) {
+    return (tags || []).filter(tag => ["all", "nav","john", "John", "post", "APEX"].indexOf(tag) === -1);
+  }
+
+//for notes tags
+  eleventyConfig.addFilter("filterNotesTagList", filterNotesTagList)
+
+  // Create an array of all tags
+  eleventyConfig.addCollection("NotestagList", function(collection) {
+    let tagSet = new Set();
+    collection.getAll().forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+
+    return filterNotesTagList([...tagSet]);
+  });
+  */
 
 
   // Override Browsersync defaults (used only with --serve)
