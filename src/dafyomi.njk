@@ -10,17 +10,27 @@ eleventyNavigation:
 <h1 dir="rtl"> הדף היומי </h1>
 
 
-<div dir="rtl">
 {% set maxPosts = collections.dafyomi.length | min(3) %}
-<h3> {% if maxPosts == 1 %}הדף האחרון{% else %}{{ maxPosts }} הדפים האחרונים{% endif %}</h3>
 
+
+<section class="post-list__wrapper" >
+<div style="max-width:80%; padding-left: 2rem;
+    padding-left: 2rem;
+	padding-right: 2rem;
+    border: 2px solid #e6e6e6;
+    border-radius: 12px;">
 {% set postslist = collections.dafyomi | head(-3) %}
 {% set postslistCounter = collections.dafyomi | length %}
+<h3 class="post-list__heading"> {% if maxPosts == 1 %}הדף האחרון{% else %}{{ maxPosts }} הדפים האחרונים{% endif %}</h3>
 {% include "componnents/postslist.njk" %}
 </div>
+</section>
+
+
+
 
 <div dir="rtl">
-<h2>יבמות</h2>
+<h2 class="post-list__heading" >מסכת יבמות</h2>
 {% set postslist = collections.Yevamot %}
 {% include "componnents/postslist.njk" %}
 
