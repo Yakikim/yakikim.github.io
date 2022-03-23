@@ -5,7 +5,7 @@ created: 2022-01-29 22:22
 modified: 2022-01-29 22:22
 type: Document
 title:  Moed Katan 17
-link: [[2022-01-29DY - Moed Katan 17 |   Moed Katan 17 ]]
+layout: dafyomi
 ---
 Week Of: [[2022-01-23]]
 [[2022-01-29]]
