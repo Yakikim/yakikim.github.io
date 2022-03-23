@@ -1,6 +1,6 @@
 ---
 cssclasses: rtl
-tags: [notes, dafyomi, daily, Moed_Katan] 
+tags: [dafyomi, Moed_Katan] 
 created: 2022-02-01 00:09
 modified: 2022-02-01 20:09
 type: Document

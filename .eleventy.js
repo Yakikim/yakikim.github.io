@@ -21,6 +21,7 @@ module.exports = function(eleventyConfig) {
             html: true,
 			linkify: true
         })
+		
 		.use(implicitFigures)
 		.use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.ariaHidden({
@@ -106,11 +107,11 @@ module.exports = function(eleventyConfig) {
         return str && str.replace(/\[\[(.*?)\]\]/g, function(match, p1) {
             const [fileName, linkTitle] = p1.split("|");
 
-            let permalink = `/posts/${slugify(fileName)}`;
+            let permalink = `/notes/${slugify(fileName)}`;
             const title = linkTitle ? linkTitle : fileName;
 
             try {
-                const file = fs.readFileSync(`./posts/${fileName}.md`, 'utf8');
+			const file = fs.readFileSync(`/notes/${fileName}.md`, 'utf8');
                 const frontMatter = matter(file);
                 if (frontMatter.data.permalink) {
                     permalink = frontMatter.data.permalink;
@@ -122,7 +123,8 @@ module.exports = function(eleventyConfig) {
             return `<a class="internal-link" href="${permalink}">${title}</a>`;
         });
     })
-	/*
+
+		/*	
 	    eleventyConfig.addTransform('link', function(str) {
         return str && str.replace(/\[\[(.*?)\]\]/g, function(match, p1) {
             const [fileName, linkTitle] = p1.split("|");
@@ -143,7 +145,77 @@ module.exports = function(eleventyConfig) {
             return `<a class="internal-link" href="${permalink}">${title}</a>`;
         });
     }) 
+*/
+	//replace double brackets for notes:
+const markdownItB = require('markdown-it');
+    const markdownItOptionsB = {
+        html: true,
+        linkify: true
+    };
+    
+    const mdB = markdownItB(markdownItOptionsB)
+    .use(require('markdown-it-footnote'))
+    .use(require('markdown-it-attrs'))
+    .use(function(mdB) {
+        // Recognize Mediawiki links ([[text]])
+        mdB.linkify.add("[[", {
+            validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
+            normalize: match => {
+                const parts = match.raw.slice(2,-2).split("|");
+                parts[0] = parts[0].replace(/.(mdB|markdown)\s?$/i, "");
+                match.text = (parts[1] || parts[0]).trim();
+                match.url = `/notes/${parts[0].trim()}/`;
+            }
+        })
+    })
+    
+    eleventyConfig.addFilter("markdownify", string => {
+        return mdB.render(string)
+    })
+
+    eleventyConfig.setLibrary('mdB', mdB);
+    
+    eleventyConfig.addCollection("notes", function (collection) {
+        return collection.getFilteredByGlob(["notes/**/*.md", "index.md"]);
+    });
+	
+/*
+		//replace double brackets for Posts:
+const markdownItP = require('markdown-it');
+    const markdownItOptionsP = {
+        html: true,
+        linkify: true
+    };
+    
+    const mdP = markdownItP(markdownItOptionsP)
+    .use(require('markdown-it-footnote'))
+    .use(require('markdown-it-attrs'))
+    .use(function(mdP) {
+        // Recognize Mediawiki links ([[text]])
+        mdP.linkify.add("[[", {
+            validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
+            normalize: match => {
+                const parts = match.raw.slice(2,-2).split("|");
+                parts[0] = parts[0].replace(/.(mdP|markdown)\s?$/i, "");
+                match.text = (parts[1] || parts[0]).trim();
+                match.url = `/posts/${parts[0].trim()}/`;
+            }
+        })
+    })
+    
+    eleventyConfig.addFilter("markdownify", string => {
+        return mdP.render(string)
+    })
+
+    eleventyConfig.setLibrary('md', mdP);
+    
+    eleventyConfig.addCollection("posts", function (collection) {
+        return collection.getFilteredByGlob(["posts/** /*.md", "index.md"]);
+    });
+    
 	*/
+	
+
 
     eleventyConfig.addTransform('highlight', function(str) {
         //replace ==random text== with <mark>random text</mark>
@@ -154,10 +226,11 @@ module.exports = function(eleventyConfig) {
 
   // Alias so just put `layout: post` and no need to write the full path `layout: layouts/post.njk` 
  eleventyConfig.addLayoutAlias("post", "layouts/post.njk"); 
- eleventyConfig.addLayoutAlias("notes", "layouts/notes.njk");
+ //eleventyConfig.addLayoutAlias("notes", "layouts/notes.njk");
 // Aliases for the personal notes 
- eleventyConfig.addLayoutAlias("dafyomi", "notes/dafyomi.njk");
- eleventyConfig.addLayoutAlias("general_hebrew", "notes/hebrew.njk");
+ eleventyConfig.addLayoutAlias("dafyomi", "personal/dafyomi.njk");
+ eleventyConfig.addLayoutAlias("general_hebrew", "personal/hebrew.njk");
+ eleventyConfig.addLayoutAlias("note", "personal/note.njk");
  eleventyConfig.addFilter('excerpt', (post) => {
     const content = post.replace(/(<([^>]+)>)/gi, '');
     return content.substr(0, content.lastIndexOf(' ', 200)) + '...';
@@ -208,7 +281,7 @@ module.exports = function(eleventyConfig) {
 
   
   function filterTagList(tags) {
-    return (tags || []).filter(tag => ["all", "nav","john", "John", "post","posts", "APEX"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["all", "nav", "post","posts", "notes"].indexOf(tag) === -1);
   }
 
   eleventyConfig.addFilter("filterTagList", filterTagList)

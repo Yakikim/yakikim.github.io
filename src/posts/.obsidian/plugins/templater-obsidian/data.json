@@ -12,19 +12,19 @@
     ],
     [
       "CurrentDaf",
-      "python General\\Scripts\\CurrentDafYomi.py"
+      "python _obsidianutils\\Scripts\\CurrentDafYomi.py"
     ],
     [
       "CurrentDafMasechet",
-      "python General\\Scripts\\CurrentDafMasechet.py"
+      "python _obsidianutils\\Scripts\\CurrentDafMasechet.py"
     ],
     [
       "YesDaf",
-      "python General\\Scripts\\YesDafYomi.py"
+      "python _obsidianutils\\Scripts\\YesDafYomi.py"
     ],
     [
       "WorkItems",
-      "python General\\Scripts\\GetWorkItems.py"
+      "python _obsidianutils\\Scripts\\GetWorkItems.py"
     ]
   ],
   "trigger_on_file_creation": true,
@@ -35,8 +35,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "📒Notes/dafyomi",
-      "template": "7 DafYomi"
+      "folder": "dafyomi",
+      "template": "DafYomi"
     }
   ],
   "syntax_highlighting": true,
