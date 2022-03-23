@@ -2,7 +2,7 @@
   "outputFileName": "unlinked files output",
   "disableWorkingLinks": false,
   "directoriesToIgnore": [
-    "General/Notes/"
+    "//"
   ],
   "filesToIgnore": [
     ""

@@ -1,0 +1,75 @@
+---
+cssclasses: rtl
+tags: [notes, daily, tasks] 
+created: <% tp.file.creation_date() %>
+modified: <% tp.file.last_modified_date() %>
+type: Checklist
+title: משימות יומיות <% tp.file.title %>	
+---
+
+<% "[[" + tp.date.weekday("YYYY-MM-DD" ,0)  + "]]" %>
+
+# Daily Tasks: <% tp.file.title %>	
+
+[[HOME]]/[[Open University]]/[[Memos]]
+
+---
+
+```ad-tip
+collapse: open
+title: Daily Tip
+color: 20,20,22
+<% tp.web.daily_quote() %>
+
+<% tp.web.random_picture("600x200") %>  
+```
+
+---
+
+
+
+## עבודה
+[[<% tp.file.title %>N1]]
+
+## אחרים
+[[<% tp.file.title %>N2]]
+
+### DafYomi
+[[<% tp.file.title %>DY - <% tp.user.CurrentDaf() %>]]
+
+---
+
+````ad-info
+title: משימות
+collapse: open
+### להשלים היום
+```tasks
+not done
+due on {{<% tp.file.title %>}}
+```
+
+### להשלים השבוע
+
+```tasks
+not done
+due after {{<% tp.date.weekday("YYYY-MM-DD",0, tp.file.title, "YYYY-MM-DD") %>}}
+due before {{<% tp.date.weekday("YYYY-MM-DD", 7, tp.file.title, "YYYY-MM-DD") %>}}
+```
+
+
+### הושלמו היום
+
+```tasks
+done on {{<% tp.file.title %>}}
+```
+````
+---
+ 
+
+
+
+
+#dailynote 
+#notes/daily
+#notes/tasks/daily
+#op/notes/daily

@@ -1,0 +1,14 @@
+---
+cssclasses: rtl
+tags: [] 
+created: <% tp.file.creation_date() %>
+modified: <% tp.file.last_modified_date() %>
+type: document
+title: <% tp.file.title %>
+link: [[<% tp.file.title %> |  ]]
+---
+Week Of: <% "[[" + tp.date.weekday("YYYY-MM-DD" ,0)  + "]]" %>
+[[<% tp.date.now() %>]]
+
+[[HOME]]/
+

@@ -7,10 +7,6 @@ type: Document
 title: Terraform
 layout: layouts/post.njk
 ---
-[[2021-05-23]]
-# Terraform
-[[index | דף הבית]] / [[אחר]] 
-
 
 
 ## Installing 
@@ -32,8 +28,8 @@ Any response other than “terraform is not recognized” is good
 ### Login as Yakikim2
 ![[Attachments/Pasted image 20210419100244.png]]
 
-
 ### Lunch instance at EC2
+![](static/Pasted%20image%2020210419100627.png)
 ![[Attachments/Pasted image 20210419100627.png]]
 ### Define user at IAM
 you should define user with the proper credentials as well as "AWS Identity and Access Management"  credential.

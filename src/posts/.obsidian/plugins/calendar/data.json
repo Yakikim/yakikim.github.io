@@ -2,9 +2,9 @@
   "shouldConfirmBeforeCreate": true,
   "weekStart": "sunday",
   "wordsPerDot": 250,
-  "showWeeklyNote": true,
+  "showWeeklyNote": false,
   "weeklyNoteFormat": "YYYY-MM-DD",
-  "weeklyNoteTemplate": "General\\Templates\\active\\5 WNote",
+  "weeklyNoteTemplate": ".obsidian utils\\Templates\\active\\5 WNote",
   "weeklyNoteFolder": "📒Notes/Weekly",
   "localeOverride": "system-default"
 }
