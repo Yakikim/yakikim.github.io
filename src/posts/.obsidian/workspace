@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dafyomi/2022-03-23.md",
+            "file": "dafyomi/2022-02-08DY - Moed Katan 27.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dafyomi/2022-03-23.md",
+                "file": "dafyomi/2022-02-08DY - Moed Katan 27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dafyomi/2022-03-23.md",
+                "file": "dafyomi/2022-02-08DY - Moed Katan 27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "dafyomi/2022-03-23.md",
+                "file": "dafyomi/2022-02-08DY - Moed Katan 27.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:📃Menu/TopLevel",
@@ -156,15 +156,15 @@
   },
   "active": "e91e2d2ee9e359ad",
   "lastOpenFiles": [
+    "dafyomi/2022-02-08DY - Moed Katan 27.md",
+    "dafyomi/2022-02-07DY - Moed Katan 26.md",
+    "dafyomi/2021-11-25DY - Taanit 13.md",
     "dafyomi/2022-03-23.md",
     "ChertMuseum.md",
     "terraform.md",
     "dafyomi/2022-03-22.md",
     "2962781759.jpg",
     "static/a.jpeg",
-    "dafyomi/2022-03-21.md",
-    "dafyomi/2962781759.jpg",
-    "dafyomi/BuildOption 1.jpg",
-    "dafyomi/2022-03-20.md"
+    "dafyomi/2022-03-21.md"
   ]
 }

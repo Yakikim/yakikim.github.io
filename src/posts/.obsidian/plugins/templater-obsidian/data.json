@@ -1,6 +1,6 @@
 {
   "command_timeout": 30,
-  "templates_folder": ".obsidian utils/Templates/active",
+  "templates_folder": "_obsidianutils/Templates/active",
   "templates_pairs": [
     [
       "datenav",

@@ -5,9 +5,9 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const readingTime = require('eleventy-plugin-reading-time');
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
-const markdownItx = require("markdown-it");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const implicitFigures = require('markdown-it-image-figures');
 
 const matter = require('gray-matter');
 //const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
@@ -21,10 +21,11 @@ module.exports = function(eleventyConfig) {
             html: true,
 			linkify: true
         })
+		.use(implicitFigures)
 		.use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: "after",
-      class: "small-link",
+      class: "external-link",
       symbol: "#",
       level: [1,2,3],
     }),
@@ -121,7 +122,7 @@ module.exports = function(eleventyConfig) {
             return `<a class="internal-link" href="${permalink}">${title}</a>`;
         });
     })
-	
+	/*
 	    eleventyConfig.addTransform('link', function(str) {
         return str && str.replace(/\[\[(.*?)\]\]/g, function(match, p1) {
             const [fileName, linkTitle] = p1.split("|");
@@ -141,7 +142,8 @@ module.exports = function(eleventyConfig) {
 
             return `<a class="internal-link" href="${permalink}">${title}</a>`;
         });
-    })
+    }) 
+	*/
 
     eleventyConfig.addTransform('highlight', function(str) {
         //replace ==random text== with <mark>random text</mark>
@@ -155,8 +157,8 @@ module.exports = function(eleventyConfig) {
  eleventyConfig.addLayoutAlias("notes", "layouts/notes.njk");
 // Aliases for the personal notes 
  eleventyConfig.addLayoutAlias("dafyomi", "notes/dafyomi.njk");
- eleventyConfig.addLayoutAlias("dafyomi", "notes/hebrew.njk");
-  eleventyConfig.addFilter('excerpt', (post) => {
+ eleventyConfig.addLayoutAlias("general_hebrew", "notes/hebrew.njk");
+ eleventyConfig.addFilter('excerpt', (post) => {
     const content = post.replace(/(<([^>]+)>)/gi, '');
     return content.substr(0, content.lastIndexOf(' ', 200)) + '...';
   });
@@ -165,8 +167,9 @@ module.exports = function(eleventyConfig) {
 //-------------------------------------------
 
   // Copy the `img` and `css` folders to the output
-  eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  // Copy the relative img dir to img
+  // eleventyConfig.addPassthroughCopy({"src/posts/img": "img"});
   
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
@@ -205,7 +208,7 @@ module.exports = function(eleventyConfig) {
 
   
   function filterTagList(tags) {
-    return (tags || []).filter(tag => ["all", "nav","john", "John", "post", "APEX"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["all", "nav","john", "John", "post","posts", "APEX"].indexOf(tag) === -1);
   }
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
@@ -266,7 +269,10 @@ module.exports = function(eleventyConfig) {
       "njk",
       "html",
       "liquid", 
-	  "11ty.js"
+	  "11ty.js",
+	  "jpeg",
+	  "jpg",
+	  "png"
     ],
 
     // Pre-process *.md files with: (default: `liquid`)
