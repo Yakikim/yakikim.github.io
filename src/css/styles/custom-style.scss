@@ -186,9 +186,17 @@ pre.language-ad-info {
 }
 
 
+div.backlink{
+	max-width: 40%;
+    padding: 1rem;
+    border: 2px solid #e6e6e6;
+    border-radius: 12px;
+	margin: 0.5rem;
+	}
 
-
-
+div.backlink__preview{
+font-size: smaller;
+}
 /* Colors */
 :root {
   --lightgray: #e0e0e0;

@@ -8,20 +8,15 @@ type: Document
 
 {{ content | safe }}
 
-{% include "componnents/backlinks.njk" %}
-<hr>
-<p class="backlinks-title larger">Backlinks</p>
-{% if backlinks.length > 0%}
-<ul class="backlinks-container">
-    {% for link in backlinks %}
-        <li class="backlink">
-            <a href="{{link.url}}" class="backlink__link">{{link.title}}</a>
-            <div class="backlink__preview" role="none">
-                {{link.preview | markdownify }}
-            </div>
-        </li>
-    {% endfor %}
-</ul>
-{% else %}
-<p class="backlinks-default">No backlinks found.</p>
-{% endif %}
+ <aside class="post__aside">
+    <div class="post__tags" >
+      {% for tag in tags | filterTagList %}
+        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+      {% endfor %}
+    </div>
+	  
+
+{% include "componnents/backlinks.njk" %} 
+   
+  </aside>

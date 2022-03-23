@@ -168,18 +168,19 @@ const markdownItB = require('markdown-it');
             }
         })
     })
-    
+	
+    eleventyConfig.setLibrary('mdB', mdB);
+        
     eleventyConfig.addFilter("markdownify", string => {
         return mdB.render(string)
     })
+/*
 
-    eleventyConfig.setLibrary('mdB', mdB);
-    
     eleventyConfig.addCollection("notes", function (collection) {
-        return collection.getFilteredByGlob(["notes/**/*.md", "index.md"]);
+        return collection.getFilteredByGlob(["notes/** /*.md", "index.md"]);
     });
 	
-/*
+
 		//replace double brackets for Posts:
 const markdownItP = require('markdown-it');
     const markdownItOptionsP = {

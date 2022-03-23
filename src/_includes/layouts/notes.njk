@@ -22,35 +22,6 @@ layout: layouts/base.njk
     {{ content | safe }}
   </main>
 
-  <aside class="post__aside">
-    <div class="post__tags">
-      {% for tag in tags | filterTagList %}
-        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
-      {% endfor %}
-    </div>
-
-    <nav class="post__pagination">
-      {%- set nextPost = collections.notes | getNextCollectionItem(page) %}
-      {%- if nextPost %}
-
-        <a href="{{ nextPost.url | url }}">
-          <span>←</span>
-          <span>{{ nextPost.data.title }}</span>
-        </a>
-
-      {% endif %}
-
-      {%- set previousPost = collections.notes | getPreviousCollectionItem(page) %}
-      {%- if previousPost %}
-
-        <a href="{{ previousPost.url | url }}">
-          <span>{{ previousPost.data.title }}</span>
-          <span>→</span>
-        </a>
-
-      {% endif %}
-    </nav>
-  </aside>
+ 
 
 </article>

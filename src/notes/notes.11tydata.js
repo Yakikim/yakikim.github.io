@@ -48,7 +48,7 @@ module.exports = {
                         // Extract link location
                         link.slice(2,-2)
                             .split("|")[0]
-                            .replace(/.(mdB|markdown)\s?$/i, "")
+                            .replace(/.(md|markdown)\s?$/i, "")
                             .trim()
                     ));
 
@@ -56,12 +56,12 @@ module.exports = {
                 if(outboundLinks.some(link => caselessCompare(link, currentFileSlug))) {
 
                     // Construct preview for hovercards
-                    let preview = noteContent.slice(0, 240);
+                   // let preview = noteContent.slice(0, 240);
 
                     backlinks.push({
                         url: otherNote.url,
                         title: otherNote.data.title,
-                        preview
+                        preview: otherNote.data.description  //preview
                     })
                 }
             }
