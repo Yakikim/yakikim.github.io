@@ -4,7 +4,7 @@ description: This is a note about leveraging agile frameworks
 date: 2018-05-01
 tags:
   - second note
-layout: note
+layout: mynote
 draft: false
 cssclasses: ltr
 ---

@@ -232,6 +232,7 @@ const markdownItP = require('markdown-it');
  eleventyConfig.addLayoutAlias("dafyomi", "personal/dafyomi.njk");
  eleventyConfig.addLayoutAlias("general_hebrew", "personal/hebrew.njk");
  eleventyConfig.addLayoutAlias("note", "personal/note.njk");
+ eleventyConfig.addLayoutAlias("mynote", "personal/note.njk");
  eleventyConfig.addFilter('excerpt', (post) => {
     const content = post.replace(/(<([^>]+)>)/gi, '');
     return content.substr(0, content.lastIndexOf(' ', 200)) + '...';

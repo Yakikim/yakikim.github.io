@@ -9,5 +9,4 @@ RUN npm i npm-run-all -D
 
 EXPOSE 8080
 EXPOSE 8081
-CMD [ "nodemon", "--legacy-watch" , "--ext", "js,mjs,json,md", "--delay", "300", "--watch", "posts", "--watch", "_includes"]
-
+CMD [ "nodemon", "--legacy-watch" , "--ext", "js,mjs,json,md", "--delay", "300", "--watch", "posts", "--watch", "notes", "--watch", "_includes"]
