@@ -34,7 +34,7 @@ module.exports = {
         title: data => titleCase(data.title || data.page.fileSlug),
         backlinks: (data) => {
             const notes = data.collections.notes;
-            const currentFileSlug = data.page.filePathStem.replace('/notes/', '');
+            const currentFileSlug = data.page.filePathStem;//.replace('/notes/', '');
 
             let backlinks = [];
 
@@ -56,12 +56,12 @@ module.exports = {
                 if(outboundLinks.some(link => caselessCompare(link, currentFileSlug))) {
 
                     // Construct preview for hovercards
-                   // let preview = noteContent.slice(0, 240);
+                    //let preview = noteContent.slice(0, 240);
 
                     backlinks.push({
                         url: otherNote.url,
-                        title: otherNote.data.title,
-                        preview: otherNote.data.description  //preview
+                        title: 'title',//otherNote.data.title,
+                        preview: 'prev' //otherNote.data.description  //
                     })
                 }
             }

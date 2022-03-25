@@ -11,7 +11,7 @@ title: PL-SQL
 ---
 [[2021-06-06]]
 # PL-SQL
-[[index | דף הבית]]/[[אחר]] 
+[[HOME]]/[[אחר]] 
 
 ## Grant and Synonym
 ```sql  

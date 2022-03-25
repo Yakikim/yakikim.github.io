@@ -1,0 +1,32 @@
+2021-05-26N2.md
+2021-07-06N2 - ניהול פלטפורמת APEX.md
+2021-08-10N1 - אתגרי פיתוח בארכיטקטורת APEX החדשה.md
+2021-09-01N1 - הוספת גורם מקצועי לחוזים.md
+2021-09-02N1 - Apex Management.md
+2021-10-21N1 - WebLogic authenticatioin from APEX.md
+2021-10-24N2 - פיתוח הפניה לפרטי ספק מתוך הERP.md
+2021-10-28N1 - הקמת גורם מקצועי חדש.md
+2021-10-31N1 - AOP Addresses.md
+2021-11-01N1 - רשימת תוכנות במחשב שלי.md
+2021-11-04N1 - לקראת דיון על איפיון שירותי ORDS.md
+2021-11-08N1 - שבוע אורקל From Monolith to Micro services.md
+2021-11-10N2 - שירותים נדרשים ממודול כא.md
+2021-11-14N1 - Create ORDS Client for SQL Enabled.md
+2021-11-15N1 - REST Statuses.md
+2021-11-17N1 - ישיבת איפיון שירותי ORDS.md
+2021-11-22N1 - AOP עם Interactive Grid.md
+2021-11-28N1 - איפיון העתקת דרישות כתחליף להוצאות מראש.md
+2021-11-29N1 - הוספת סבב אישורים עבור מחלקת ניקיון.md
+2021-12-02N1 - Rbac as a Service.md
+2021-12-08N1 - סיכום ישיבה לגבי החצנת שירותי ORDS.md
+2021-12-13N1 - Rbac for APEX.md
+2021-12-16N1 - WebService Aggregation.md
+2021-12-20N1 - configuration of the DEVOP scheme.md
+2022-01-11N1 - בקשה להוספת תוכנות מליאת.md
+2022-01-11N3 - פרוצדורה של יצירת Session APEX.md
+2022-01-26N1 - Apex Deployment using Liquibase.md
+2022-01-31N1 - נושאים פתוחים ב-APEX.md
+2022-02-01N1 - דוח הוצאות מראש שנתי.md
+2022-02-13N2 - עבודת גמר בקורס המערכת הפיננסית ושוק ההון 13033.md
+2022-02-15N1 - ניהול תצורת ORDS ו-APEX.md
+שליחת הזמנת רכש במייל.md

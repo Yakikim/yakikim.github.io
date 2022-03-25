@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dafyomi/2022-03-23.md",
-            "mode": "preview"
+            "file": "PL-SQL.md",
+            "mode": "source"
           }
         }
       }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dafyomi/2022-03-23.md",
+                "file": "PL-SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dafyomi/2022-03-23.md",
+                "file": "PL-SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "dafyomi/2022-03-23.md",
+                "file": "PL-SQL.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-path:📃Menu/TopLevel",
@@ -156,6 +156,7 @@
   },
   "active": "e91e2d2ee9e359ad",
   "lastOpenFiles": [
+    "PL-SQL.md",
     "dafyomi/2022-03-23.md",
     "dafyomi/2022-03-22.md",
     "dafyomi/2021-11-14DY - Taanit 2.md",
@@ -164,7 +165,6 @@
     "dafyomi/2021-11-25DY - Taanit 13.md",
     "ChertMuseum.md",
     "terraform.md",
-    "2962781759.jpg",
-    "static/a.jpeg"
+    "2962781759.jpg"
   ]
 }

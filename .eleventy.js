@@ -52,6 +52,10 @@ module.exports = function(eleventyConfig) {
                     const code = token.content.trim();
                     return `<pre class="language-${token.info}">${md.render(code)}</pre>`;
                 }
+				if (token.info ==='dataview') {
+                    const code = token.content.trim();
+                    return `<pre class="language-${token.info}" style="visibility: hidden;">${md.render(code)}</pre>`;
+                }
 
                 // Other languages
                 return origFenceRule(tokens, idx, options, env, slf);
