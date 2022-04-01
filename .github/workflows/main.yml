@@ -3,7 +3,7 @@ name: Build Obsidian-11ty
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
