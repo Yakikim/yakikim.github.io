@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href=/posts/terraform/>
+	
+	 <title>Terraform</title>
+	 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: "forest"
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<link href="/css/styles/style.css" rel="stylesheet">
+<link href="/css/styles/custom-style.css " rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+	 
+	 
+
+    <meta name="description" content="Docs, Guides and specs">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Yaki Kimhi&#39;s Site">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Yaki Kimhi&#39;s Site">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+    <title>
+      Terraform
+      
+         | 
+      
+    </title>
+
+    <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
+
+    <meta property="og:title" content="Terraform">
+    <meta property="og:site_name" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="undefined/posts/terraform/"/>
+    <meta name="twitter:card" content="summary_large_image">
+
+    
+
+
+    
+      
+    
+    
+
+
+
+</head>
+  <body  dir=ltr >
+    <header class="header" style="direction: ltr">
+        <div class="header__content">
+      <h1 class="site-title"><a href="/">Yaki Kimhi&#39;s Site</a></h1>
+
+
+   <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav-item"><a href="/archive/">Archive</a></li>
+        <li class="nav-item"><a href="/dafyomi/">Daf-Yomi</a></li>
+        <li class="nav-item"><a href="/notes/">Notes</a></li>
+        <li class="nav-item"><a href="/tags/">All Tags</a></li>
+      </ul>
+   </nav>
+        </div>
+    </header>
+
+    <main>
+	<div dir=ltr >
+	
+       <h1 >  </h1>
+
+</div>
+
+	  
+      
+
+<article class="post" dir=ltr>
+  <header   class="post__header">
+    <h1>Terraform</h1>
+    <div class="post__details">
+      <time datetime="2022-04-01">
+        01 Apr 2022
+      </time>
+      <span> | </span>
+     <span>3 min read</span>
+	</div>
+  </header>
+
+  <main class="post__content">
+    <h2 id="installing" tabindex="-1">Installing <a class="external-link" href="#installing" aria-hidden="true" target="_self">#</a></h2>
+<p>Windows users:</p>
+<ol>
+<li>Go to <a href="https://www.terraform.io/downloads.html" target="_self" class="external-link">https://www.terraform.io/downloads.html</a></li>
+<li>Press 64-bit:</li>
+<li>Extract the zip file (you just downloaded).</li>
+<li>Move terraform.exe file to C:\Windows\System32</li>
+</ol>
+<p>Validation:<br>
+Open a CMD / Terminal and run:</p>
+<pre class="language-powershell"><code class="language-powershell">terraform –v</code></pre>
+<p>Any response other than “terraform is not recognized” is good</p>
+<h2 id="aws-configuration" tabindex="-1">AWS Configuration <a class="external-link" href="#aws-configuration" aria-hidden="true" target="_self">#</a></h2>
+<h3 id="login-as-yakikim2" tabindex="-1">Login as Yakikim2 <a class="external-link" href="#login-as-yakikim2" aria-hidden="true" target="_self">#</a></h3>
+<p>!<a href="/notes/Attachments/Pasted%20image%2020210419100244.png/" target="_self" class="external-link">Attachments/Pasted image 20210419100244.png</a></p>
+<h3 id="lunch-instance-at-ec2" tabindex="-1">Lunch instance at EC2 <a class="external-link" href="#lunch-instance-at-ec2" aria-hidden="true" target="_self">#</a></h3>
+<p><img src="static/Pasted%20image%2020210419100627.png" alt=""><br>
+!<a href="/notes/Attachments/Pasted%20image%2020210419100627.png/" target="_self" class="external-link">Attachments/Pasted image 20210419100627.png</a></p>
+<h3 id="define-user-at-iam" tabindex="-1">Define user at IAM <a class="external-link" href="#define-user-at-iam" aria-hidden="true" target="_self">#</a></h3>
+<p>you should define user with the proper credentials as well as &quot;AWS Identity and Access Management&quot;  credential.</p>
+<p>!<a href="/notes/Attachments/Pasted%20image%2020210419101516.png/" target="_self" class="external-link">Attachments/Pasted image 20210419101516.png</a><br>
+then you will generate and backup the access+secret key at the &quot;Security credentials&quot; tab</p>
+<h3 id="generate-the-ssh-key-pair" tabindex="-1">Generate the SSH Key pair <a class="external-link" href="#generate-the-ssh-key-pair" aria-hidden="true" target="_self">#</a></h3>
+<p>At EC2 you should create a &quot;Key pair&quot; that latly you will use it in VNC tool like <a href="/notes/YakisSite/Putty/" target="_self" class="external-link">YakisSite/Putty</a><br>
+!<a href="/notes/Attachments/Pasted%20image%2020210419102127.png/" target="_self" class="external-link">Attachments/Pasted image 20210419102127.png</a></p>
+<h3 id="edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" tabindex="-1">Edis the file <a href="https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf" target="_self" class="external-link">https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf</a> <a class="external-link" href="#edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" aria-hidden="true" target="_self">#</a></h3>
+<p>finally it looks (In MY case) as:</p>
+<pre><code>provider &quot;aws&quot; {
+  region = &quot;us-west-2&quot;
+  access_key = &quot;AKIA3H4ALTA4AI57N7OC&quot;
+  secret_key = &quot;P8ajJLaMkleVB4hs7UOzd5Cnssu5SievRVhtoLzp&quot;
+}
+
+resource &quot;aws_instance&quot; &quot;example&quot; {
+  ami           = &quot;ami-02701bcdc5509e57b&quot;
+  key_name		= &quot;custom_key&quot;
+  instance_type = &quot;t2.micro&quot;
+  vpc_security_group_ids = [&quot;${aws_security_group.instance.id}&quot;]
+  user_data = &lt;&lt;-EOF
+              #!/bin/bash
+              sudo apt update
+              yes | sudo apt install nginx
+              EOF
+  
+  tags = {
+    Name = &quot;terraform-example&quot;
+  }
+}
+
+resource &quot;aws_security_group&quot; &quot;instance&quot; {
+  name = &quot;terraform-example-instance&quot;
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = &quot;tcp&quot;
+    cidr_blocks = [&quot;0.0.0.0/0&quot;]
+  }
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = &quot;tcp&quot;
+    cidr_blocks = [&quot;0.0.0.0/0&quot;]
+  }
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = &quot;-1&quot;
+    cidr_blocks = [&quot;0.0.0.0/0&quot;]
+  }
+}
+
+# Add Output
+output &quot;public_ip&quot; {
+  value       = &quot;aws_instance.example.public_ip&quot;
+  description = &quot;The public IP of the web server&quot;
+}
+</code></pre>
+<h3 id="terraform-init-and-apply" tabindex="-1">Terraform Init and apply <a class="external-link" href="#terraform-init-and-apply" aria-hidden="true" target="_self">#</a></h3>
+<pre><code>terraform init
+
+terraform plan
+
+terraform apply
+</code></pre>
+<p>Then type 'yes' and the instances will be created.<br>
+when we wnat to use the IP for the SSH connection, we can send the command</p>
+<pre><code>terraform destroy
+</code></pre>
+<p>and the IP will be displayd (DONT approve the destroy..)</p>
+<hr>
+<h1 id="about-terraform" tabindex="-1">About Terraform <a class="external-link" href="#about-terraform" aria-hidden="true" target="_self">#</a></h1>
+<p><mark></mark><mark></mark>=</p>
+<ul>
+<li>Website: <a href="https://www.terraform.io" target="_self" class="external-link">https://www.terraform.io</a></li>
+<li>Forums: <a href="https://discuss.hashicorp.com/c/terraform-core" target="_self" class="external-link">HashiCorp Discuss</a></li>
+<li>Documentation: <a href="https://www.terraform.io/docs/" target="_self" class="external-link">https://www.terraform.io/docs/</a></li>
+<li>Tutorials: <a href="https://learn.hashicorp.com/terraform" target="_self" class="external-link">HashiCorp's Learn Platform</a></li>
+<li>Certification Exam: <a href="https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate" target="_self" class="external-link">HashiCorp Certified: Terraform Associate</a></li>
+</ul>
+<img alt="Terraform" src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg" width="600px">
+<p>Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.</p>
+<p>The key features of Terraform are:</p>
+<ul>
+<li>
+<p><strong>Infrastructure as Code</strong>: Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used.</p>
+</li>
+<li>
+<p><strong>Execution Plans</strong>: Terraform has a &quot;planning&quot; step where it generates an <em>execution plan</em>. The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure.</p>
+</li>
+<li>
+<p><strong>Resource Graph</strong>: Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.</p>
+</li>
+<li>
+<p><strong>Change Automation</strong>: Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly what Terraform will change and in what order, avoiding many possible human errors.</p>
+</li>
+</ul>
+<p>For more information, see the <a href="http://www.terraform.io/intro" target="_self" class="external-link">introduction section</a> of the Terraform website.</p>
+<h2 id="getting-started-and-documentation" tabindex="-1">Getting Started &amp; Documentation <a class="external-link" href="#getting-started-and-documentation" aria-hidden="true" target="_self">#</a></h2>
+<p>Documentation is available on the <a href="http://www.terraform.io" target="_self" class="external-link">Terraform website</a>:</p>
+<ul>
+<li><a href="https://www.terraform.io/intro/index.html" target="_self" class="external-link">Intro</a></li>
+<li><a href="https://www.terraform.io/docs/index.html" target="_self" class="external-link">Docs</a></li>
+</ul>
+<p>If you're new to Terraform and want to get started creating infrastructure, please check out our <a href="https://learn.hashicorp.com/terraform#getting-started" target="_self" class="external-link">Getting Started guides</a> on HashiCorp's learning platform. There are also <a href="https://learn.hashicorp.com/terraform#operations-and-development" target="_self" class="external-link">additional guides</a> to continue your learning.</p>
+<p>Show off your Terraform knowledge by passing a certification exam. Visit the <a href="https://www.hashicorp.com/certification/" target="_self" class="external-link">certification page</a> for information about exams and find <a href="https://learn.hashicorp.com/terraform/certification/terraform-associate" target="_self" class="external-link">study materials</a> on HashiCorp's learning platform.</p>
+<h2 id="developing-terraform" tabindex="-1">Developing Terraform <a class="external-link" href="#developing-terraform" aria-hidden="true" target="_self">#</a></h2>
+<p>This repository contains only Terraform core, which includes the command line interface and the main graph engine. Providers are implemented as plugins, and Terraform can automatically download providers that are published on <a href="https://registry.terraform.io" target="_self" class="external-link">the Terraform Registry</a>. HashiCorp develops some providers, and others are developed by other organizations. For more information, see <a href="https://www.terraform.io/docs/extend/index.html" target="_self" class="external-link">Extending Terraform</a>.</p>
+<p>To learn more about compiling Terraform and contributing suggested changes, please refer to <a href=".github/CONTRIBUTING.md" target="_self" class="external-link">the contributing guide</a>.</p>
+<p>To learn more about how we handle bug reports, please read the <a href="./BUGPROCESS.md" target="_self" class="external-link">bug triage guide</a>.</p>
+<h2 id="license" tabindex="-1">License <a class="external-link" href="#license" aria-hidden="true" target="_self">#</a></h2>
+<p><a href="https://github.com/hashicorp/terraform/blob/main/LICENSE" target="_self" class="external-link">Mozilla Public License v2.0</a></p>
+
+  </main>
+
+  <aside class="post__aside">
+    <div class="post__tags">
+      
+        
+        <a href="/tags/terraform/">#terraform</a>
+      
+        
+        <a href="/tags/devops/">#devops</a>
+      
+        
+        <a href="/tags/commands/">#commands</a>
+      
+        
+        <a href="/tags/virtual/">#virtual</a>
+      
+    </div>
+
+    <nav class="post__pagination">
+
+        <a href="/posts/WSL Distribution - OP/">
+          <span>WSL Distribution - OP</span>
+          <span>→</span>
+        </a>
+
+      
+    </nav>
+  </aside>
+
+</article>
+	  
+    </main>
+
+    <footer>
+	
+	</footer>
+
+    <!-- Current page: /posts/terraform/ -->
+
+  </body>
+</html>
