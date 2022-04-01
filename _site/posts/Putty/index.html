@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href=/posts/Putty/>
+	
+	 <title>Putty</title>
+	 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: "forest"
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<link href="/css/styles/style.css" rel="stylesheet">
+<link href="/css/styles/custom-style.css " rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+	 
+	 
+
+    <meta name="description" content="Docs, Guides and specs">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Yaki Kimhi&#39;s Site">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Yaki Kimhi&#39;s Site">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+    <title>
+      Putty
+      
+         | 
+      
+    </title>
+
+    <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
+
+    <meta property="og:title" content="Putty">
+    <meta property="og:site_name" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="undefined/posts/Putty/"/>
+    <meta name="twitter:card" content="summary_large_image">
+
+    
+
+
+    
+      
+    
+    
+
+
+
+</head>
+  <body  dir=ltr >
+    <header class="header" style="direction: ltr">
+        <div class="header__content">
+      <h1 class="site-title"><a href="/">Yaki Kimhi&#39;s Site</a></h1>
+
+
+   <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav-item"><a href="/archive/">Archive</a></li>
+        <li class="nav-item"><a href="/dafyomi/">Daf-Yomi</a></li>
+        <li class="nav-item"><a href="/notes/">Notes</a></li>
+        <li class="nav-item"><a href="/tags/">All Tags</a></li>
+      </ul>
+   </nav>
+        </div>
+    </header>
+
+    <main>
+	<div dir=ltr >
+	
+       <h1 > Devop notes </h1>
+
+</div>
+
+	  
+      
+
+<article class="post" dir=ltr>
+  <header   class="post__header">
+    <h1>Putty</h1>
+    <div class="post__details">
+      <time datetime="2022-03-21">
+        21 Mar 2022
+      </time>
+      <span> | </span>
+     <span>2 min read</span>
+	</div>
+  </header>
+
+  <main class="post__content">
+    <p><a href="/notes/2021-05-23/" target="_self" class="external-link">2021-05-23</a></p>
+<h1 id="putty" tabindex="-1">PuTTY <a class="external-link" href="#putty" aria-hidden="true" target="_self">#</a></h1>
+<p><a href="/notes/index/" target="_self" class="external-link">דף הבית</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
+<p><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-what" target="_self" class="external-link">PuTTY</a> is a client program for the SSH on Windows OS.</p>
+<h2 id="windows-putty-installer" tabindex="-1">Windows PuTTY Installer <a class="external-link" href="#windows-putty-installer" aria-hidden="true" target="_self">#</a></h2>
+<p>We recommend to download <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_self" class="external-link">Windows Installer</a> with PuTTY utilities as:</p>
+<ul>
+<li>Pageant (SSH authentication agent) - store private key in memory without need to retype a passphrase on every login</li>
+<li>PuTTYgen (PuTTY key generator) - convert OpenSSH format of id_rsa to PuTTY ppk private key and so on and so forth</li>
+</ul>
+<h2 id="putty-connect-to-the-instance" tabindex="-1">PuTTY - Connect to the Instance <a class="external-link" href="#putty-connect-to-the-instance" aria-hidden="true" target="_self">#</a></h2>
+<ul>
+<li>Run PuTTY and enter Host name in format &quot;login@Floating IP address&quot; where <a href="/quick-start#create-virtual-machine-instance" target="_self" class="external-link">login</a> is for example debian for Debian OS and Floating IP is <a href="/quick-start/#associate-floating-ip" target="_self" class="external-link">IP address</a> to access instance from internet.</li>
+<li>In Category -&gt; Connection -&gt; SSH -&gt; Auth:
+<ul>
+<li>Select <strong>Attempt authentication using Pageant</strong></li>
+<li>Select <strong>Allow agent forwarding</strong></li>
+<li>Browse and select your private key file (if needed <a href="#convert-openssh-format-to-putty-ppk-format" target="_self" class="external-link">convert OpenSSH format id_rsa to Putty ppk</a>)</li>
+</ul>
+</li>
+<li>Return to <em>Session page</em> and Save selected configuration with <strong>Save</strong> button</li>
+<li>Now you can log in using <strong>Open</strong> button</li>
+<li>Enter passphrase for selected private key file if <a href="#pageant-ssh-agent" target="_self" class="external-link">Pageant SSH authentication agent</a> is not used
+<ul>
+<li>We recomend using Pageant SSH Agent to store private key in memory without need to retype a passphrase on every login</li>
+</ul>
+</li>
+</ul>
+<figure><img src="putty-connect2instance.png.md" alt=""></figure>
+<h2 id="pageant-ssh-agent" tabindex="-1">Pageant SSH Agent <a class="external-link" href="#pageant-ssh-agent" aria-hidden="true" target="_self">#</a></h2>
+<ul>
+<li>Run Pageant from Windows menu</li>
+<li>Locate Pageant icon in the Notification Area and double click on it</li>
+<li>Use <strong>Add Key</strong> button</li>
+<li>Browse files and select your PuTTY Private Key File in format ppk</li>
+<li>Use <strong>Open</strong> buton</li>
+<li>Eter passphrase and confirm <strong>OK</strong> button</li>
+<li>Your private key is now located in the memory without need to retype a passphrase on every login</li>
+</ul>
+<figure><img src="/putty/images/pageant-add-key.png" alt=""></figure>
+<h2 id="putty-key-generator" tabindex="-1">PuTTY key Generator <a class="external-link" href="#putty-key-generator" aria-hidden="true" target="_self">#</a></h2>
+<p>PuTTYgen is the PuTTY key generator. You can load in an existing private key and change your passphrase or generate a new public/private key pair or convert to/from OpenSSH/PuTTY ppk formats.</p>
+<h2 id="convert-openssh-format-to-putty-ppk-format" tabindex="-1">Convert OpenSSH format to PuTTY ppk format <a class="external-link" href="#convert-openssh-format-to-putty-ppk-format" aria-hidden="true" target="_self">#</a></h2>
+<ul>
+<li>Run PuTTYgen, in the menu Conversion -&gt; Import key browse and load your OpenSSH format id_rsa private key using your passphrase</li>
+<li>Save PuTTY ppk private key using button <strong>Save private key</strong>, browse destination for PuTTY format id_rsa.ppk and save file</li>
+</ul>
+<figure><img src="/putty/images/puttygen-openssh2ppk.png" alt=""></figure>
+<h2 id="convert-putty-ppk-private-key-to-openssh-format" tabindex="-1">Convert PuTTY ppk private key to OpenSSH format <a class="external-link" href="#convert-putty-ppk-private-key-to-openssh-format" aria-hidden="true" target="_self">#</a></h2>
+<ul>
+<li>Run PuTTYgen, in the menu File -&gt; Load private key browse and open your private key in format PuTTY ppk using your passphrase</li>
+<li>In the menu Conversion -&gt; Export OpenSSH key browse destination for OpenSSH format id_rsa and save file</li>
+</ul>
+<figure><img src="/putty/images/puttygen-ppk2openssh.png" alt=""></figure>
+<h2 id="change-password-for-existing-private-key-pair" tabindex="-1">Change Password for Existing Private Key Pair <a class="external-link" href="#change-password-for-existing-private-key-pair" aria-hidden="true" target="_self">#</a></h2>
+<ul>
+<li>Load your existing private key using button <strong>Load</strong>, confirm opening using your passphrase</li>
+<li>Enter new passphrase in field <em>Key passphrase</em> and confirm again in field <em>Confirm passphrase</em></li>
+<li>Save changes using button <strong>Save private key</strong></li>
+</ul>
+<figure><img src="/putty/images/puttygen-passphrase.png" alt=""></figure>
+<h2 id="generate-a-new-key-pair" tabindex="-1">Generate a New Key Pair <a class="external-link" href="#generate-a-new-key-pair" aria-hidden="true" target="_self">#</a></h2>
+<ul>
+<li>Start with <strong>Generate button</strong></li>
+<li>Generate some randomness by moving your mouse over dialog</li>
+<li>Wait while the key is generated</li>
+<li>Enter a comment for your key using &quot;your-email@address&quot;</li>
+<li>Enter key passphrase, confirm key passphrase</li>
+<li>Save your new private key in the &quot;id_rsa.ppk&quot; format using the <strong>Save private key</strong> button</li>
+<li>Save the public key with the <strong>Save public key</strong> button</li>
+</ul>
+<figure><img src="/putty/images/puttygen_new_key.png" alt=""></figure>
+
+  </main>
+
+  <aside class="post__aside">
+    <div class="post__tags">
+      
+        
+        <a href="/tags/putty/">#putty</a>
+      
+        
+        <a href="/tags/devops/">#devops</a>
+      
+        
+        <a href="/tags/commands/">#commands</a>
+      
+        
+        <a href="/tags/ssh/">#ssh</a>
+      
+    </div>
+
+    <nav class="post__pagination">
+
+        <a href="/posts/WSL Distribution - OP/">
+          <span>←</span>
+          <span>WSL Distribution - OP</span>
+        </a>
+
+      
+
+        <a href="/posts/PL-SQL/">
+          <span>PL-SQL</span>
+          <span>→</span>
+        </a>
+
+      
+    </nav>
+  </aside>
+
+</article>
+	  
+    </main>
+
+    <footer>
+	
+	</footer>
+
+    <!-- Current page: /posts/Putty/ -->
+
+  </body>
+</html>

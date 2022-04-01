@@ -1,4 +1,4 @@
-name: Build Eleventy
+name: Build Obsidian-11ty
 
 on:
   push:

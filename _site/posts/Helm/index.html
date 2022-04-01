@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href=/posts/Helm/>
+	
+	 <title>helm</title>
+	 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: "forest"
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<link href="/css/styles/style.css" rel="stylesheet">
+<link href="/css/styles/custom-style.css " rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+	 
+	 
+
+    <meta name="description" content="Docs, Guides and specs">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Yaki Kimhi&#39;s Site">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Yaki Kimhi&#39;s Site">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+    <title>
+      helm
+      
+         | 
+      
+    </title>
+
+    <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
+
+    <meta property="og:title" content="helm">
+    <meta property="og:site_name" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="undefined/posts/Helm/"/>
+    <meta name="twitter:card" content="summary_large_image">
+
+    
+
+
+    
+      
+    
+    
+
+
+
+</head>
+  <body  dir=ltr >
+    <header class="header" style="direction: ltr">
+        <div class="header__content">
+      <h1 class="site-title"><a href="/">Yaki Kimhi&#39;s Site</a></h1>
+
+
+   <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav-item"><a href="/archive/">Archive</a></li>
+        <li class="nav-item"><a href="/dafyomi/">Daf-Yomi</a></li>
+        <li class="nav-item"><a href="/notes/">Notes</a></li>
+        <li class="nav-item"><a href="/tags/">All Tags</a></li>
+      </ul>
+   </nav>
+        </div>
+    </header>
+
+    <main>
+	<div dir=ltr >
+	
+       <h1 > Devop notes </h1>
+
+</div>
+
+	  
+      
+
+<article class="post" dir=ltr>
+  <header   class="post__header">
+    <h1>helm</h1>
+    <div class="post__details">
+      <time datetime="2022-02-11">
+        11 Feb 2022
+      </time>
+      <span> | </span>
+     <span>2 min read</span>
+	</div>
+  </header>
+
+  <main class="post__content">
+    <p><a href="/notes/16/05/2021/" target="_self" class="external-link">16/05/2021</a></p>
+<h1 id="helm" tabindex="-1">Helm <a class="external-link" href="#helm" aria-hidden="true" target="_self">#</a></h1>
+<p><a href="/notes/index/" target="_self" class="external-link">דף הבית</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
+<h2 id="installation" tabindex="-1">Installation <a class="external-link" href="#installation" aria-hidden="true" target="_self">#</a></h2>
+<p>Installing via <a href="/notes/YakisSite/Scoop/" target="_self" class="external-link">YakisSite/Scoop</a></p>
+<pre><code>scoop install helm
+</code></pre>
+<h2 id="about-helm" tabindex="-1">About helm <a class="external-link" href="#about-helm" aria-hidden="true" target="_self">#</a></h2>
+<p><a href="https://circleci.com/gh/helm/helm" target="_self" class="external-link"><img src="https://circleci.com/gh/helm/helm.svg?style=shield" alt="CircleCI"></a><br>
+<a href="https://goreportcard.com/report/github.com/helm/helm" target="_self" class="external-link"><img src="https://goreportcard.com/badge/github.com/helm/helm" alt="Go Report Card"></a><br>
+<a href="https://pkg.go.dev/helm.sh/helm/v3" target="_self" class="external-link"><img src="https://img.shields.io/static/v1?label=godoc&amp;message=reference&amp;color=blue" alt="GoDoc"></a><br>
+<a href="https://bestpractices.coreinfrastructure.org/projects/3131" target="_self" class="external-link"><img src="https://bestpractices.coreinfrastructure.org/projects/3131/badge" alt="CII Best Practices"></a></p>
+<p>Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources.</p>
+<p>Use Helm to:</p>
+<ul>
+<li>Find and use <a href="https://artifacthub.io/packages/search?kind=0" target="_self" class="external-link">popular software packaged as Helm Charts</a> to run in Kubernetes</li>
+<li>Share your own applications as Helm Charts</li>
+<li>Create reproducible builds of your Kubernetes applications</li>
+<li>Intelligently manage your Kubernetes manifest files</li>
+<li>Manage releases of Helm packages</li>
+</ul>
+<h2 id="helm-in-a-handbasket" tabindex="-1">Helm in a Handbasket <a class="external-link" href="#helm-in-a-handbasket" aria-hidden="true" target="_self">#</a></h2>
+<p>Helm is a tool that streamlines installing and managing Kubernetes applications.<br>
+Think of it like apt/yum/homebrew for Kubernetes.</p>
+<ul>
+<li>Helm renders your templates and communicates with the Kubernetes API</li>
+<li>Helm runs on your laptop, CI/CD, or wherever you want it to run.</li>
+<li>Charts are Helm packages that contain at least two things:
+<ul>
+<li>A description of the package (<code>Chart.yaml</code>)</li>
+<li>One or more templates, which contain Kubernetes manifest files</li>
+</ul>
+</li>
+<li>Charts can be stored on disk, or fetched from remote chart repositories<br>
+(like Debian or RedHat packages)</li>
+</ul>
+<h2 id="install" tabindex="-1">Install <a class="external-link" href="#install" aria-hidden="true" target="_self">#</a></h2>
+<p>Binary downloads of the Helm client can be found on <a href="https://github.com/helm/helm/releases/latest" target="_self" class="external-link">the Releases page</a>.</p>
+<p>Unpack the <code>helm</code> binary and add it to your PATH and you are good to go!</p>
+<p>If you want to use a package manager:</p>
+<ul>
+<li><a href="https://brew.sh/" target="_self" class="external-link">Homebrew</a> users can use <code>brew install helm</code>.</li>
+<li><a href="https://chocolatey.org/" target="_self" class="external-link">Chocolatey</a> users can use <code>choco install kubernetes-helm</code>.</li>
+<li><a href="https://scoop.sh/" target="_self" class="external-link">Scoop</a> users can use <code>scoop install helm</code>.</li>
+<li><a href="https://gofi.sh/" target="_self" class="external-link">GoFish</a> users can use <code>gofish install helm</code>.</li>
+<li><a href="https://snapcraft.io/" target="_self" class="external-link">Snapcraft</a> users can use <code>snap install helm --classic</code></li>
+</ul>
+<p>To rapidly get Helm up and running, start with the <a href="https://helm.sh/docs/intro/quickstart/" target="_self" class="external-link">Quick Start Guide</a>.</p>
+<p>See the <a href="https://helm.sh/docs/intro/install/" target="_self" class="external-link">installation guide</a> for more options,<br>
+including installing pre-releases.</p>
+<h2 id="docs" tabindex="-1">Docs <a class="external-link" href="#docs" aria-hidden="true" target="_self">#</a></h2>
+<p>Get started with the <a href="https://helm.sh/docs/intro/quickstart/" target="_self" class="external-link">Quick Start guide</a> or plunge into the <a href="https://helm.sh/docs" target="_self" class="external-link">complete documentation</a></p>
+<h2 id="roadmap" tabindex="-1">Roadmap <a class="external-link" href="#roadmap" aria-hidden="true" target="_self">#</a></h2>
+<p>The <a href="https://github.com/helm/helm/milestones" target="_self" class="external-link">Helm roadmap uses GitHub milestones</a> to track the progress of the project.</p>
+<h2 id="community-discussion-contribution-and-support" tabindex="-1">Community, discussion, contribution, and support <a class="external-link" href="#community-discussion-contribution-and-support" aria-hidden="true" target="_self">#</a></h2>
+<p>You can reach the Helm community and developers via the following channels:</p>
+<ul>
+<li><a href="https://kubernetes.slack.com" target="_self" class="external-link">Kubernetes Slack</a>:
+<ul>
+<li><a href="https://kubernetes.slack.com/messages/helm-users" target="_self" class="external-link">helm-users</a></li>
+<li><a href="https://kubernetes.slack.com/messages/helm-dev" target="_self" class="external-link">helm-dev</a></li>
+<li><a href="https://kubernetes.slack.com/messages/charts" target="_self" class="external-link">charts</a></li>
+</ul>
+</li>
+<li>Mailing List:
+<ul>
+<li><a href="https://lists.cncf.io/g/cncf-helm" target="_self" class="external-link">Helm Mailing List</a></li>
+</ul>
+</li>
+<li>Developer Call: Thursdays at 9:30-10:00 Pacific (<a href="https://github.com/helm/community/blob/master/communication.md#meetings" target="_self" class="external-link">meeting details</a>)</li>
+</ul>
+<h2 id="generalhelm-quick-commands" tabindex="-1"><a href="/notes/General/Helm%20quick%20commands/" target="_self" class="external-link">General/Helm quick commands</a> <a class="external-link" href="#generalhelm-quick-commands" aria-hidden="true" target="_self">#</a></h2>
+
+  </main>
+
+  <aside class="post__aside">
+    <div class="post__tags">
+      
+        
+        <a href="/tags/devops/">#devops</a>
+      
+        
+        <a href="/tags/helm/">#helm</a>
+      
+        
+        <a href="/tags/install/">#install</a>
+      
+        
+        <a href="/tags/k8s/">#k8s</a>
+      
+        
+        <a href="/tags/versionednote/">#versionednote</a>
+      
+    </div>
+
+    <nav class="post__pagination">
+
+        <a href="/posts/Linux/">
+          <span>←</span>
+          <span>Linux</span>
+        </a>
+
+      
+
+        <a href="/posts/Helm quick commands/">
+          <span>Helm Quick Commands</span>
+          <span>→</span>
+        </a>
+
+      
+    </nav>
+  </aside>
+
+</article>
+	  
+    </main>
+
+    <footer>
+	
+	</footer>
+
+    <!-- Current page: /posts/Helm/ -->
+
+  </body>
+</html>
