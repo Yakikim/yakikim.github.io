@@ -827,17 +827,7 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/helm/</loc>
-    <lastmod>2022-04-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yakikim.github.io/tags/devops/</loc>
-    <lastmod>2022-04-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/commands/</loc>
     <lastmod>2022-04-01</lastmod>
   </url>
   
@@ -847,7 +837,17 @@
   </url>
   
   <url>
+    <loc>https://yakikim.github.io/tags/helm/</loc>
+    <lastmod>2022-04-01</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yakikim.github.io/tags/k8s/</loc>
+    <lastmod>2022-04-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/commands/</loc>
     <lastmod>2022-04-01</lastmod>
   </url>
   
@@ -862,12 +862,12 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/markdown/</loc>
+    <loc>https://yakikim.github.io/tags/linux/</loc>
     <lastmod>2022-04-01</lastmod>
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/linux/</loc>
+    <loc>https://yakikim.github.io/tags/markdown/</loc>
     <lastmod>2022-04-01</lastmod>
   </url>
   
