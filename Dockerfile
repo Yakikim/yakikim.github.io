@@ -9,4 +9,6 @@ RUN npm i npm-run-all -D
 
 EXPOSE 8080
 EXPOSE 8081
+
+#ENTRYPOINT "npm start"
 CMD [ "nodemon", "--legacy-watch" , "--ext", "js,mjs,json,md", "--delay", "300", "--watch", "posts", "--watch", "notes", "--watch", "_includes"]
