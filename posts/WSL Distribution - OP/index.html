@@ -104,10 +104,10 @@
   </header>
 
   <main class="post__content">
-    <p><a class="internal-link" href="/notes/2021-05-23">2021-05-23</a></p>
-<h1 id="wsl-distribution-op" tabindex="-1">WSL Distribution - OP <a class="external-link" href="#wsl-distribution-op" aria-hidden="true" target="_blank">#</a></h1>
-<p><a class="internal-link" href="/notes/index"> דף הבית</a>/<a class="internal-link" href="/notes/">אחר</a></p>
-<h2 id="how-to-install-the-wsl-on-windows-using-ps-commands" tabindex="-1">How to install the WSL on windows using PS commands <a class="external-link" href="#how-to-install-the-wsl-on-windows-using-ps-commands" aria-hidden="true" target="_blank">#</a></h2>
+    <p><a href="/notes/2021-05-23/" target="_self" class="external-link">2021-05-23</a></p>
+<h1 id="wsl-distribution-op" tabindex="-1">WSL Distribution - OP <a class="external-link" href="#wsl-distribution-op" aria-hidden="true" target="_self">#</a></h1>
+<p><a href="/notes/index/" target="_self" class="external-link">דף הבית</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
+<h2 id="how-to-install-the-wsl-on-windows-using-ps-commands" tabindex="-1">How to install the WSL on windows using PS commands <a class="external-link" href="#how-to-install-the-wsl-on-windows-using-ps-commands" aria-hidden="true" target="_self">#</a></h2>
 <ol>
 <li>Run PowerShell <strong>as Administrator</strong></li>
 <li>Enable these features:</li>
@@ -115,7 +115,7 @@
 <pre class="language-powershell"><code class="language-powershell">dism<span class="token punctuation">.</span>exe <span class="token operator">/</span>online <span class="token operator">/</span><span class="token function">enable-feature</span> <span class="token operator">/</span>featurename:Microsoft-Windows-Subsystem-Linux <span class="token operator">/</span>all <span class="token operator">/</span>norestart                   </code></pre>
 <pre class="language-powershell"><code class="language-powershell">dism<span class="token punctuation">.</span>exe <span class="token operator">/</span>online <span class="token operator">/</span><span class="token function">enable-feature</span> <span class="token operator">/</span>featurename:VirtualMachinePlatform <span class="token operator">/</span>all <span class="token operator">/</span>norestart                              </code></pre>
 <ol start="2">
-<li>Download the OS from the list of distributions <a href="https://docs.microsoft.com/en-us/windows/wsl/install-manual" target="_blank" class="external-link">here</a>:</li>
+<li>Download the OS from the list of distributions <a href="https://docs.microsoft.com/en-us/windows/wsl/install-manual" target="_self" class="external-link">here</a>:</li>
 </ol>
 <pre class="language-powershell"><code class="language-powershell">curl<span class="token punctuation">.</span>exe <span class="token operator">-</span>L <span class="token operator">-</span>o ubuntu-1604<span class="token punctuation">.</span>appx https:<span class="token operator">/</span><span class="token operator">/</span>aka<span class="token punctuation">.</span>ms/wsl-ubuntu-1604                 <br></code></pre>
 <ol start="3">

@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yakikim.github.io/posts/firstpost/</loc>
-    <lastmod>2018-05-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yakikim.github.io/notes/firstnote/</loc>
     <lastmod>2018-05-01</lastmod>
   </url>
@@ -17,23 +12,8 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yakikim.github.io/notes/thirdnote/</loc>
     <lastmod>2018-08-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
   </url>
   
   <url>
@@ -727,6 +707,36 @@
   </url>
   
   <url>
+    <loc>https://yakikim.github.io/dafyomi/2022-03-30/</loc>
+    <lastmod>2022-03-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/dafyomi/2022-03-31/</loc>
+    <lastmod>2022-03-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/dafyomi/2022-04-01/</loc>
+    <lastmod>2022-04-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/dafyomi/2022-04-02/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/dafyomi/2022-04-03/</loc>
+    <lastmod>2022-04-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/dafyomi/2022-04-04/</loc>
+    <lastmod>2022-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yakikim.github.io/dafyomi/2022-04-05/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
@@ -752,57 +762,17 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/posts/K8s/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/Linux%20GUI/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/Mermaid/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/PL-SQL/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/Putty/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/WSL%20Distribution%20-%20OP/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/posts/terraform/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yakikim.github.io/tags/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/17303/</loc>
+    <loc>https://yakikim.github.io/tags/notes/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
   <url>
     <loc>https://yakikim.github.io/tags/another-note/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/second-note/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
@@ -813,6 +783,11 @@
   
   <url>
     <loc>https://yakikim.github.io/tags/posts-with-two-tags/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/second-note/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
@@ -862,22 +837,7 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/notes/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yakikim.github.io/tags/scoop/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/another-tag/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/number-2/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
@@ -892,772 +852,12 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/memo/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/personal/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/father/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/birthday/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/memory/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/nachman/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/eulogy/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/natan/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/op/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/apex/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/infrastracture/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/computers/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/assessment/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/suppliers/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/amihay/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/john/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/management/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/filter/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/yeal/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/ariel/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/family/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/ownmemory/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/purchasing/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/po/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/funny/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/documents/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/spec/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/infrastructures/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/halel/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/aymanna/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/andrib/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/sagivba/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/admin/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/apex_exec/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/technical/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/plsql/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/professional/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/document/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/c13036/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/mba/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/studies/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/mermaid/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/erp/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/yael/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/logistics/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/wiki/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/guide/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/wallet/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/httprequest/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/infrastructure/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/c13019/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/maman/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/jerusalem/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/kippur/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/toothpain/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/kipur/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/warsaw/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/running/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/patron/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/aymann/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/sagiv/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/aop/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/apexapp/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/pain/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/ribs/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/shlomo/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/jiujitsu/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/weblogic/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/bulibi/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/yochanan/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/yaeli/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/insurance/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/contracts/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/twain/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/joke/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/jerusalem-marathon/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/kobe-yatskan/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/requisition/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/naor/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/amichay/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/tefilin/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/fun/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/programs/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/lessons/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/spider/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/counter/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/ords/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/services/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/mona/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/oracle/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/week/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/microservices/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/koach/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/initiation/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/webservice/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/rest/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/apim/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/amihai/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/ig/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/hanuka/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/expenses/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/workflow/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/rbac/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/authorization/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/zeelim/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/trip/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/sivan/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/desert/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/exited/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/oil/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/evyatarbanay/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/show/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/love/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/configuration/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/python/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/script/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/replace/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/path/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/note/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/obsidian/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/filename/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/files/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/c13033/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/c13011/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/barmitzva/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/kidush/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/development/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/session/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/gifts/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/barmizva/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/build/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/pipeline/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/liquibase/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/sqlcl/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/deploy/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/find/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/printf/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/sed/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/bash/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/shell/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/infrastractures/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/purchassing/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/git/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/cicd/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/picnick/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/hallel/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/dark/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/memories/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/torah/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/head/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/unix/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yakikim.github.io/tags/dafyomi/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
   <url>
     <loc>https://yakikim.github.io/tags/taanit/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/abior/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
@@ -1682,7 +882,37 @@
   </url>
   
   <url>
+    <loc>https://yakikim.github.io/tags/mermaid/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yakikim.github.io/tags/gantt/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/documents/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/spec/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/op/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/po/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/plsql/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
@@ -1717,7 +947,37 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/mail/</loc>
+    <loc>https://yakikim.github.io/posts/K8s/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/posts/Linux%20GUI/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/posts/Mermaid/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/posts/PL-SQL/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/posts/Putty/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/posts/WSL%20Distribution%20-%20OP/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/posts/terraform/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
 </urlset>

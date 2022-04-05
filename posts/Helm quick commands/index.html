@@ -104,11 +104,11 @@
   </header>
 
   <main class="post__content">
-    <h1 id="helm" tabindex="-1">Helm <a class="external-link" href="#helm" aria-hidden="true" target="_blank">#</a></h1>
-<p><a class="internal-link" href="/notes/index"> דף הבית</a>/<a class="internal-link" href="/notes/">אחר</a></p>
+    <h1 id="helm" tabindex="-1">Helm <a class="external-link" href="#helm" aria-hidden="true" target="_self">#</a></h1>
+<p><a href="/notes/index/" target="_self" class="external-link">דף הבית</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
 <hr>
-<p><a class="internal-link" href="/notes/2021-04-25">2021-04-25</a></p>
-<h2 id="common-commands" tabindex="-1">Common Commands <a class="external-link" href="#common-commands" aria-hidden="true" target="_blank">#</a></h2>
+<p><a href="/notes/2021-04-25/" target="_self" class="external-link">2021-04-25</a></p>
+<h2 id="common-commands" tabindex="-1">Common Commands <a class="external-link" href="#common-commands" aria-hidden="true" target="_self">#</a></h2>
 <p>Add repo</p>
 <pre><code>helm repo add stable https://charts.helm.sh/stable
 </code></pre>
@@ -130,7 +130,7 @@ which repos are available using list.</p>
 <pre class="language-bash"><code class="language-bash">helm <span class="token function">install</span> <span class="token operator">&lt;</span>name<span class="token operator">></span> <span class="token operator">&lt;</span>chart<span class="token operator">></span></code></pre>
 <p>delete a chart</p>
 <pre class="language-bash"><code class="language-bash">helm delete <span class="token operator">&lt;</span>chart name<span class="token operator">></span> </code></pre>
-<p><a class="internal-link" href="/notes/yakis-site-chert-museum">YakisSite/ChertMuseum</a> install as docker container</p>
+<p><a href="/notes/YakisSite/ChertMuseum/" target="_self" class="external-link">YakisSite/ChertMuseum</a> install as docker container</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">docker</span> run --rm -it <span class="token punctuation">\</span><br>   -p <span class="token number">8080</span>:8080 <span class="token punctuation">\</span><br>   -e <span class="token assign-left variable">DEBUG</span><span class="token operator">=</span><span class="token number">1</span> <span class="token punctuation">\</span><br>   -e <span class="token assign-left variable">STORAGE</span><span class="token operator">=</span>local <span class="token punctuation">\</span><br>   -e <span class="token assign-left variable">STORAGE_LOCAL_ROOTDIR</span><span class="token operator">=</span>/charts <span class="token punctuation">\</span><br>   -v <span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">pwd</span><span class="token variable">)</span></span>/charts:/charts <span class="token punctuation">\</span><br>   ghcr.io/helm/chartmuseum:v0.13.1</code></pre>
 
   </main>
