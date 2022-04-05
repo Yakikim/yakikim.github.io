@@ -892,22 +892,12 @@
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/documents/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yakikim.github.io/tags/spec/</loc>
-    <lastmod>2022-04-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yakikim.github.io/tags/op/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
   <url>
-    <loc>https://yakikim.github.io/tags/po/</loc>
+    <loc>https://yakikim.github.io/tags/documents/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
@@ -923,6 +913,16 @@
   
   <url>
     <loc>https://yakikim.github.io/tags/scripts/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/spec/</loc>
+    <lastmod>2022-04-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yakikim.github.io/tags/po/</loc>
     <lastmod>2022-04-05</lastmod>
   </url>
   
