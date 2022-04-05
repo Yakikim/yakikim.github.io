@@ -157,7 +157,7 @@ body pre.language-ad-info {
   border: 1px solid #2e5854;
 }
 body div.backlink {
-  background-color: #fbf8ef;
+  max-width: 40%;
   padding: 1rem;
   border: 2px solid #e6e6e6;
   border-radius: 12px;
@@ -664,7 +664,11 @@ pre code {
 }
 
 mark {
-  background: #fffac4;
+  background: var(--accent);
+  color: var(--background);
+  padding: 1px 6px;
+  margin: 0 2px;
+  font-size: 0.95rem;
 }
 
 .visually-hidden {

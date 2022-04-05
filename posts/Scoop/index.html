@@ -104,10 +104,10 @@
   </header>
 
   <main class="post__content">
-    <p><a href="/notes/2021-05-23/" target="_self" class="external-link">2021-05-23</a></p>
-<h1 id="scoop" tabindex="-1">Scoop <a class="external-link" href="#scoop" aria-hidden="true" target="_self">#</a></h1>
-<p><a href="/notes/index/" target="_self" class="external-link">דף הבית</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
-<h2 id="installation" tabindex="-1">Installation <a class="external-link" href="#installation" aria-hidden="true" target="_self">#</a></h2>
+    <p><a class="internal-link" href="/notes/2021-05-23">2021-05-23</a></p>
+<h1 id="scoop" tabindex="-1">Scoop <a class="external-link" href="#scoop" aria-hidden="true" target="_blank">#</a></h1>
+<p><a class="internal-link" href="/notes/index"> דף הבית</a>/<a class="internal-link" href="/notes/">אחר</a></p>
+<h2 id="installation" tabindex="-1">Installation <a class="external-link" href="#installation" aria-hidden="true" target="_blank">#</a></h2>
 <p>from Power Shell window run:</p>
 <pre class="language-powershell"><code class="language-powershell"><span class="token function">iwr</span> <span class="token operator">-</span>useb get<span class="token punctuation">.</span>scoop<span class="token punctuation">.</span>sh <span class="token punctuation">|</span> <span class="token function">iex</span></code></pre>
 <p align="center">
@@ -143,7 +143,7 @@
     </a>
 </p>
 <p>Scoop is a command-line installer for Windows.</p>
-<h2 id="what-does-scoop-do" tabindex="-1">What does Scoop do? <a class="external-link" href="#what-does-scoop-do" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="what-does-scoop-do" tabindex="-1">What does Scoop do? <a class="external-link" href="#what-does-scoop-do" aria-hidden="true" target="_blank">#</a></h2>
 <p>Scoop installs programs from the command line with a minimal amount of friction. It tries to eliminate things like:</p>
 <ul>
 <li>Permission popup windows</li>
@@ -156,65 +156,65 @@
 <p>Scoop is very scriptable, so you can run repeatable setups to get your environment just the way you like, e.g.:</p>
 <pre class="language-powershell"><code class="language-powershell">scoop install sudo<br>sudo scoop install 7zip git openssh <span class="token operator">--</span>global<br>scoop install aria2 curl grep sed less touch<br>scoop install python ruby go perl</code></pre>
 <p>If you've built software that you'd like others to use, Scoop is an alternative to building an installer (e.g. MSI or InnoSetup) — you just need to zip your program and provide a JSON manifest that describes how to install it.</p>
-<h2 id="requirements" tabindex="-1">Requirements <a class="external-link" href="#requirements" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="requirements" tabindex="-1">Requirements <a class="external-link" href="#requirements" aria-hidden="true" target="_blank">#</a></h2>
 <ul>
 <li>Windows 7 SP1+ / Windows Server 2008+</li>
-<li><a href="https://aka.ms/wmf5download" target="_self" class="external-link">PowerShell 5</a> (or later, include <a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-6" target="_self" class="external-link">PowerShell Core</a>) and <a href="https://www.microsoft.com/net/download" target="_self" class="external-link">.NET Framework 4.5</a> (or later)</li>
+<li><a href="https://aka.ms/wmf5download" target="_blank" class="external-link">PowerShell 5</a> (or later, include <a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-6" target="_blank" class="external-link">PowerShell Core</a>) and <a href="https://www.microsoft.com/net/download" target="_blank" class="external-link">.NET Framework 4.5</a> (or later)</li>
 <li>PowerShell must be enabled for your user account e.g. <code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</code></li>
 </ul>
-<h2 id="installation-1" tabindex="-1">Installation <a class="external-link" href="#installation-1" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="installation-1" tabindex="-1">Installation <a class="external-link" href="#installation-1" aria-hidden="true" target="_blank">#</a></h2>
 <p>Run the following command from your PowerShell to install scoop to its default location (<code>C:\Users\&lt;user&gt;\scoop</code>)</p>
 <pre class="language-powershell"><code class="language-powershell"><span class="token function">Invoke-Expression</span> <span class="token punctuation">(</span><span class="token function">New-Object</span> System<span class="token punctuation">.</span>Net<span class="token punctuation">.</span>WebClient<span class="token punctuation">)</span><span class="token punctuation">.</span>DownloadString<span class="token punctuation">(</span><span class="token string">'https://get.scoop.sh'</span><span class="token punctuation">)</span><br><br><span class="token comment"># or shorter</span><br><span class="token function">iwr</span> <span class="token operator">-</span>useb get<span class="token punctuation">.</span>scoop<span class="token punctuation">.</span>sh <span class="token punctuation">|</span> <span class="token function">iex</span></code></pre>
 <p>Once installed, run <code>scoop help</code> for instructions.</p>
 <p>The default setup is configured so all user installed programs and Scoop itself live in <code>C:\Users\&lt;user&gt;\scoop</code>.<br>
 Globally installed programs (<code>--global</code>) live in <code>C:\ProgramData\scoop</code>.<br>
 These settings can be changed through environment variables.</p>
-<h3 id="install-scoop-to-a-custom-directory-by-changing-scoop" tabindex="-1">Install Scoop to a Custom Directory by changing <code>SCOOP</code> <a class="external-link" href="#install-scoop-to-a-custom-directory-by-changing-scoop" aria-hidden="true" target="_self">#</a></h3>
+<h3 id="install-scoop-to-a-custom-directory-by-changing-scoop" tabindex="-1">Install Scoop to a Custom Directory by changing <code>SCOOP</code> <a class="external-link" href="#install-scoop-to-a-custom-directory-by-changing-scoop" aria-hidden="true" target="_blank">#</a></h3>
 <pre class="language-powershell"><code class="language-powershell"><span class="token variable">$env</span>:SCOOP=<span class="token string">'D:\Applications\Scoop'</span><br><span class="token namespace">[Environment]</span>::SetEnvironmentVariable<span class="token punctuation">(</span><span class="token string">'SCOOP'</span><span class="token punctuation">,</span> <span class="token variable">$env</span>:SCOOP<span class="token punctuation">,</span> <span class="token string">'User'</span><span class="token punctuation">)</span><br><span class="token comment"># run the installer</span></code></pre>
-<h3 id="configure-scoop-to-install-global-programs-to-a-custom-directory-by-changing-scoop_global" tabindex="-1">Configure Scoop to install global programs to a Custom Directory by changing <code>SCOOP_GLOBAL</code> <a class="external-link" href="#configure-scoop-to-install-global-programs-to-a-custom-directory-by-changing-scoop_global" aria-hidden="true" target="_self">#</a></h3>
+<h3 id="configure-scoop-to-install-global-programs-to-a-custom-directory-by-changing-scoop_global" tabindex="-1">Configure Scoop to install global programs to a Custom Directory by changing <code>SCOOP_GLOBAL</code> <a class="external-link" href="#configure-scoop-to-install-global-programs-to-a-custom-directory-by-changing-scoop_global" aria-hidden="true" target="_blank">#</a></h3>
 <pre class="language-powershell"><code class="language-powershell"><span class="token variable">$env</span>:SCOOP_GLOBAL=<span class="token string">'F:\GlobalScoopApps'</span><br><span class="token namespace">[Environment]</span>::SetEnvironmentVariable<span class="token punctuation">(</span><span class="token string">'SCOOP_GLOBAL'</span><span class="token punctuation">,</span> <span class="token variable">$env</span>:SCOOP_GLOBAL<span class="token punctuation">,</span> <span class="token string">'Machine'</span><span class="token punctuation">)</span><br><span class="token comment"># run the installer</span></code></pre>
-<h2 id="documentation" tabindex="-1"><a href="https://github.com/lukesampson/scoop/wiki" target="_self" class="external-link">Documentation</a> <a class="external-link" href="#documentation" aria-hidden="true" target="_self">#</a></h2>
-<h2 id="multi-connection-downloads-with-aria2" tabindex="-1">Multi-connection downloads with <code>aria2</code> <a class="external-link" href="#multi-connection-downloads-with-aria2" aria-hidden="true" target="_self">#</a></h2>
-<p>Scoop can utilize <a href="https://github.com/aria2/aria2" target="_self" class="external-link"><code>aria2</code></a> to use multi-connection downloads. Simply install <code>aria2</code> through Scoop and it will be used for all downloads afterward.</p>
+<h2 id="documentation" tabindex="-1"><a href="https://github.com/lukesampson/scoop/wiki" target="_blank" class="external-link">Documentation</a> <a class="external-link" href="#documentation" aria-hidden="true" target="_blank">#</a></h2>
+<h2 id="multi-connection-downloads-with-aria2" tabindex="-1">Multi-connection downloads with <code>aria2</code> <a class="external-link" href="#multi-connection-downloads-with-aria2" aria-hidden="true" target="_blank">#</a></h2>
+<p>Scoop can utilize <a href="https://github.com/aria2/aria2" target="_blank" class="external-link"><code>aria2</code></a> to use multi-connection downloads. Simply install <code>aria2</code> through Scoop and it will be used for all downloads afterward.</p>
 <pre class="language-powershell"><code class="language-powershell">scoop install aria2</code></pre>
 <p>You can tweak the following <code>aria2</code> settings with the <code>scoop config</code> command:</p>
 <ul>
 <li>aria2-enabled (default: true)</li>
-<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-retry-wait" target="_self" class="external-link">aria2-retry-wait</a> (default: 2)</li>
-<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-s" target="_self" class="external-link">aria2-split</a> (default: 5)</li>
-<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-x" target="_self" class="external-link">aria2-max-connection-per-server</a> (default: 5)</li>
-<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-k" target="_self" class="external-link">aria2-min-split-size</a> (default: 5M)</li>
+<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-retry-wait" target="_blank" class="external-link">aria2-retry-wait</a> (default: 2)</li>
+<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-s" target="_blank" class="external-link">aria2-split</a> (default: 5)</li>
+<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-x" target="_blank" class="external-link">aria2-max-connection-per-server</a> (default: 5)</li>
+<li><a href="https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-k" target="_blank" class="external-link">aria2-min-split-size</a> (default: 5M)</li>
 </ul>
-<h2 id="inspiration" tabindex="-1">Inspiration <a class="external-link" href="#inspiration" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="inspiration" tabindex="-1">Inspiration <a class="external-link" href="#inspiration" aria-hidden="true" target="_blank">#</a></h2>
 <ul>
-<li><a href="http://mxcl.github.io/homebrew/" target="_self" class="external-link">Homebrew</a></li>
-<li><a href="https://github.com/37signals/sub#readme" target="_self" class="external-link">sub</a></li>
+<li><a href="http://mxcl.github.io/homebrew/" target="_blank" class="external-link">Homebrew</a></li>
+<li><a href="https://github.com/37signals/sub#readme" target="_blank" class="external-link">sub</a></li>
 </ul>
-<h2 id="what-sort-of-apps-can-scoop-install" tabindex="-1">What sort of apps can Scoop install? <a class="external-link" href="#what-sort-of-apps-can-scoop-install" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="what-sort-of-apps-can-scoop-install" tabindex="-1">What sort of apps can Scoop install? <a class="external-link" href="#what-sort-of-apps-can-scoop-install" aria-hidden="true" target="_blank">#</a></h2>
 <p>The apps that install best with Scoop are commonly called &quot;portable&quot; apps: i.e. compressed program files that run stand-alone when extracted and don't have side-effects like changing the registry or putting files outside the program directory.</p>
 <p>Since installers are common, Scoop supports them too (and their uninstallers).</p>
-<p>Scoop is also great at handling single-file programs and Powershell scripts. These don't even need to be compressed. See the <a href="https://github.com/ScoopInstaller/Main/blob/master/bucket/runat.json" target="_self" class="external-link">runat</a> package for an example: it's really just a GitHub gist.</p>
-<h3 id="support-this-project" tabindex="-1">Support this project <a class="external-link" href="#support-this-project" aria-hidden="true" target="_self">#</a></h3>
+<p>Scoop is also great at handling single-file programs and Powershell scripts. These don't even need to be compressed. See the <a href="https://github.com/ScoopInstaller/Main/blob/master/bucket/runat.json" target="_blank" class="external-link">runat</a> package for an example: it's really just a GitHub gist.</p>
+<h3 id="support-this-project" tabindex="-1">Support this project <a class="external-link" href="#support-this-project" aria-hidden="true" target="_blank">#</a></h3>
 <p>If you find Scoop useful and would like to support ongoing development and maintenance, here's how:</p>
 <ul>
-<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DM2SUH9EUXSKJ" target="_self" class="external-link">PayPal</a> (one-time donation)</li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DM2SUH9EUXSKJ" target="_blank" class="external-link">PayPal</a> (one-time donation)</li>
 </ul>
-<h2 id="known-application-buckets" tabindex="-1">Known application buckets <a class="external-link" href="#known-application-buckets" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="known-application-buckets" tabindex="-1">Known application buckets <a class="external-link" href="#known-application-buckets" aria-hidden="true" target="_blank">#</a></h2>
 <p>The following buckets are known to scoop:</p>
 <ul>
-<li><a href="https://github.com/ScoopInstaller/Main" target="_self" class="external-link">main</a> - Default bucket for the most common (mostly CLI) apps</li>
-<li><a href="https://github.com/lukesampson/scoop-extras" target="_self" class="external-link">extras</a> - Apps that don't fit the main bucket's <a href="https://github.com/lukesampson/scoop/wiki/Criteria-for-including-apps-in-the-main-bucket" target="_self" class="external-link">criteria</a></li>
-<li><a href="https://github.com/Calinou/scoop-games" target="_self" class="external-link">games</a> - Open source/freeware games and game-related tools</li>
-<li><a href="https://github.com/matthewjberger/scoop-nerd-fonts" target="_self" class="external-link">nerd-fonts</a> -  Nerd Fonts</li>
-<li><a href="https://github.com/kodybrown/scoop-nirsoft" target="_self" class="external-link">nirsoft</a> - A subset of the <a href="https://github.com/rasa/scoop-directory/blob/master/by-score.md#MCOfficer_scoop-nirsoft" target="_self" class="external-link">250</a> <a href="https://nirsoft.net" target="_self" class="external-link">Nirsoft</a> apps</li>
-<li><a href="https://github.com/ScoopInstaller/Java" target="_self" class="external-link">java</a> - Installers for Oracle Java, OpenJDK, Zulu, ojdkbuild, AdoptOpenJDK, Amazon Corretto, BellSoft Liberica &amp; SapMachine</li>
-<li><a href="https://github.com/Ash258/Scoop-JetBrains" target="_self" class="external-link">jetbrains</a> - Installers for all JetBrains utilities and IDEs</li>
+<li><a href="https://github.com/ScoopInstaller/Main" target="_blank" class="external-link">main</a> - Default bucket for the most common (mostly CLI) apps</li>
+<li><a href="https://github.com/lukesampson/scoop-extras" target="_blank" class="external-link">extras</a> - Apps that don't fit the main bucket's <a href="https://github.com/lukesampson/scoop/wiki/Criteria-for-including-apps-in-the-main-bucket" target="_blank" class="external-link">criteria</a></li>
+<li><a href="https://github.com/Calinou/scoop-games" target="_blank" class="external-link">games</a> - Open source/freeware games and game-related tools</li>
+<li><a href="https://github.com/matthewjberger/scoop-nerd-fonts" target="_blank" class="external-link">nerd-fonts</a> -  Nerd Fonts</li>
+<li><a href="https://github.com/kodybrown/scoop-nirsoft" target="_blank" class="external-link">nirsoft</a> - A subset of the <a href="https://github.com/rasa/scoop-directory/blob/master/by-score.md#MCOfficer_scoop-nirsoft" target="_blank" class="external-link">250</a> <a href="https://nirsoft.net" target="_blank" class="external-link">Nirsoft</a> apps</li>
+<li><a href="https://github.com/ScoopInstaller/Java" target="_blank" class="external-link">java</a> - Installers for Oracle Java, OpenJDK, Zulu, ojdkbuild, AdoptOpenJDK, Amazon Corretto, BellSoft Liberica &amp; SapMachine</li>
+<li><a href="https://github.com/Ash258/Scoop-JetBrains" target="_blank" class="external-link">jetbrains</a> - Installers for all JetBrains utilities and IDEs</li>
 </ul>
 <!-- * [nightlies](https://github.com/ScoopInstaller/Nightlies) - No longer used -->
 <ul>
-<li><a href="https://github.com/TheRandomLabs/scoop-nonportable" target="_self" class="external-link">nonportable</a> - Non-portable apps (may require UAC)</li>
-<li><a href="https://github.com/ScoopInstaller/PHP" target="_self" class="external-link">php</a> - Installers for most versions of PHP</li>
-<li><a href="https://github.com/ScoopInstaller/Versions" target="_self" class="external-link">versions</a> - Alternative versions of apps found in other buckets</li>
+<li><a href="https://github.com/TheRandomLabs/scoop-nonportable" target="_blank" class="external-link">nonportable</a> - Non-portable apps (may require UAC)</li>
+<li><a href="https://github.com/ScoopInstaller/PHP" target="_blank" class="external-link">php</a> - Installers for most versions of PHP</li>
+<li><a href="https://github.com/ScoopInstaller/Versions" target="_blank" class="external-link">versions</a> - Alternative versions of apps found in other buckets</li>
 </ul>
 <p>The main bucket is installed by default. To add any of the other buckets, type:</p>
 <pre><code>scoop bucket add bucketname
@@ -222,8 +222,8 @@ These settings can be changed through environment variables.</p>
 <p>For example, to add the extras bucket, type:</p>
 <pre><code>scoop bucket add extras
 </code></pre>
-<h2 id="other-application-buckets" tabindex="-1">Other application buckets <a class="external-link" href="#other-application-buckets" aria-hidden="true" target="_self">#</a></h2>
-<p>Many other application buckets hosted on Github can be found in the <a href="https://github.com/rasa/scoop-directory" target="_self" class="external-link">Scoop Directory</a>.</p>
+<h2 id="other-application-buckets" tabindex="-1">Other application buckets <a class="external-link" href="#other-application-buckets" aria-hidden="true" target="_blank">#</a></h2>
+<p>Many other application buckets hosted on Github can be found in the <a href="https://github.com/rasa/scoop-directory" target="_blank" class="external-link">Scoop Directory</a>.</p>
 
   </main>
 
