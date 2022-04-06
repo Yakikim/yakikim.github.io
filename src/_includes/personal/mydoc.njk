@@ -1,5 +1,5 @@
 ---
-cssclasses: rtl
+cssclasses: ltr
 draft: false
 layout: post
 templateClass: tmpl-post
@@ -10,3 +10,27 @@ type: Document
 {{ content | safe }}
 
 {% include "componnents/backlinks.njk" %} 
+
+ <nav class="post__pagination">
+      {%- set nextPost = collections.notes | getNextCollectionItem(page) %}
+      {%- if nextPost %}
+
+        <a href="{{ nextPost.url | url }}">
+          <span>←</span>
+          <span>{{ nextPost.data.title }}</span>
+        </a>
+
+      {% endif %}
+
+      {%- set previousPost = collections.notes | getPreviousCollectionItem(page) %}
+      {%- if previousPost %}
+
+        <a href="{{ previousPost.url | url }}">
+          <span>{{ previousPost.data.title }}</span>
+          <span>→</span>
+        </a>
+
+      {% endif %}
+    </nav>
+	
+
