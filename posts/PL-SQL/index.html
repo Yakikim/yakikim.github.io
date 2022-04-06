@@ -76,6 +76,7 @@
         <li class="nav-item"><a href="/dafyomi/">Daf-Yomi</a></li>
         <li class="nav-item"><a href="/notes/">Notes</a></li>
         <li class="nav-item"><a href="/tags/">All Tags</a></li>
+        <li class="nav-item"><a href="/about/">About</a></li>
       </ul>
    </nav>
         </div>
@@ -95,27 +96,15 @@
   <header   class="post__header">
     <h1>PL-SQL</h1>
     <div class="post__details">
-      <time datetime="2022-04-05">
-        05 Apr 2022
+      <time datetime="2022-04-06">
+        06 Apr 2022
       </time>
       <span> | </span>
      <span>1 min read</span>
 	</div>
+
   </header>
-
-  <main class="post__content">
-    <p><a href="/notes/2021-06-06/" target="_self" class="external-link">2021-06-06</a></p>
-<h1 id="pl-sql" tabindex="-1">PL-SQL <a class="external-link" href="#pl-sql" aria-hidden="true" target="_self">#</a></h1>
-<p><a href="/notes/HOME/" target="_self" class="external-link">HOME</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
-<h2 id="grant-and-synonym" tabindex="-1">Grant and Synonym <a class="external-link" href="#grant-and-synonym" aria-hidden="true" target="_self">#</a></h2>
-<pre class="language-sql"><code class="language-sql"><span class="token comment">-- Synonym</span><br><span class="token keyword">CREATE</span> <span class="token operator">OR</span> <span class="token keyword">REPLACE</span> SYNONYM apexrest<span class="token punctuation">.</span>OP_APEX_BAKASHA_TRANSPORT  <span class="token keyword">FOR</span> apps<span class="token punctuation">.</span>op_bakasha_transport<span class="token punctuation">;</span><br><span class="token comment">-- Grant</span><br><span class="token keyword">GRANT</span> <span class="token keyword">ALL</span> <span class="token keyword">ON</span> OP_APEX_BAKASHA_TRANSPORT <span class="token keyword">TO</span> apexrest<span class="token punctuation">;</span><br><br><br><span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> dba_objects<br><span class="token keyword">where</span> object_name <span class="token operator">=</span> <span class="token string">'OP_APEX_BAKASHA_TRANSPORT'</span><span class="token punctuation">;</span><br></code></pre>
-<p>#plsql<br>
-#professional</p>
-
-  </main>
-
-  <aside class="post__aside">
-    <div class="post__tags">
+	<div class="post__tags">
       
         
         <a href="/tags/documents/">#documents</a>
@@ -130,6 +119,20 @@
         <a href="/tags/scripts/">#scripts</a>
       
     </div>
+	
+  <main class="post__content">
+    <p><a href="/notes/2021-06-06/" target="_self" class="external-link">2021-06-06</a></p>
+<h1 id="pl-sql" tabindex="-1">PL-SQL <a class="external-link" href="#pl-sql" aria-hidden="true" target="_self">#</a></h1>
+<p><a href="/notes/HOME/" target="_self" class="external-link">HOME</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
+<h2 id="grant-and-synonym" tabindex="-1">Grant and Synonym <a class="external-link" href="#grant-and-synonym" aria-hidden="true" target="_self">#</a></h2>
+<pre class="language-sql"><code class="language-sql"><span class="token comment">-- Synonym</span><br><span class="token keyword">CREATE</span> <span class="token operator">OR</span> <span class="token keyword">REPLACE</span> SYNONYM apexrest<span class="token punctuation">.</span>OP_APEX_BAKASHA_TRANSPORT  <span class="token keyword">FOR</span> apps<span class="token punctuation">.</span>op_bakasha_transport<span class="token punctuation">;</span><br><span class="token comment">-- Grant</span><br><span class="token keyword">GRANT</span> <span class="token keyword">ALL</span> <span class="token keyword">ON</span> OP_APEX_BAKASHA_TRANSPORT <span class="token keyword">TO</span> apexrest<span class="token punctuation">;</span><br><br><br><span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> dba_objects<br><span class="token keyword">where</span> object_name <span class="token operator">=</span> <span class="token string">'OP_APEX_BAKASHA_TRANSPORT'</span><span class="token punctuation">;</span><br></code></pre>
+<p>#plsql<br>
+#professional</p>
+
+  </main>
+
+  <aside class="post__aside">
+
 
     <nav class="post__pagination">
 
