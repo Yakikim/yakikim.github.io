@@ -96,8 +96,8 @@
   <header   class="post__header">
     <h1>Terraform</h1>
     <div class="post__details">
-      <time datetime="2022-04-06">
-        06 Apr 2022
+      <time datetime="2022-04-07">
+        07 Apr 2022
       </time>
       <span> | </span>
      <span>3 min read</span>
@@ -121,7 +121,7 @@
     </div>
 	
   <main class="post__content">
-    <h2 id="installing" tabindex="-1">Installing <a class="external-link" href="#installing" aria-hidden="true" target="_self">#</a></h2>
+    <h2 id="installing" tabindex="-1">Installing <a class="md-header-link" href="#installing" aria-hidden="true" target="_self">#</a></h2>
 <p>Windows users:</p>
 <ol>
 <li>Go to <a href="https://www.terraform.io/downloads.html" target="_self" class="external-link">https://www.terraform.io/downloads.html</a></li>
@@ -133,20 +133,20 @@
 Open a CMD / Terminal and run:</p>
 <pre class="language-powershell"><code class="language-powershell">terraform –v</code></pre>
 <p>Any response other than “terraform is not recognized” is good</p>
-<h2 id="aws-configuration" tabindex="-1">AWS Configuration <a class="external-link" href="#aws-configuration" aria-hidden="true" target="_self">#</a></h2>
-<h3 id="login-as-yakikim2" tabindex="-1">Login as Yakikim2 <a class="external-link" href="#login-as-yakikim2" aria-hidden="true" target="_self">#</a></h3>
+<h2 id="aws-configuration" tabindex="-1">AWS Configuration <a class="md-header-link" href="#aws-configuration" aria-hidden="true" target="_self">#</a></h2>
+<h3 id="login-as-yakikim2" tabindex="-1">Login as Yakikim2 <a class="md-header-link" href="#login-as-yakikim2" aria-hidden="true" target="_self">#</a></h3>
 <p>!<a href="/notes/Attachments/Pasted%20image%2020210419100244.png/" target="_self" class="external-link">Attachments/Pasted image 20210419100244.png</a></p>
-<h3 id="lunch-instance-at-ec2" tabindex="-1">Lunch instance at EC2 <a class="external-link" href="#lunch-instance-at-ec2" aria-hidden="true" target="_self">#</a></h3>
+<h3 id="lunch-instance-at-ec2" tabindex="-1">Lunch instance at EC2 <a class="md-header-link" href="#lunch-instance-at-ec2" aria-hidden="true" target="_self">#</a></h3>
 <p><img src="static/Pasted%20image%2020210419100627.png" alt=""><br>
 !<a href="/notes/Attachments/Pasted%20image%2020210419100627.png/" target="_self" class="external-link">Attachments/Pasted image 20210419100627.png</a></p>
-<h3 id="define-user-at-iam" tabindex="-1">Define user at IAM <a class="external-link" href="#define-user-at-iam" aria-hidden="true" target="_self">#</a></h3>
+<h3 id="define-user-at-iam" tabindex="-1">Define user at IAM <a class="md-header-link" href="#define-user-at-iam" aria-hidden="true" target="_self">#</a></h3>
 <p>you should define user with the proper credentials as well as &quot;AWS Identity and Access Management&quot;  credential.</p>
 <p>!<a href="/notes/Attachments/Pasted%20image%2020210419101516.png/" target="_self" class="external-link">Attachments/Pasted image 20210419101516.png</a><br>
 then you will generate and backup the access+secret key at the &quot;Security credentials&quot; tab</p>
-<h3 id="generate-the-ssh-key-pair" tabindex="-1">Generate the SSH Key pair <a class="external-link" href="#generate-the-ssh-key-pair" aria-hidden="true" target="_self">#</a></h3>
+<h3 id="generate-the-ssh-key-pair" tabindex="-1">Generate the SSH Key pair <a class="md-header-link" href="#generate-the-ssh-key-pair" aria-hidden="true" target="_self">#</a></h3>
 <p>At EC2 you should create a &quot;Key pair&quot; that latly you will use it in VNC tool like <a href="/notes/YakisSite/Putty/" target="_self" class="external-link">YakisSite/Putty</a><br>
 !<a href="/notes/Attachments/Pasted%20image%2020210419102127.png/" target="_self" class="external-link">Attachments/Pasted image 20210419102127.png</a></p>
-<h3 id="edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" tabindex="-1">Edis the file <a href="https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf" target="_self" class="external-link">https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf</a> <a class="external-link" href="#edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" aria-hidden="true" target="_self">#</a></h3>
+<h3 id="edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" tabindex="-1">Edis the file <a href="https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf" target="_self" class="external-link">https://github.com/Dgotlieb/SimpleTerraform/blob/main/main.tf</a> <a class="md-header-link" href="#edis-the-file-https:github.comdgotliebsimpleterraformblobmainmain.tf" aria-hidden="true" target="_self">#</a></h3>
 <p>finally it looks (In MY case) as:</p>
 <pre><code>provider &quot;aws&quot; {
   region = &quot;us-west-2&quot;
@@ -198,7 +198,7 @@ output &quot;public_ip&quot; {
   description = &quot;The public IP of the web server&quot;
 }
 </code></pre>
-<h3 id="terraform-init-and-apply" tabindex="-1">Terraform Init and apply <a class="external-link" href="#terraform-init-and-apply" aria-hidden="true" target="_self">#</a></h3>
+<h3 id="terraform-init-and-apply" tabindex="-1">Terraform Init and apply <a class="md-header-link" href="#terraform-init-and-apply" aria-hidden="true" target="_self">#</a></h3>
 <pre><code>terraform init
 
 terraform plan
@@ -211,7 +211,7 @@ when we wnat to use the IP for the SSH connection, we can send the command</p>
 </code></pre>
 <p>and the IP will be displayd (DONT approve the destroy..)</p>
 <hr>
-<h1 id="about-terraform" tabindex="-1">About Terraform <a class="external-link" href="#about-terraform" aria-hidden="true" target="_self">#</a></h1>
+<h1 id="about-terraform" tabindex="-1">About Terraform <a class="md-header-link" href="#about-terraform" aria-hidden="true" target="_self">#</a></h1>
 <p><mark></mark><mark></mark>=</p>
 <ul>
 <li>Website: <a href="https://www.terraform.io" target="_self" class="external-link">https://www.terraform.io</a></li>
@@ -238,7 +238,7 @@ when we wnat to use the IP for the SSH connection, we can send the command</p>
 </li>
 </ul>
 <p>For more information, see the <a href="http://www.terraform.io/intro" target="_self" class="external-link">introduction section</a> of the Terraform website.</p>
-<h2 id="getting-started-and-documentation" tabindex="-1">Getting Started &amp; Documentation <a class="external-link" href="#getting-started-and-documentation" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="getting-started-and-documentation" tabindex="-1">Getting Started &amp; Documentation <a class="md-header-link" href="#getting-started-and-documentation" aria-hidden="true" target="_self">#</a></h2>
 <p>Documentation is available on the <a href="http://www.terraform.io" target="_self" class="external-link">Terraform website</a>:</p>
 <ul>
 <li><a href="https://www.terraform.io/intro/index.html" target="_self" class="external-link">Intro</a></li>
@@ -246,11 +246,11 @@ when we wnat to use the IP for the SSH connection, we can send the command</p>
 </ul>
 <p>If you're new to Terraform and want to get started creating infrastructure, please check out our <a href="https://learn.hashicorp.com/terraform#getting-started" target="_self" class="external-link">Getting Started guides</a> on HashiCorp's learning platform. There are also <a href="https://learn.hashicorp.com/terraform#operations-and-development" target="_self" class="external-link">additional guides</a> to continue your learning.</p>
 <p>Show off your Terraform knowledge by passing a certification exam. Visit the <a href="https://www.hashicorp.com/certification/" target="_self" class="external-link">certification page</a> for information about exams and find <a href="https://learn.hashicorp.com/terraform/certification/terraform-associate" target="_self" class="external-link">study materials</a> on HashiCorp's learning platform.</p>
-<h2 id="developing-terraform" tabindex="-1">Developing Terraform <a class="external-link" href="#developing-terraform" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="developing-terraform" tabindex="-1">Developing Terraform <a class="md-header-link" href="#developing-terraform" aria-hidden="true" target="_self">#</a></h2>
 <p>This repository contains only Terraform core, which includes the command line interface and the main graph engine. Providers are implemented as plugins, and Terraform can automatically download providers that are published on <a href="https://registry.terraform.io" target="_self" class="external-link">the Terraform Registry</a>. HashiCorp develops some providers, and others are developed by other organizations. For more information, see <a href="https://www.terraform.io/docs/extend/index.html" target="_self" class="external-link">Extending Terraform</a>.</p>
 <p>To learn more about compiling Terraform and contributing suggested changes, please refer to <a href=".github/CONTRIBUTING.md" target="_self" class="external-link">the contributing guide</a>.</p>
 <p>To learn more about how we handle bug reports, please read the <a href="./BUGPROCESS.md" target="_self" class="external-link">bug triage guide</a>.</p>
-<h2 id="license" tabindex="-1">License <a class="external-link" href="#license" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="license" tabindex="-1">License <a class="md-header-link" href="#license" aria-hidden="true" target="_self">#</a></h2>
 <p><a href="https://github.com/hashicorp/terraform/blob/main/LICENSE" target="_self" class="external-link">Mozilla Public License v2.0</a></p>
 
   </main>

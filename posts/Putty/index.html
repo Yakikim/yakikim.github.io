@@ -96,8 +96,8 @@
   <header   class="post__header">
     <h1>Putty</h1>
     <div class="post__details">
-      <time datetime="2022-04-06">
-        06 Apr 2022
+      <time datetime="2022-04-07">
+        07 Apr 2022
       </time>
       <span> | </span>
      <span>2 min read</span>
@@ -122,16 +122,16 @@
 	
   <main class="post__content">
     <p><a href="/notes/2021-05-23/" target="_self" class="external-link">2021-05-23</a></p>
-<h1 id="putty" tabindex="-1">PuTTY <a class="external-link" href="#putty" aria-hidden="true" target="_self">#</a></h1>
+<h1 id="putty" tabindex="-1">PuTTY <a class="md-header-link" href="#putty" aria-hidden="true" target="_self">#</a></h1>
 <p><a href="/notes/index/" target="_self" class="external-link">דף הבית</a>/<a href="/notes/%D7%90%D7%97%D7%A8/" target="_self" class="external-link">אחר</a></p>
 <p><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-what" target="_self" class="external-link">PuTTY</a> is a client program for the SSH on Windows OS.</p>
-<h2 id="windows-putty-installer" tabindex="-1">Windows PuTTY Installer <a class="external-link" href="#windows-putty-installer" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="windows-putty-installer" tabindex="-1">Windows PuTTY Installer <a class="md-header-link" href="#windows-putty-installer" aria-hidden="true" target="_self">#</a></h2>
 <p>We recommend to download <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_self" class="external-link">Windows Installer</a> with PuTTY utilities as:</p>
 <ul>
 <li>Pageant (SSH authentication agent) - store private key in memory without need to retype a passphrase on every login</li>
 <li>PuTTYgen (PuTTY key generator) - convert OpenSSH format of id_rsa to PuTTY ppk private key and so on and so forth</li>
 </ul>
-<h2 id="putty-connect-to-the-instance" tabindex="-1">PuTTY - Connect to the Instance <a class="external-link" href="#putty-connect-to-the-instance" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="putty-connect-to-the-instance" tabindex="-1">PuTTY - Connect to the Instance <a class="md-header-link" href="#putty-connect-to-the-instance" aria-hidden="true" target="_self">#</a></h2>
 <ul>
 <li>Run PuTTY and enter Host name in format &quot;login@Floating IP address&quot; where <a href="/quick-start#create-virtual-machine-instance" target="_self" class="external-link">login</a> is for example debian for Debian OS and Floating IP is <a href="/quick-start/#associate-floating-ip" target="_self" class="external-link">IP address</a> to access instance from internet.</li>
 <li>In Category -&gt; Connection -&gt; SSH -&gt; Auth:
@@ -150,7 +150,7 @@
 </li>
 </ul>
 <figure><img src="putty-connect2instance.png.md" alt=""></figure>
-<h2 id="pageant-ssh-agent" tabindex="-1">Pageant SSH Agent <a class="external-link" href="#pageant-ssh-agent" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="pageant-ssh-agent" tabindex="-1">Pageant SSH Agent <a class="md-header-link" href="#pageant-ssh-agent" aria-hidden="true" target="_self">#</a></h2>
 <ul>
 <li>Run Pageant from Windows menu</li>
 <li>Locate Pageant icon in the Notification Area and double click on it</li>
@@ -161,28 +161,28 @@
 <li>Your private key is now located in the memory without need to retype a passphrase on every login</li>
 </ul>
 <figure><img src="/putty/images/pageant-add-key.png" alt=""></figure>
-<h2 id="putty-key-generator" tabindex="-1">PuTTY key Generator <a class="external-link" href="#putty-key-generator" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="putty-key-generator" tabindex="-1">PuTTY key Generator <a class="md-header-link" href="#putty-key-generator" aria-hidden="true" target="_self">#</a></h2>
 <p>PuTTYgen is the PuTTY key generator. You can load in an existing private key and change your passphrase or generate a new public/private key pair or convert to/from OpenSSH/PuTTY ppk formats.</p>
-<h2 id="convert-openssh-format-to-putty-ppk-format" tabindex="-1">Convert OpenSSH format to PuTTY ppk format <a class="external-link" href="#convert-openssh-format-to-putty-ppk-format" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="convert-openssh-format-to-putty-ppk-format" tabindex="-1">Convert OpenSSH format to PuTTY ppk format <a class="md-header-link" href="#convert-openssh-format-to-putty-ppk-format" aria-hidden="true" target="_self">#</a></h2>
 <ul>
 <li>Run PuTTYgen, in the menu Conversion -&gt; Import key browse and load your OpenSSH format id_rsa private key using your passphrase</li>
 <li>Save PuTTY ppk private key using button <strong>Save private key</strong>, browse destination for PuTTY format id_rsa.ppk and save file</li>
 </ul>
 <figure><img src="/putty/images/puttygen-openssh2ppk.png" alt=""></figure>
-<h2 id="convert-putty-ppk-private-key-to-openssh-format" tabindex="-1">Convert PuTTY ppk private key to OpenSSH format <a class="external-link" href="#convert-putty-ppk-private-key-to-openssh-format" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="convert-putty-ppk-private-key-to-openssh-format" tabindex="-1">Convert PuTTY ppk private key to OpenSSH format <a class="md-header-link" href="#convert-putty-ppk-private-key-to-openssh-format" aria-hidden="true" target="_self">#</a></h2>
 <ul>
 <li>Run PuTTYgen, in the menu File -&gt; Load private key browse and open your private key in format PuTTY ppk using your passphrase</li>
 <li>In the menu Conversion -&gt; Export OpenSSH key browse destination for OpenSSH format id_rsa and save file</li>
 </ul>
 <figure><img src="/putty/images/puttygen-ppk2openssh.png" alt=""></figure>
-<h2 id="change-password-for-existing-private-key-pair" tabindex="-1">Change Password for Existing Private Key Pair <a class="external-link" href="#change-password-for-existing-private-key-pair" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="change-password-for-existing-private-key-pair" tabindex="-1">Change Password for Existing Private Key Pair <a class="md-header-link" href="#change-password-for-existing-private-key-pair" aria-hidden="true" target="_self">#</a></h2>
 <ul>
 <li>Load your existing private key using button <strong>Load</strong>, confirm opening using your passphrase</li>
 <li>Enter new passphrase in field <em>Key passphrase</em> and confirm again in field <em>Confirm passphrase</em></li>
 <li>Save changes using button <strong>Save private key</strong></li>
 </ul>
 <figure><img src="/putty/images/puttygen-passphrase.png" alt=""></figure>
-<h2 id="generate-a-new-key-pair" tabindex="-1">Generate a New Key Pair <a class="external-link" href="#generate-a-new-key-pair" aria-hidden="true" target="_self">#</a></h2>
+<h2 id="generate-a-new-key-pair" tabindex="-1">Generate a New Key Pair <a class="md-header-link" href="#generate-a-new-key-pair" aria-hidden="true" target="_self">#</a></h2>
 <ul>
 <li>Start with <strong>Generate button</strong></li>
 <li>Generate some randomness by moving your mouse over dialog</li>
