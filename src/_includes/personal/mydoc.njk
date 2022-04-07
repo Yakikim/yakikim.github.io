@@ -1,7 +1,7 @@
 ---
 cssclasses: ltr
 draft: false
-layout: post
+layout: mynote
 templateClass: tmpl-post
 permalink: /notes/{{ page.fileSlug }}/
 type: Document
@@ -9,7 +9,6 @@ type: Document
 
 {{ content | safe }}
 
-{% include "componnents/backlinks.njk" %} 
 
  <nav class="post__pagination">
       {%- set nextPost = collections.notes | getNextCollectionItem(page) %}
