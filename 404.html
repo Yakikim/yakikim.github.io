@@ -93,8 +93,13 @@
       <header class="hero">
   <div class="hero-content">
     <div class="intro">
-      <h1 id="content-not-found." tabindex="-1">Content not found. <a class="md-header-link" href="#content-not-found." aria-hidden="true" target="_self">#</a></h1>
-<p>Go <a href="/">home</a>.</p>
+      <h1 id="my-site-has-been-moved-to-anorher-location." tabindex="-1">My site has been moved to anorher location. <a class="md-header-link" href="#my-site-has-been-moved-to-anorher-location." aria-hidden="true" target="_self">#</a></h1>
+<p id="root"></p>
+<script> 
+const oldserver = "https://yakikim.github.io/"; /* /([\.]+[com]+|[\.]+[io]+)([\/]+\S+)/ */ 
+const newserver = "https://yakis.netlify.app/";
+document.getElementById("root").innerHTML = "you can find the requested page <u><a href=" + window.location.href.replace(oldserver, newserver) + ">  here </a></u>" ;
+</script>
 
     </div>
 
