@@ -91,9 +91,21 @@
       <h1 id="my-site-has-been-moved-to-anorher-location." tabindex="-1">My site has been moved to anorher location. <a class="md-header-link" href="#my-site-has-been-moved-to-anorher-location." aria-hidden="true" target="_self">#</a></h1>
 <p id="root"></p>
 <script> 
-const oldserver = "https://yakikim.github.io/"; /* /([\.]+[com]+|[\.]+[io]+)([\/]+\S+)/ */ 
+const oldserver = "https://yakikim.github.io/";
 const newserver = "https://yakis.netlify.app/";
-document.getElementById("root").innerHTML = "you can find the requested page <u><a href=" + window.location.href.replace(oldserver, newserver) + ">  here </a></u>" ;
+const postfound =  window.location.href.match("posts/");
+const daffound =  window.location.href.match("dafyomi/");
+const notefound =  window.location.href.match("notes/");
+if (postfound) { 
+  document.getElementById("root").innerHTML = "you can find the requested page <u><a href=" + window.location.href.replace(oldserver + "posts/", newserver) + ">  here </a></u>" ;
+  }
+if (daffound) { 
+  document.getElementById("root").innerHTML = "you can find the requested page <u><a href=" + window.location.href.replace(oldserver + "dafyomi/", newserver) + ">  here </a></u>" ;
+  }
+if (notefound) { 
+  document.getElementById("root").innerHTML = "you can find the requested page <u><a href=" + window.location.href.replace(oldserver + "notes/", newserver) + ">  here </a></u>" ;
+  }
+ /* /([\.]+[com]+|[\.]+[io]+)([\/]+\S+)/ */ 
 </script>
 
     </div>
